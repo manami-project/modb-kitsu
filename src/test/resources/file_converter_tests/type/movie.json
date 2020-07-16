@@ -1,0 +1,217 @@
+{
+  "data": {
+    "id": "2027",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/2027"
+    },
+    "attributes": {
+      "createdAt": "2013-02-20T16:32:06.095Z",
+      "updatedAt": "2019-10-11T15:52:33.744Z",
+      "slug": "the-girl-who-leapt-through-time",
+      "synopsis": "Makoto Konno is in her last year of high school, but is having a hard time deciding what to do with her future. In between enduring the pressure of her teachers and killing time with her best friends, Makoto's life suddenly changes when she accidentally discovers that she is capable of literally leaping through time.Toki wo Kakeru Shoujo follows Makoto as she plays around with her newfound power. However, she soon learns the hard way that every choice has a consequence, and time is a lot more complicated than it may seem.\r\n[Written by MAL Rewrite]",
+      "coverImageTopOffset": 100,
+      "titles": {
+        "en": "The Girl Who Leapt Through Time",
+        "en_jp": "Toki wo Kakeru Shoujo",
+        "en_us": "The Girl Who Leapt Through Time",
+        "ja_jp": "時をかける少女"
+      },
+      "canonicalTitle": "The Girl Who Leapt Through Time",
+      "abbreviatedTitles": [
+        "Toki wo Kakeru Shojo",
+        "TokiKake",
+        "Toki o Kakeru Shojo",
+        "The Girl Who Cut Time",
+        "The Little Girl Who Conquered Time"
+      ],
+      "averageRating": "82.9",
+      "ratingFrequencies": {
+        "2": "372",
+        "3": "7",
+        "4": "72",
+        "5": "6",
+        "6": "71",
+        "7": "10",
+        "8": "704",
+        "9": "21",
+        "10": "416",
+        "11": "31",
+        "12": "1454",
+        "13": "95",
+        "14": "4839",
+        "15": "213",
+        "16": "6771",
+        "17": "362",
+        "18": "5581",
+        "19": "158",
+        "20": "9582"
+      },
+      "userCount": 55504,
+      "favoritesCount": 915,
+      "startDate": "2006-07-15",
+      "endDate": "2006-07-15",
+      "nextRelease": null,
+      "popularityRank": 83,
+      "ratingRank": 133,
+      "ageRating": "PG",
+      "ageRatingGuide": "Children",
+      "subtype": "movie",
+      "status": "finished",
+      "tba": "",
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/2027/tiny.jpg?1433991823",
+        "small": "https://media.kitsu.io/anime/poster_images/2027/small.jpg?1433991823",
+        "medium": "https://media.kitsu.io/anime/poster_images/2027/medium.jpg?1433991823",
+        "large": "https://media.kitsu.io/anime/poster_images/2027/large.jpg?1433991823",
+        "original": "https://media.kitsu.io/anime/poster_images/2027/original.png?1433991823",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/2027/tiny.jpg?1519183123",
+        "small": "https://media.kitsu.io/anime/cover_images/2027/small.jpg?1519183123",
+        "large": "https://media.kitsu.io/anime/cover_images/2027/large.jpg?1519183123",
+        "original": "https://media.kitsu.io/anime/cover_images/2027/original.jpg?1519183123",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
+      "episodeCount": 1,
+      "episodeLength": 98,
+      "totalLength": 98,
+      "youtubeVideoId": "eWnTeKEsDlU",
+      "showType": "movie",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/2027/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/2027/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/2027/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/2027/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/2027/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/2027/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/2027/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/2027/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/2027/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/2027/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/2027/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/2027/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/2027/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/2027/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/2027/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/2027/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/2027/anime-staff"
+        }
+      }
+    }
+  }
+}

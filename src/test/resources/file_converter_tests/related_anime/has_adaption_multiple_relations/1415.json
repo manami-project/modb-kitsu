@@ -1,0 +1,213 @@
+{
+  "data": {
+    "id": "1415",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/1415"
+    },
+    "attributes": {
+      "createdAt": "2013-02-20T16:22:39.954Z",
+      "updatedAt": "2019-10-27T20:33:40.327Z",
+      "slug": "code-geass-lelouch-of-the-rebellion",
+      "synopsis": "In the year 2010, the Holy Empire of Britannia is establishing itself as a dominant military nation, starting with the conquest of Japan. Renamed to Area 11 after its swift defeat, Japan has seen significant resistance against these tyrants in an attempt to regain independence.\r\n\r\nLelouch Lamperouge, exiled prince of Britannia, unfortunately finds himself caught in a crossfire between the two nations' armed forces. He is able to escape, however, thanks to the timely appearance of a mysterious girl named C.C., who bestows upon him Geass, the \"Power of Kings.\" Realizing the vast potential of his newfound \"power of absolute obedience,\" Lelouch embarks upon a perilous journey as the masked vigilante known as Zero, leading a merciless onslaught against Britannia in order to get revenge once and for all.\r\n\r\n(Source: MAL)",
+      "coverImageTopOffset": 150,
+      "titles": {
+        "en": "Code Geass: Lelouch of the Rebellion",
+        "en_jp": "Code Geass: Hangyaku no Lelouch",
+        "en_us": "Code Geass: Lelouch of the Rebellion",
+        "ja_jp": "コードギアス 反逆のルルーシュ"
+      },
+      "canonicalTitle": "Code Geass: Lelouch of the Rebellion",
+      "abbreviatedTitles": [
+        "Code Geass: Hangyaku no Lelouch"
+      ],
+      "averageRating": "83.16",
+      "ratingFrequencies": {
+        "2": "2816",
+        "3": "40",
+        "4": "393",
+        "5": "36",
+        "6": "262",
+        "7": "35",
+        "8": "3498",
+        "9": "41",
+        "10": "858",
+        "11": "77",
+        "12": "2455",
+        "13": "126",
+        "14": "7893",
+        "15": "311",
+        "16": "8878",
+        "17": "567",
+        "18": "11053",
+        "19": "488",
+        "20": "33154"
+      },
+      "userCount": 110877,
+      "favoritesCount": 4395,
+      "startDate": "2006-10-06",
+      "endDate": "2007-07-29",
+      "nextRelease": null,
+      "popularityRank": 19,
+      "ratingRank": 36,
+      "ageRating": "R",
+      "ageRatingGuide": "17+ (violence & profanity)",
+      "subtype": "TV",
+      "status": "finished",
+      "tba": "",
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/1415/tiny.jpg?1408443967",
+        "small": "https://media.kitsu.io/anime/poster_images/1415/small.jpg?1408443967",
+        "medium": "https://media.kitsu.io/anime/poster_images/1415/medium.jpg?1408443967",
+        "large": "https://media.kitsu.io/anime/poster_images/1415/large.jpg?1408443967",
+        "original": "https://media.kitsu.io/anime/poster_images/1415/original.png?1408443967",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/1415/small.jpg",
+        "small": "https://media.kitsu.io/anime/cover_images/1415/small.jpg",
+        "large": "https://media.kitsu.io/anime/cover_images/1415/small.jpg",
+        "original": "https://media.kitsu.io/anime/cover_images/1415/original.jpg",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": 1680,
+              "height": 400
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
+      "episodeCount": 25,
+      "episodeLength": 24,
+      "totalLength": 600,
+      "youtubeVideoId": "DR1d_Pm729o",
+      "showType": "TV",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/1415/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/1415/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/1415/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/1415/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/1415/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/1415/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/1415/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/1415/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/1415/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/1415/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/1415/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/1415/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/1415/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/1415/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/1415/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/1415/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/1415/anime-staff"
+        }
+      }
+    }
+  }
+}

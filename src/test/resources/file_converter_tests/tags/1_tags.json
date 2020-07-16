@@ -1,0 +1,478 @@
+{
+  "data": [
+    {
+      "id": "155",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/155"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:39:22.090Z",
+        "updatedAt": "2017-05-31T09:01:35.589Z",
+        "title": "Science Fiction",
+        "description": "Science fiction stories usually focus on how situations could be different in the future when we are more technologically advanced; due to either our own achievements or having met with other civilizations whom we have learned from.",
+        "totalMediaCount": 5302,
+        "slug": "science-fiction",
+        "nsfw": false,
+        "childCount": 8,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/155/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/155/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/155/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/155/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/155/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/155/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/155/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/155/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "51",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/51"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:38:47.070Z",
+        "updatedAt": "2017-05-31T09:05:33.687Z",
+        "title": "Space",
+        "description": "The final frontier.",
+        "totalMediaCount": 762,
+        "slug": "space",
+        "nsfw": false,
+        "childCount": 2,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/51/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/51/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/51/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/51/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/51/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/51/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/51/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/51/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "184",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/184"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:39:28.357Z",
+        "updatedAt": "2018-12-29T06:42:00.801Z",
+        "title": "Drama",
+        "description": "Drama is a form of narrative fiction (or semi-fiction) intended to be more serious than humorous in tone.",
+        "totalMediaCount": 7982,
+        "slug": "drama",
+        "nsfw": false,
+        "childCount": 0,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/184/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/184/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/184/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/184/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/184/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/184/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/184/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/184/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "150",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/150"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:39:20.357Z",
+        "updatedAt": "2017-05-31T09:01:35.520Z",
+        "title": "Action",
+        "description": "Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting.",
+        "totalMediaCount": 11338,
+        "slug": "action",
+        "nsfw": false,
+        "childCount": 5,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/150/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/150/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/150/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/150/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/150/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/150/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/150/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/150/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "60",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/60"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:38:49.707Z",
+        "updatedAt": "2017-05-31T06:39:37.583Z",
+        "title": "Space Travel",
+        "description": "Space Travel usually refers going to space or travelling there with or without a spacecraft. There are different forms of space travel like Interplanetary travel, Interstellar travel or Intergalactic travel. Since it isn't possible to travel faster than light, most anime series involve some sort \"sub-space travel mechanism\" as a way to travel faster than light.",
+        "totalMediaCount": 177,
+        "slug": "space-travel",
+        "nsfw": false,
+        "childCount": 0,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/60/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/60/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/60/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/60/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/60/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/60/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/60/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/60/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "197",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/197"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:39:31.234Z",
+        "updatedAt": "2018-07-18T16:06:09.683Z",
+        "title": "Post Apocalypse",
+        "description": "An anime that takes place on future Earth (or it could be an alternative universe) after a major cataclysm has occurred. World War III, an alien invasion, plague, global warming or some other general disaster are common themes to build a post-apocalyptic world upon, where the effects were severe enough that mankind barely survived.The time frame may be immediately after the catastrophe, focusing on the travails or psychology of survivors, or considerably later, often including the theme that the existence of pre-catastrophe civilization has been forgotten (or mythologised). Post-apocalyptic stories often take place in an agrarian, non-technological future world, or a world where only scattered elements of technology remain. There is a considerable degree of blurring between post-apocalyptic fiction and that which deals with false utopias or dystopian societies.",
+        "totalMediaCount": 287,
+        "slug": "post-apocalypse",
+        "nsfw": false,
+        "childCount": 0,
+        "image": {
+          "tiny": "https://media.kitsu.io/categories/images/197/tiny.jpg?1496212770",
+          "small": "https://media.kitsu.io/categories/images/197/small.jpg?1496212770",
+          "medium": "https://media.kitsu.io/categories/images/197/medium.jpg?1496212770",
+          "large": "https://media.kitsu.io/categories/images/197/large.jpg?1496212770",
+          "original": "https://media.kitsu.io/categories/images/197/original.jpg?1496212770",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        }
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/197/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/197/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/197/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/197/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/197/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/197/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/197/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/197/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "77",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/77"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:38:50.800Z",
+        "updatedAt": "2017-05-31T06:39:37.833Z",
+        "title": "Other Planet",
+        "description": "The anime will fit this category if some or all of the action takes place on another planet which is supposedly in the same universe as Earth, not a complete fantasy world; usually there has to be some concept of space travel. The Latin name for Earth - Terra, would also pass the condition of being in the same universe as Earth. Basically, even mentioning of Earth existing or having existed would be enough. Although Moon is a moon, it also qualifies as Other Planet.",
+        "totalMediaCount": 186,
+        "slug": "other-planet",
+        "nsfw": false,
+        "childCount": 1,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/77/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/77/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/77/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/77/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/77/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/77/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/77/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/77/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "50",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/50"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:38:47.047Z",
+        "updatedAt": "2019-10-14T00:22:05.819Z",
+        "title": "Future",
+        "description": "Anime that fall under the future category are the ones that have a society that could have originated from ours. In most cases it should go hand to hand with sci-fi since we expect the future to consist of advanced technology, however, in the case where it's explicitly stated in the story that the anime takes place \"x years into the future\", the state of technology doesn't matter as long as it's long into the future. The anime can be set in an alternative universe not tied with our own, as long as it has a futuristic feel to it.This category sports quite a lot of anime, mostly stemming from SciFi, but not necessarily only from there.",
+        "totalMediaCount": 739,
+        "slug": "future",
+        "nsfw": false,
+        "childCount": 0,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/50/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/50/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/50/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/50/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/50/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/50/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/50/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/50/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "78",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/78"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:38:50.836Z",
+        "updatedAt": "2017-05-31T06:39:37.858Z",
+        "title": "Shipboard",
+        "description": "Beam me up, Scotty! Space stations (think Death Star) also count. Basically, this category is to tell if the setting takes place onboard a spaceship in space. This category is not applicable if the spaceship lies on a planet and never actually gets into space.",
+        "totalMediaCount": 204,
+        "slug": "shipboard",
+        "nsfw": false,
+        "childCount": 0,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/78/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/78/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/78/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/78/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/78/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/78/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/78/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/78/manga"
+          }
+        }
+      }
+    },
+    {
+      "id": "201",
+      "type": "categories",
+      "links": {
+        "self": "https://kitsu.io/api/edge/categories/201"
+      },
+      "attributes": {
+        "createdAt": "2017-05-31T06:39:33.928Z",
+        "updatedAt": "2017-05-31T09:01:35.657Z",
+        "title": "Detective",
+        "description": null,
+        "totalMediaCount": 231,
+        "slug": "detective",
+        "nsfw": false,
+        "childCount": 0,
+        "image": null
+      },
+      "relationships": {
+        "parent": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/201/relationships/parent",
+            "related": "https://kitsu.io/api/edge/categories/201/parent"
+          }
+        },
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/201/relationships/anime",
+            "related": "https://kitsu.io/api/edge/categories/201/anime"
+          }
+        },
+        "drama": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/201/relationships/drama",
+            "related": "https://kitsu.io/api/edge/categories/201/drama"
+          }
+        },
+        "manga": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/categories/201/relationships/manga",
+            "related": "https://kitsu.io/api/edge/categories/201/manga"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 14
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime/1/categories?page%5Blimit%5D=10&page%5Boffset%5D=0",
+    "next": "https://kitsu.io/api/edge/anime/1/categories?page%5Blimit%5D=10&page%5Boffset%5D=10",
+    "last": "https://kitsu.io/api/edge/anime/1/categories?page%5Blimit%5D=10&page%5Boffset%5D=4"
+  }
+}

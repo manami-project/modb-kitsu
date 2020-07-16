@@ -1,0 +1,213 @@
+{
+  "data": {
+    "id": "10035",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/10035"
+    },
+    "attributes": {
+      "createdAt": "2014-11-28T16:07:15.947Z",
+      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "slug": "shisha-no-teikoku",
+      "synopsis": "By the 19th century, humanity has cultivated technology enabling the reanimation of corpses. Unable to experience individual thoughts or emotions, the corpses are programmed by humans to act as laborers in various occupations.\r\nThis newfound technology, however, comes with a catch. Science may be able to restore the corpses' ability to move, yet it cannot return what every corpse loses at death: the soul. But Doctor Victor Frankenstein, who vanished shortly after his revolutionary work on corpse reanimation, is said to have revived the only corpse in possession of a soul.\r\nIn pursuit of this scientific knowledge, London medical student John Watson hopes to fulfill his promise to his late partner, Friday. After being scouted by a government agency, Watson is on a hunt to obtain Frankenstein's notes, which he believes hold the key to the secrets of the soul. During his search, Watson uncovers the harsh realities of the developing corpse technology and the price he must pay to advance his research.\r\n[Written by MAL Rewrite]",
+      "coverImageTopOffset": 50,
+      "titles": {
+        "en": "The Empire of Corpses",
+        "en_jp": "Shisha no Teikoku",
+        "en_us": "The Empire of Corpses",
+        "ja_jp": "屍者の帝国"
+      },
+      "canonicalTitle": "Shisha no Teikoku",
+      "abbreviatedTitles": [
+        "Project Itoh"
+      ],
+      "averageRating": "68.4",
+      "ratingFrequencies": {
+        "2": "16",
+        "3": "0",
+        "4": "23",
+        "5": "1",
+        "6": "48",
+        "7": "3",
+        "8": "113",
+        "9": "2",
+        "10": "152",
+        "11": "7",
+        "12": "299",
+        "13": "9",
+        "14": "375",
+        "15": "20",
+        "16": "263",
+        "17": "11",
+        "18": "129",
+        "19": "3",
+        "20": "142"
+      },
+      "userCount": 5105,
+      "favoritesCount": 27,
+      "startDate": "2015-10-02",
+      "endDate": "2015-10-02",
+      "nextRelease": null,
+      "popularityRank": 1679,
+      "ratingRank": 4529,
+      "ageRating": "R",
+      "ageRatingGuide": "17+ (violence & profanity)",
+      "subtype": "movie",
+      "status": "finished",
+      "tba": null,
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/10035/tiny.jpg?1451279881",
+        "small": "https://media.kitsu.io/anime/poster_images/10035/small.jpg?1451279881",
+        "medium": "https://media.kitsu.io/anime/poster_images/10035/medium.jpg?1451279881",
+        "large": "https://media.kitsu.io/anime/poster_images/10035/large.jpg?1451279881",
+        "original": "https://media.kitsu.io/anime/poster_images/10035/original.png?1451279881",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/10035/tiny.jpg?1519181932",
+        "small": "https://media.kitsu.io/anime/cover_images/10035/small.jpg?1519181932",
+        "large": "https://media.kitsu.io/anime/cover_images/10035/large.jpg?1519181932",
+        "original": "https://media.kitsu.io/anime/cover_images/10035/original.png?1519181932",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
+      "episodeCount": 1,
+      "episodeLength": 120,
+      "totalLength": 120,
+      "youtubeVideoId": "x6wB6V7jwxk",
+      "showType": "movie",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/10035/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/10035/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/10035/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/10035/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/10035/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/10035/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/10035/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/10035/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/10035/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/10035/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/10035/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/10035/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/10035/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/10035/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/10035/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/10035/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/10035/anime-staff"
+        }
+      }
+    }
+  }
+}

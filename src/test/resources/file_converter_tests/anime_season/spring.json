@@ -1,0 +1,212 @@
+{
+  "data": {
+    "id": "41370",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/41370"
+    },
+    "attributes": {
+      "createdAt": "2018-05-31T10:00:15.763Z",
+      "updatedAt": "2020-06-20T11:32:32.186Z",
+      "slug": "kimetsu-no-yaiba",
+      "synopsis": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.\r\n\r\n(Source: Crunchyroll)",
+      "coverImageTopOffset": 0,
+      "titles": {
+        "en": "Demon Slayer: Kimetsu no Yaiba",
+        "en_jp": "Kimetsu no Yaiba",
+        "ja_jp": "鬼滅の刃"
+      },
+      "canonicalTitle": "Kimetsu no Yaiba",
+      "abbreviatedTitles": [
+        "Blade of Demon Destruction"
+      ],
+      "averageRating": "85.55",
+      "ratingFrequencies": {
+        "2": "1965",
+        "3": "83",
+        "4": "150",
+        "5": "33",
+        "6": "186",
+        "7": "48",
+        "8": "2617",
+        "9": "74",
+        "10": "372",
+        "11": "88",
+        "12": "486",
+        "13": "113",
+        "14": "7589",
+        "15": "434",
+        "16": "3022",
+        "17": "1127",
+        "18": "4279",
+        "19": "1078",
+        "20": "31746"
+      },
+      "userCount": 84714,
+      "favoritesCount": 1403,
+      "startDate": "2019-04-06",
+      "endDate": "2019-09-28",
+      "nextRelease": null,
+      "popularityRank": 53,
+      "ratingRank": 1,
+      "ageRating": "R",
+      "ageRatingGuide": "Violence, Profanity",
+      "subtype": "TV",
+      "status": "finished",
+      "tba": "",
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/41370/tiny.jpg?1553005025",
+        "small": "https://media.kitsu.io/anime/poster_images/41370/small.jpg?1553005025",
+        "medium": "https://media.kitsu.io/anime/poster_images/41370/medium.jpg?1553005025",
+        "large": "https://media.kitsu.io/anime/poster_images/41370/large.jpg?1553005025",
+        "original": "https://media.kitsu.io/anime/poster_images/41370/original.jpg?1553005025",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 110,
+              "height": 156
+            },
+            "small": {
+              "width": 284,
+              "height": 402
+            },
+            "medium": {
+              "width": 390,
+              "height": 554
+            },
+            "large": {
+              "width": 550,
+              "height": 780
+            }
+          }
+        }
+      },
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/41370/tiny.jpg?1527760997",
+        "small": "https://media.kitsu.io/anime/cover_images/41370/small.jpg?1527760997",
+        "large": "https://media.kitsu.io/anime/cover_images/41370/large.jpg?1527760997",
+        "original": "https://media.kitsu.io/anime/cover_images/41370/original.jpg?1527760997",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": 1680,
+              "height": 400
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
+      "episodeCount": 26,
+      "episodeLength": 23,
+      "totalLength": 473,
+      "youtubeVideoId": "vxoO30azT3I",
+      "showType": "TV",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/41370/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/41370/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/41370/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/41370/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/41370/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/41370/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/41370/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/41370/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/41370/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/41370/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/41370/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/41370/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/41370/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/41370/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/41370/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/41370/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/41370/anime-staff"
+        }
+      }
+    }
+  }
+}

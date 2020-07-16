@@ -1,0 +1,191 @@
+{
+  "data": {
+    "id": "343",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/343"
+    },
+    "attributes": {
+      "createdAt": "2013-02-20T16:05:38.166Z",
+      "updatedAt": "2019-10-11T13:17:51.262Z",
+      "slug": "elfen-lied-special",
+      "synopsis": "Having been accepted into the Kaede Inn, Nana struggles to find some way to contribute, though she inadvertently brings more trouble than assistance. However, Nana's worries are directed more towards fellow resident Nyu, whom she had only known as Lucy, the violent Diclonius. Fearful that Nyu will unleash the same horrific savagery—violence that scars Nana to this day—upon those close to her, Nana faces a dilemma: attempt to live peacefully alongside Lucy with all the uncertainty that that entails or dispose of the source of her worries, shattering the relationships she has formed at the inn. As Nana struggles to come to a decision, Nyu recalls a painful memory of one of her dearest friends and one of her greatest rivals.\r\n[Written by MAL Rewrite]",
+      "coverImageTopOffset": 0,
+      "titles": {
+        "en": "Elfen Lied: In the Passing Rain",
+        "en_jp": "Elfen Lied Special",
+        "ja_jp": "エルフェンリート 特別編"
+      },
+      "canonicalTitle": "Elfen Lied Special",
+      "abbreviatedTitles": [
+        "Elfen Lied OVA"
+      ],
+      "averageRating": "68.53",
+      "ratingFrequencies": {
+        "2": "106",
+        "3": "2",
+        "4": "156",
+        "5": "1",
+        "6": "196",
+        "7": "4",
+        "8": "421",
+        "9": "6",
+        "10": "600",
+        "11": "11",
+        "12": "1198",
+        "13": "7",
+        "14": "1562",
+        "15": "12",
+        "16": "1197",
+        "17": "8",
+        "18": "504",
+        "19": "4",
+        "20": "750"
+      },
+      "userCount": 10713,
+      "favoritesCount": 17,
+      "startDate": "2005-04-21",
+      "endDate": "2005-04-21",
+      "nextRelease": null,
+      "popularityRank": 871,
+      "ratingRank": 4454,
+      "ageRating": "R",
+      "ageRatingGuide": "Mild Nudity",
+      "subtype": "special",
+      "status": "finished",
+      "tba": null,
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/343/tiny.jpg?1417748142",
+        "small": "https://media.kitsu.io/anime/poster_images/343/small.jpg?1417748142",
+        "medium": "https://media.kitsu.io/anime/poster_images/343/medium.jpg?1417748142",
+        "large": "https://media.kitsu.io/anime/poster_images/343/large.jpg?1417748142",
+        "original": "https://media.kitsu.io/anime/poster_images/343/original.jpg?1417748142",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": null,
+      "episodeCount": 1,
+      "episodeLength": 25,
+      "totalLength": 25,
+      "youtubeVideoId": null,
+      "showType": "special",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/343/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/343/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/343/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/343/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/343/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/343/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/343/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/343/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/343/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/343/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/343/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/343/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/343/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/343/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/343/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/343/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/343/anime-staff"
+        }
+      }
+    }
+  }
+}

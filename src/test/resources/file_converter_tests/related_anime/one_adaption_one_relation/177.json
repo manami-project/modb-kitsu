@@ -1,0 +1,190 @@
+{
+  "data": {
+    "id": "177",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/177"
+    },
+    "attributes": {
+      "createdAt": "2013-02-20T16:03:01.934Z",
+      "updatedAt": "2019-10-27T18:00:06.186Z",
+      "slug": "tenshi-na-konamaiki",
+      "synopsis": "Megumi-chan is a girl with a secret past. She used to be a boy until she met a person she thought was a magic user. This person gave him/her a magical book from which a genie appears to grant one wish when blood is applied to it. Megumi made the wish to be a man in a man's body but the genie has a twist: he grants wishes backwards so he turns Megumi-kun aged 9 to Megumi-chan. Years pass and Megumi enters High School where she immediately beats up the school bully who of course falls in love with her. She is looking for that book again to be able to reverse the spell placed upon her.\r\n(Source: ANN)",
+      "coverImageTopOffset": 0,
+      "titles": {
+        "en": "Cheeky Angel",
+        "en_jp": "Tenshi na Konamaiki",
+        "en_us": "Cheeky Angel",
+        "ja_jp": "天使な小生意気"
+      },
+      "canonicalTitle": "Tenshi na Konamaiki",
+      "abbreviatedTitles": [],
+      "averageRating": "73.0",
+      "ratingFrequencies": {
+        "2": "10",
+        "3": "0",
+        "4": "10",
+        "5": "0",
+        "6": "6",
+        "7": "2",
+        "8": "28",
+        "9": "1",
+        "10": "30",
+        "11": "0",
+        "12": "75",
+        "13": "1",
+        "14": "101",
+        "15": "2",
+        "16": "148",
+        "17": "1",
+        "18": "71",
+        "19": "0",
+        "20": "66"
+      },
+      "userCount": 1585,
+      "favoritesCount": 11,
+      "startDate": "2002-04-06",
+      "endDate": "2003-03-29",
+      "nextRelease": null,
+      "popularityRank": 3409,
+      "ratingRank": 2383,
+      "ageRating": "PG",
+      "ageRatingGuide": "Teens 13 or older",
+      "subtype": "TV",
+      "status": "finished",
+      "tba": null,
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/177/tiny.jpg?1408440859",
+        "small": "https://media.kitsu.io/anime/poster_images/177/small.jpg?1408440859",
+        "medium": "https://media.kitsu.io/anime/poster_images/177/medium.jpg?1408440859",
+        "large": "https://media.kitsu.io/anime/poster_images/177/large.jpg?1408440859",
+        "original": "https://media.kitsu.io/anime/poster_images/177/original.jpg?1408440859",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": null,
+      "episodeCount": 50,
+      "episodeLength": 0,
+      "totalLength": 43,
+      "youtubeVideoId": "",
+      "showType": "TV",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/177/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/177/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/177/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/177/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/177/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/177/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/177/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/177/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/177/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/177/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/177/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/177/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/177/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/177/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/177/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/177/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/177/anime-staff"
+        }
+      }
+    }
+  }
+}

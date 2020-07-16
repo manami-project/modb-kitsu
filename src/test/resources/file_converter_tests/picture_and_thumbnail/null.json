@@ -1,0 +1,163 @@
+{
+  "data": {
+    "id": "12032",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/12032"
+    },
+    "attributes": {
+      "createdAt": "2016-04-05T13:32:44.241Z",
+      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "slug": "experiment",
+      "synopsis": "A short film by Tsuji Naoyuki that blends stop motion with 2D drawn animation.",
+      "coverImageTopOffset": 0,
+      "titles": {
+        "en": "",
+        "en_jp": "Experiment",
+        "ja_jp": ""
+      },
+      "canonicalTitle": "Experiment",
+      "abbreviatedTitles": null,
+      "averageRating": null,
+      "ratingFrequencies": {
+        "2": "0",
+        "3": "0",
+        "4": "4",
+        "5": "0",
+        "6": "4",
+        "7": "0",
+        "8": "0",
+        "9": "0",
+        "10": "0",
+        "11": "0",
+        "12": "1",
+        "13": "0",
+        "14": "1",
+        "15": "0",
+        "16": "0",
+        "17": "0",
+        "18": "0",
+        "19": "0",
+        "20": "0"
+      },
+      "userCount": 28,
+      "favoritesCount": 1,
+      "startDate": "1997-01-01",
+      "endDate": "1997-01-01",
+      "nextRelease": null,
+      "popularityRank": 13096,
+      "ratingRank": null,
+      "ageRating": "G",
+      "ageRatingGuide": "All Ages",
+      "subtype": "movie",
+      "status": "finished",
+      "tba": null,
+      "posterImage": null,
+      "coverImage": null,
+      "episodeCount": 1,
+      "episodeLength": 3,
+      "totalLength": 3,
+      "youtubeVideoId": "",
+      "showType": "movie",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/12032/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/12032/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/12032/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/12032/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/12032/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/12032/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/12032/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/12032/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/12032/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/12032/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/12032/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/12032/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/12032/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/12032/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/12032/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/12032/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/12032/anime-staff"
+        }
+      }
+    }
+  }
+}

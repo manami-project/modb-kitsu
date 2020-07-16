@@ -1,0 +1,212 @@
+{
+  "data": {
+    "id": "101",
+    "type": "anime",
+    "links": {
+      "self": "https://kitsu.io/api/edge/anime/101"
+    },
+    "attributes": {
+      "createdAt": "2013-02-20T16:01:51.293Z",
+      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "slug": "full-moon-wo-sagashite",
+      "synopsis": "12-year-old Mitsuki Kouyama's dream to become a professional singer is shattered when she's diagnosed with throat cancer. If a tumor isn't horrific enough, how about being met by two angels of death shortly after?\r\nMeroko Yui and Takuto Kira, of the shinigami duo \"Negi Ramen,\" inform Mitsuki that she has just one year left to live. Instead of getting discouraged, however, Mitsuki decides to make the most of her last year, and pursues her singing dream with a passion.\r\nAided by Meroko and Takuto, Mitsuki finds success and failure, love and loss, and deals with her fate and other difficult subjects the best she can. Full Moon wo Sagashite is the story of a little girl who refuses to let something as insignificant as fate slow her down.",
+      "coverImageTopOffset": 120,
+      "titles": {
+        "en": "Searching for the Full Moon",
+        "en_jp": "Full Moon wo Sagashite",
+        "ja_jp": "満月をさがして"
+      },
+      "canonicalTitle": "Full Moon wo Sagashite",
+      "abbreviatedTitles": [
+        "Full Moon o Sagashite"
+      ],
+      "averageRating": "78.34",
+      "ratingFrequencies": {
+        "2": "13",
+        "3": "0",
+        "4": "20",
+        "5": "0",
+        "6": "13",
+        "7": "1",
+        "8": "64",
+        "9": "0",
+        "10": "81",
+        "11": "0",
+        "12": "268",
+        "13": "5",
+        "14": "413",
+        "15": "9",
+        "16": "465",
+        "17": "8",
+        "18": "298",
+        "19": "5",
+        "20": "529"
+      },
+      "userCount": 5477,
+      "favoritesCount": 106,
+      "startDate": "2002-04-06",
+      "endDate": "2003-03-29",
+      "nextRelease": null,
+      "popularityRank": 1586,
+      "ratingRank": 818,
+      "ageRating": "PG",
+      "ageRatingGuide": "Teens 13 or older",
+      "subtype": "TV",
+      "status": "finished",
+      "tba": null,
+      "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/101/tiny.jpg?1425574009",
+        "small": "https://media.kitsu.io/anime/poster_images/101/small.jpg?1425574009",
+        "medium": "https://media.kitsu.io/anime/poster_images/101/medium.jpg?1425574009",
+        "large": "https://media.kitsu.io/anime/poster_images/101/large.jpg?1425574009",
+        "original": "https://media.kitsu.io/anime/poster_images/101/original.jpg?1425574009",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": null,
+              "height": null
+            },
+            "small": {
+              "width": null,
+              "height": null
+            },
+            "medium": {
+              "width": null,
+              "height": null
+            },
+            "large": {
+              "width": null,
+              "height": null
+            }
+          }
+        }
+      },
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/101/tiny.jpg?1519179246",
+        "small": "https://media.kitsu.io/anime/cover_images/101/small.jpg?1519179246",
+        "large": "https://media.kitsu.io/anime/cover_images/101/large.jpg?1519179246",
+        "original": "https://media.kitsu.io/anime/cover_images/101/original.jpg?1519179246",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": 1680,
+              "height": 400
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
+      "episodeCount": 52,
+      "episodeLength": null,
+      "totalLength": 24,
+      "youtubeVideoId": null,
+      "showType": "TV",
+      "nsfw": false
+    },
+    "relationships": {
+      "genres": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/101/genres"
+        }
+      },
+      "categories": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/101/categories"
+        }
+      },
+      "castings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/101/castings"
+        }
+      },
+      "installments": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/101/installments"
+        }
+      },
+      "mappings": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/101/mappings"
+        }
+      },
+      "reviews": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/101/reviews"
+        }
+      },
+      "mediaRelationships": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/101/media-relationships"
+        }
+      },
+      "characters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/101/characters"
+        }
+      },
+      "staff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/101/staff"
+        }
+      },
+      "productions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/101/productions"
+        }
+      },
+      "quotes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/101/quotes"
+        }
+      },
+      "episodes": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/101/episodes"
+        }
+      },
+      "streamingLinks": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/101/streaming-links"
+        }
+      },
+      "animeProductions": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/101/anime-productions"
+        }
+      },
+      "animeCharacters": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/101/anime-characters"
+        }
+      },
+      "animeStaff": {
+        "links": {
+          "self": "https://kitsu.io/api/edge/anime/101/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/101/anime-staff"
+        }
+      }
+    }
+  }
+}
