@@ -33,8 +33,8 @@ class KitsuConverter(
         require(tagsDir.directoryExists()) { "Directory for tags [$tagsDir] does not exist or is not a directory." }
     }
 
-    override fun convert(source: String): Anime {
-        val document = parseJson<KitsuDocument>(source)!!
+    override fun convert(rawContent: String): Anime {
+        val document = parseJson<KitsuDocument>(rawContent)!!
 
         return Anime(
             _title = extractTitle(document),
