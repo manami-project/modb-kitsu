@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.4.0"
+    kotlin("jvm") version "1.4.10"
     id("com.jfrog.bintray") version "1.8.5"
     `maven-publish`
     `java-library`
@@ -20,6 +20,7 @@ dependencies {
     api("io.github.manamiproject:modb-core:2.2.0")
     api(kotlin("stdlib-jdk8"))
 
+    implementation(platform(kotlin("bom")))
     implementation("org.jsoup:jsoup:1.13.1")
 
     testImplementation("io.github.manamiproject:modb-test:1.0.2")
