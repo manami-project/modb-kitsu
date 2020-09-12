@@ -127,10 +127,10 @@ class KitsuConverter(
         val year = Regex("[0-9]{4}").find(startDate)?.value?.toInt() ?: 0
 
         val season = when(month) {
-            1,2,3 -> AnimeSeason.Season.WINTER
-            4,5,6 -> AnimeSeason.Season.SPRING
-            7,8,9 -> AnimeSeason.Season.SUMMER
-            10, 11, 12 -> AnimeSeason.Season.FALL
+            12, 1, 2 -> AnimeSeason.Season.WINTER
+            3, 4, 5 -> AnimeSeason.Season.SPRING
+            6, 7, 8 -> AnimeSeason.Season.SUMMER
+            9, 10, 11 -> AnimeSeason.Season.FALL
             else -> AnimeSeason.Season.UNDEFINED
         }
 
