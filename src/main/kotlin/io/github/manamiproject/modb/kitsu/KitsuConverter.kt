@@ -64,14 +64,14 @@ class KitsuConverter(
     private fun extractSourcesEntry(document: KitsuDocument): List<URL> = listOf(config.buildAnimeLinkUrl(document.data.id))
 
     private fun extractType(document: KitsuDocument): Type {
-        return when(document.data.attributes.showType) {
+        return when(document.data.attributes.subtype) {
             "TV" -> TV
             "ONA" -> ONA
             "movie" -> Movie
             "OVA" -> OVA
             "special" -> Special
             "music" -> Special
-            else -> throw IllegalStateException("Unknown type [${document.data.attributes.showType}]")
+            else -> throw IllegalStateException("Unknown type [${document.data.attributes.subtype}]")
         }
     }
 
@@ -159,7 +159,7 @@ private data class KitsuDataAttributes(
     val canonicalTitle: String,
     val abbreviatedTitles: List<String?>?,
     val startDate: String?,
-    val showType: String,
+    val subtype: String,
     val posterImage: Map<String, String>?,
     val episodeCount: Int?,
     val episodeLength: Int?,
