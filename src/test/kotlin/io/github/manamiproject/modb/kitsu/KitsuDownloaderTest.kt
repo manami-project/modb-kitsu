@@ -165,6 +165,56 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
     }
 
     @Test
+    fun `pause and retry on response code 520`() {
+        // given
+        val id = 1535
+
+        val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
+            override fun hostname(): Hostname = "localhost"
+            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
+            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
+        }
+
+        serverInstance.stubFor(
+                get(urlPathEqualTo("/graphql"))
+                        .inScenario("pause and retry")
+                        .whenScenarioStateIs(STARTED)
+                        .willSetStateTo("successful retrieval")
+                        .willReturn(
+                                aResponse()
+                                        .withHeader("Content-Type", "text/html")
+                                        .withStatus(520)
+                                        .withBody("<html></html>")
+                        )
+        )
+
+        val responseBody = "{ \"kitsuId\": $id }"
+
+        serverInstance.stubFor(
+                get(urlPathEqualTo("/graphql"))
+                        .inScenario("pause and retry")
+                        .whenScenarioStateIs("successful retrieval")
+                        .willReturn(
+                                aResponse()
+                                        .withHeader("Content-Type", APPLICATION_JSON)
+                                        .withStatus(200)
+                                        .withBody(responseBody)
+                        )
+        )
+
+        val downloader = KitsuDownloader(testKitsuConfig)
+
+        // when
+        val result = downloader.download(id.toString()) {
+            shouldNotBeInvoked()
+        }
+
+        // then
+        assertThat(result).isEqualTo(responseBody)
+    }
+
+    @Test
     fun `pause and retry on response code 522`() {
         // given
         val id = 1535
