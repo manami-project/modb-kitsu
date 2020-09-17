@@ -10,6 +10,7 @@ import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
 import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.AnimeSeason
+import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
 import io.github.manamiproject.modb.core.models.Duration
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
 import java.net.URL
@@ -127,11 +128,11 @@ class KitsuConverter(
         val year = Regex("[0-9]{4}").find(startDate)?.value?.toInt() ?: 0
 
         val season = when(month) {
-            12, 1, 2 -> AnimeSeason.Season.WINTER
-            3, 4, 5 -> AnimeSeason.Season.SPRING
-            6, 7, 8 -> AnimeSeason.Season.SUMMER
-            9, 10, 11 -> AnimeSeason.Season.FALL
-            else -> AnimeSeason.Season.UNDEFINED
+            12, 1, 2 -> WINTER
+            3, 4, 5 -> SPRING
+            6, 7, 8 -> SUMMER
+            9, 10, 11 -> FALL
+            else -> UNDEFINED
         }
 
         return AnimeSeason(
