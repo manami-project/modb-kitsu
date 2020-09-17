@@ -17,7 +17,7 @@ version = project.findProperty("releaseVersion") as String? ?: ""
 val projectName = "modb-kitsu"
 
 dependencies {
-    api("io.github.manamiproject:modb-core:2.2.1")
+    api("io.github.manamiproject:modb-core:2.3.0")
     api(kotlin("stdlib-jdk8"))
 
     implementation(platform(kotlin("bom")))
