@@ -23,7 +23,7 @@ import java.net.URL
  * @param tagsDir Directory containing the raw files for the tags.
  * @throws IllegalArgumentException if either [relationsDir] or [tagsDir] doesn't exist or is not a directory.
  */
-class KitsuConverter(
+public class KitsuConverter(
     private val config: MetaDataProviderConfig = KitsuConfig,
     private val relationsDir: Directory,
     private val tagsDir: Directory
@@ -141,7 +141,7 @@ class KitsuConverter(
         )
     }
 
-    companion object {
+    private companion object {
         private const val NOT_FOUND_PIC = "https://cdn.myanimelist.net/images/qm_50.gif"
     }
 }

@@ -16,7 +16,7 @@ import io.github.manamiproject.modb.core.random
  * @param config Configuration for downloading data.
  * @param httpClient To actually download the anime data.
  */
-class KitsuDownloader(
+public class KitsuDownloader(
     private val config: MetaDataProviderConfig,
     private val httpClient: HttpClient = DefaultHttpClient()
 ) : Downloader {

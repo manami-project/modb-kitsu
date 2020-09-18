@@ -9,7 +9,7 @@ import java.net.URL
  * Configuration for downloading and converting anime data from kitsu.io
  * @since 1.0.0
  */
-object KitsuConfig : MetaDataProviderConfig {
+public object KitsuConfig : MetaDataProviderConfig {
 
     override fun hostname(): Hostname = "kitsu.io"
 

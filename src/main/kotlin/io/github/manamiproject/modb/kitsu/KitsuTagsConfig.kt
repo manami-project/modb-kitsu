@@ -7,7 +7,7 @@ import java.net.URL
  * Configuration for downloading related anime from kitsu.io
  * @since 1.0.0
  */
-object KitsuTagsConfig : MetaDataProviderConfig by KitsuConfig {
+public object KitsuTagsConfig : MetaDataProviderConfig by KitsuConfig {
 
     override fun buildDataDownloadUrl(id: String): URL = URL("https://${hostname()}/api/edge/anime/$id/categories")
 }
