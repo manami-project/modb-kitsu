@@ -47,7 +47,7 @@ public class KitsuDownloader(
         val retryBehaviorConfig = RetryBehavior(
             waitDuration = { random(4000, 8000) },
             retryOnResponsePredicate = { httpResponse ->
-                listOf(520, 522).contains(httpResponse.code)
+                listOf(500, 502, 520, 522).contains(httpResponse.code)
             }
         )
 
