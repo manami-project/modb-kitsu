@@ -1,7 +1,7 @@
 package io.github.manamiproject.modb.kitsu
 
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
-import java.net.URL
+import java.net.URI
 
 /**
  * Configuration for downloading tags from kitsu.io
@@ -9,5 +9,5 @@ import java.net.URL
  */
 public object KitsuRelationsConfig : MetaDataProviderConfig by KitsuConfig {
 
-    override fun buildDataDownloadUrl(id: String): URL = URL("https://${hostname()}/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role")
+    override fun buildDataDownloadLink(id: String): URI = URI("https://${hostname()}/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role")
 }

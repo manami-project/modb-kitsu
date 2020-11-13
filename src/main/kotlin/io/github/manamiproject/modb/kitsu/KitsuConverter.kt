@@ -4,16 +4,14 @@ import io.github.manamiproject.modb.core.Json.parseJson
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.extensions.*
-import io.github.manamiproject.modb.core.models.Anime
+import io.github.manamiproject.modb.core.models.*
 import io.github.manamiproject.modb.core.models.Anime.Status
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
 import io.github.manamiproject.modb.core.models.Anime.Type.*
-import io.github.manamiproject.modb.core.models.AnimeSeason
 import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
-import io.github.manamiproject.modb.core.models.Duration
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
-import java.net.URL
+import java.net.URI
 
 /**
  * Converts raw data to an [Anime].
@@ -54,15 +52,15 @@ public class KitsuConverter(
         }
     }
 
-    private fun extractTitle(document: KitsuDocument) = document.data.attributes.canonicalTitle
+    private fun extractTitle(document: KitsuDocument): Title = document.data.attributes.canonicalTitle
 
-    private fun extractEpisodes(document: KitsuDocument) = document.data.attributes.episodeCount ?: 0
+    private fun extractEpisodes(document: KitsuDocument): Episodes = document.data.attributes.episodeCount ?: 0
 
-    private fun extractPicture(document: KitsuDocument): URL = URL(document.data.attributes.posterImage?.get("small") ?: NOT_FOUND_PIC)
+    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.get("small") ?: NOT_FOUND_PIC)
 
-    private fun extractThumbnail(document: KitsuDocument): URL =  URL(document.data.attributes.posterImage?.get("tiny") ?: NOT_FOUND_PIC)
+    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.get("tiny") ?: NOT_FOUND_PIC)
 
-    private fun extractSourcesEntry(document: KitsuDocument): List<URL> = listOf(config.buildAnimeLinkUrl(document.data.id))
+    private fun extractSourcesEntry(document: KitsuDocument): List<URI> = listOf(config.buildAnimeLink(document.data.id))
 
     private fun extractType(document: KitsuDocument): Type {
         return when(document.data.attributes.subtype) {
@@ -76,19 +74,19 @@ public class KitsuConverter(
         }
     }
 
-    private fun extractSynonyms(document: KitsuDocument): List<String> {
+    private fun extractSynonyms(document: KitsuDocument): List<Title> {
         return document.data.attributes.titles.values.union(
             document.data.attributes.abbreviatedTitles?.filterNotNull() ?: emptyList()
         ).toList()
     }
 
-    private fun extractRelatedAnime(document: KitsuDocument): List<URL> {
+    private fun extractRelatedAnime(document: KitsuDocument): List<URI> {
         val relationsFile = relationsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
         return if (relationsFile.regularFileExists()) {
             parseJson<KitsuRelation>(relationsFile.newInputStream())!!.included.filter { it.type == "anime" }
                 .map { it.id }
-                .map { config.buildAnimeLinkUrl(it) }
+                .map { config.buildAnimeLink(it) }
         } else {
             throw IllegalStateException("Relations file is missing")
         }
@@ -112,7 +110,7 @@ public class KitsuConverter(
         return Duration(durationInMinutes, MINUTES)
     }
 
-    private fun extractTags(document: KitsuDocument): List<String> {
+    private fun extractTags(document: KitsuDocument): List<Tag> {
         val tagsFile = tagsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
         return if (tagsFile.regularFileExists()) {

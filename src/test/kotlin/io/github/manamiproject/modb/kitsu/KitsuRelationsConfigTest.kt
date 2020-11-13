@@ -2,6 +2,7 @@ package io.github.manamiproject.modb.kitsu
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
+import java.net.URI
 import java.net.URL
 
 internal class KitsuRelationsConfigTest {
@@ -30,22 +31,22 @@ internal class KitsuRelationsConfigTest {
         val id = "1376"
 
         // when
-        val result = KitsuRelationsConfig.buildAnimeLinkUrl(id)
+        val result = KitsuRelationsConfig.buildAnimeLink(id)
 
         // then
-        assertThat(result).isEqualTo(KitsuConfig.buildAnimeLinkUrl(id))
+        assertThat(result).isEqualTo(KitsuConfig.buildAnimeLink(id))
     }
 
     @Test
-    fun `build data download URL correctly`() {
+    fun `build data download link correctly`() {
         // given
         val id = "1376"
 
         // when
-        val result = KitsuRelationsConfig.buildDataDownloadUrl(id)
+        val result = KitsuRelationsConfig.buildDataDownloadLink(id)
 
         // then
-        assertThat(result).isEqualTo(URL("https://kitsu.io/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role"))
+        assertThat(result).isEqualTo(URI("https://kitsu.io/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role"))
     }
 
     @Test

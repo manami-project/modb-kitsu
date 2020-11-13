@@ -19,7 +19,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
-import java.net.URL
+import java.net.URI
 
 internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
 
@@ -36,8 +36,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
         }
 
@@ -70,8 +70,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
         }
 
@@ -105,8 +105,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
         }
 
@@ -139,8 +139,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
         }
 
@@ -174,8 +174,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = KitsuConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://localhost:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
         }
 

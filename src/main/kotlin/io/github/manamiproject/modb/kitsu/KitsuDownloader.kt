@@ -27,7 +27,7 @@ public class KitsuDownloader(
 
     override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
         val response = httpClient.get(
-            url = config.buildDataDownloadUrl(id),
+            url = config.buildDataDownloadLink(id).toURL(),
             retryWith = config.hostname()
         )
 

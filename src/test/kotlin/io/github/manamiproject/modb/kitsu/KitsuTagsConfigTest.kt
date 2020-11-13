@@ -2,7 +2,7 @@ package io.github.manamiproject.modb.kitsu
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
-import java.net.URL
+import java.net.URI
 
 internal class KitsuTagsConfigTest {
 
@@ -25,28 +25,28 @@ internal class KitsuTagsConfigTest {
     }
 
     @Test
-    fun `anime link URL is the same as for KitsuConfig`() {
+    fun `anime link is the same as for KitsuConfig`() {
         // given
         val id = "1376"
 
         // when
-        val result = KitsuTagsConfig.buildAnimeLinkUrl(id)
+        val result = KitsuTagsConfig.buildAnimeLink(id)
 
         // then
-        assertThat(result).isEqualTo(KitsuConfig.buildAnimeLinkUrl(id))
+        assertThat(result).isEqualTo(KitsuConfig.buildAnimeLink(id))
     }
 
     @Test
-    fun `build data download URL correctly`() {
+    fun `build data download link correctly`() {
         // given
         val id = "1376"
 
         // when
-        val result = KitsuTagsConfig.buildDataDownloadUrl(id)
+        val result = KitsuTagsConfig.buildDataDownloadLink(id)
 
         // then
         assertThat(result)
-            .isEqualTo(URL("https://kitsu.io/api/edge/anime/$id/categories"))
+            .isEqualTo(URI("https://kitsu.io/api/edge/anime/$id/categories"))
     }
 
     @Test
