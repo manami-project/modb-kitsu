@@ -135,7 +135,7 @@ public class KitsuConverter(
 
         return AnimeSeason(
             season = season,
-            _year = year
+            year = year
         )
     }
 
