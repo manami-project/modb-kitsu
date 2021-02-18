@@ -80,7 +80,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
                 .willReturn(
                     aResponse()
                         .withHeader("Content-Type", APPLICATION_JSON)
-                        .withStatus(400)
+                        .withStatus(599)
                         .withBody("{ }")
                 )
         )
@@ -95,7 +95,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         }
 
         // then
-        assertThat(result).hasMessage("Unable to determine the correct case for [kitsutId=$id], [responseCode=400]")
+        assertThat(result).hasMessage("Unable to determine the correct case for [kitsutId=$id], [responseCode=599]")
     }
 
     @Test
@@ -167,7 +167,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
     }
 
     @ParameterizedTest
-    @ValueSource(ints = [500, 502, 520, 522])
+    @ValueSource(ints = [400, 500, 502, 520, 522, 525])
     fun `pause and retry on response code`(responseCode: Int) {
         // given
         val id = 1535
