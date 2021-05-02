@@ -123,7 +123,7 @@ public class KitsuConverter(
     private fun extractAnimeSeason(document: KitsuDocument): AnimeSeason {
         val startDate = document.data.attributes.startDate ?: EMPTY
         val month = Regex("-[0-9]{2}-").findAll(startDate).firstOrNull()?.value?.replace("-", "")?.toInt() ?: 0
-        val year = Regex("[0-9]{4}").find(startDate)?.value?.toInt() ?: 0
+        val year = Regex("[0-9]{4}").find(startDate)?.value?.let { if (it.startsWith("0")) "0" else it }?.toInt() ?: 0
 
         val season = when(month) {
             12, 1, 2 -> WINTER

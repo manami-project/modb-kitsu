@@ -1299,6 +1299,39 @@ internal class KitsuConverterTest {
                         assertThat(result.animeSeason.year).isEqualTo(1989)
                     }
                 }
+
+                @Test
+                fun `year has a wrong format`() {
+                    tempDirectory {
+                        // given
+                        val testKitsuConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+                            override fun buildDataDownloadLink(id: String): URI = KitsuConfig.buildDataDownloadLink(id)
+                            override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
+                        }
+
+                        val relationsDir = tempDir.resolve("relations").createDirectory()
+
+                        testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
+                            .copyTo(relationsDir.resolve("44117.${testKitsuConfig.fileSuffix()}"))
+
+                        val testFileContent = loadTestResource("file_converter_tests/anime_season/invalid_format.json")
+
+                        val tagsDir = tempDir.resolve("tags").createDirectory()
+
+                        testResource("file_converter_tests/no_tags_default_file.json")
+                            .copyTo(tagsDir.resolve("44117.${testKitsuConfig.fileSuffix()}"))
+
+                        val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
+
+                        // when
+                        val result = converter.convert(testFileContent)
+
+                        // then
+                        assertThat(result.animeSeason.isYearOfPremiereUnknown())
+                        assertThat(result.animeSeason.year).isZero()
+                    }
+                }
             }
 
             @Nested
