@@ -1,30 +1,36 @@
 plugins {
     kotlin("jvm") version "1.5.0"
-    id("com.jfrog.bintray") version "1.8.5"
     `maven-publish`
     `java-library`
 }
 
+val projectName = "modb-kitsu"
+val githubUsername = "manami-project"
+
 repositories {
-    jcenter()
+    mavenCentral()
     maven {
-        url = uri("https://dl.bintray.com/manami-project/maven")
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/$githubUsername/$projectName")
+        credentials {
+            username = project.findProperty("gpr.user") as String? ?: githubUsername
+            password = project.findProperty("gpr.key") as String? ?: ""
+        }
     }
 }
 
 group = "io.github.manamiproject"
-version = project.findProperty("releaseVersion") as String? ?: ""
-val projectName = "modb-kitsu"
+version = project.findProperty("release.version") as String? ?: ""
 
 dependencies {
-    api("io.github.manamiproject:modb-core:3.2.3")
+    api("io.github.manamiproject:modb-core:4.0.0")
     api(kotlin("stdlib-jdk8"))
 
     implementation(platform(kotlin("bom")))
     implementation("org.jsoup:jsoup:1.13.1")
 
     testImplementation("ch.qos.logback:logback-classic:1.2.3")
-    testImplementation("io.github.manamiproject:modb-test:1.2.3")
+    testImplementation("io.github.manamiproject:modb-test:1.2.4")
 }
 
 kotlin {
@@ -53,24 +59,6 @@ object Versions {
     const val JVM_TARGET = "11"
 }
 
-bintray {
-    user = project.findProperty("bintrayUser") as String? ?: ""
-    key = project.findProperty("bintrayApiKey") as String? ?: ""
-
-    setPublications("maven")
-
-    with(pkg) {
-        repo = "maven"
-        name = projectName
-        with(version) {
-            name = project.version.toString()
-            vcsTag = project.version.toString()
-        }
-        setLicenses("AGPL-V3")
-        vcsUrl = "https://github.com/manami-project/$projectName"
-    }
-}
-
 val sourcesJar by tasks.registering(Jar::class) {
     archiveClassifier.set("sources")
     from(sourceSets.main.get().allSource)
@@ -82,6 +70,16 @@ val javaDoc by tasks.registering(Jar::class) {
 }
 
 publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/$githubUsername/$projectName")
+            credentials {
+                username = project.findProperty("gpr.user") as String? ?: githubUsername
+                password = project.findProperty("gpr.key") as String? ?: ""
+            }
+        }
+    }
     publications {
         create<MavenPublication>("maven") {
             groupId = project.group.toString()
@@ -96,7 +94,7 @@ publishing {
                 packaging = "jar"
                 name.set(projectName)
                 description.set("This lib contains downloader and converter for downloading raw data from kitsu.io and convert it to an anime object.")
-                url.set("https://github.com/manami-project/$projectName")
+                url.set("https://github.com/$githubUsername/$projectName")
 
                 licenses {
                     license {
@@ -106,9 +104,9 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git@github.com:manami-project/$projectName.git")
-                    developerConnection.set("scm:git:ssh://github.com:manami-project/$projectName.git")
-                    url.set("https://github.com/manami-project/$projectName")
+                    connection.set("scm:git@github.com:$githubUsername/$projectName.git")
+                    developerConnection.set("scm:git:ssh://github.com:$githubUsername/$projectName.git")
+                    url.set("https://github.com/$githubUsername/$projectName")
                 }
             }
         }
