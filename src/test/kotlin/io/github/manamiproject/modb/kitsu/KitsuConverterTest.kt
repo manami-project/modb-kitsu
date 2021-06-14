@@ -6,6 +6,7 @@ import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.extensions.copyTo
 import io.github.manamiproject.modb.core.extensions.createDirectory
 import io.github.manamiproject.modb.core.extensions.createFile
+import io.github.manamiproject.modb.core.models.Anime
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
@@ -192,7 +193,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.type).isEqualTo(Special)
+                    assertThat(result.type).isEqualTo(SPECIAL)
                 }
             }
 
@@ -288,7 +289,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.type).isEqualTo(Movie)
+                    assertThat(result.type).isEqualTo(MOVIE)
                 }
             }
 
@@ -320,7 +321,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.type).isEqualTo(Special)
+                    assertThat(result.type).isEqualTo(SPECIAL)
                 }
             }
 
@@ -822,7 +823,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.status).isEqualTo(CURRENTLY)
+                    assertThat(result.status).isEqualTo(ONGOING)
                 }
             }
 
@@ -918,7 +919,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.status).isEqualTo(UNKNOWN)
+                    assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
                 }
             }
 
@@ -950,7 +951,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.status).isEqualTo(UNKNOWN)
+                    assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
                 }
             }
 

@@ -66,10 +66,10 @@ public class KitsuConverter(
         return when(document.data.attributes.subtype) {
             "TV" -> TV
             "ONA" -> ONA
-            "movie" -> Movie
+            "movie" -> MOVIE
             "OVA" -> OVA
-            "special" -> Special
-            "music" -> Special
+            "special" -> SPECIAL
+            "music" -> SPECIAL
             else -> throw IllegalStateException("Unknown type [${document.data.attributes.subtype}]")
         }
     }
@@ -95,11 +95,11 @@ public class KitsuConverter(
     private fun extractStatus(document: KitsuDocument): Status {
         return when(document.data.attributes.status) {
             "finished" -> FINISHED
-            "current" -> CURRENTLY
+            "current" -> ONGOING
             "unreleased" -> UPCOMING
             "upcoming" -> UPCOMING
-            "tba" -> UNKNOWN
-            null -> UNKNOWN
+            "tba" -> Status.UNKNOWN
+            null -> Status.UNKNOWN
             else -> throw IllegalStateException("Unknown status [${document.data.attributes.status}]")
         }
     }
