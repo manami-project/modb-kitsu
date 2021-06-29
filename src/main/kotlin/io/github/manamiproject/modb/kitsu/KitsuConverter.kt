@@ -83,13 +83,11 @@ public class KitsuConverter(
     private fun extractRelatedAnime(document: KitsuDocument): List<URI> {
         val relationsFile = relationsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
-        return if (relationsFile.regularFileExists()) {
-            parseJson<KitsuRelation>(relationsFile.newInputStream())!!.included.filter { it.type == "anime" }
+        check(relationsFile.regularFileExists()) { "Relations file is missing" }
+
+        return parseJson<KitsuRelation>(relationsFile.newInputStream())!!.included.filter { it.type == "anime" }
                 .map { it.id }
                 .map { config.buildAnimeLink(it) }
-        } else {
-            throw IllegalStateException("Relations file is missing")
-        }
     }
 
     private fun extractStatus(document: KitsuDocument): Status {
@@ -113,11 +111,9 @@ public class KitsuConverter(
     private fun extractTags(document: KitsuDocument): List<Tag> {
         val tagsFile = tagsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
-        return if (tagsFile.regularFileExists()) {
-            parseJson<KitsuTagsDocument>(tagsFile.newInputStream())!!.data.map { it.attributes.title }.distinct()
-        } else {
-            throw IllegalStateException("Tags file is missing")
-        }
+        check(tagsFile.regularFileExists()) { "Tags file is missing" }
+
+        return parseJson<KitsuTagsDocument>(tagsFile.newInputStream())!!.data.map { it.attributes.title }.distinct()
     }
 
     private fun extractAnimeSeason(document: KitsuDocument): AnimeSeason {
