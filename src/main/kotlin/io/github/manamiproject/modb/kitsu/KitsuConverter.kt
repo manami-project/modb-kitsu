@@ -12,6 +12,7 @@ import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
 import java.net.URI
+import kotlin.io.path.inputStream
 
 /**
  * Converts raw data to an [Anime].
@@ -85,7 +86,7 @@ public class KitsuConverter(
 
         check(relationsFile.regularFileExists()) { "Relations file is missing" }
 
-        return parseJson<KitsuRelation>(relationsFile.newInputStream())!!.included.filter { it.type == "anime" }
+        return parseJson<KitsuRelation>(relationsFile.inputStream())!!.included.filter { it.type == "anime" }
                 .map { it.id }
                 .map { config.buildAnimeLink(it) }
     }
@@ -113,7 +114,7 @@ public class KitsuConverter(
 
         check(tagsFile.regularFileExists()) { "Tags file is missing" }
 
-        return parseJson<KitsuTagsDocument>(tagsFile.newInputStream())!!.data.map { it.attributes.title }.distinct()
+        return parseJson<KitsuTagsDocument>(tagsFile.inputStream())!!.data.map { it.attributes.title }.distinct()
     }
 
     private fun extractAnimeSeason(document: KitsuDocument): AnimeSeason {

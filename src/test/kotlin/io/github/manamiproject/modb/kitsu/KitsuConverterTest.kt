@@ -4,8 +4,6 @@ import io.github.manamiproject.modb.core.config.AnimeId
 import io.github.manamiproject.modb.core.config.FileSuffix
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.extensions.copyTo
-import io.github.manamiproject.modb.core.extensions.createDirectory
-import io.github.manamiproject.modb.core.extensions.createFile
 import io.github.manamiproject.modb.core.models.Anime
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type.*
@@ -20,6 +18,8 @@ import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.net.URI
+import kotlin.io.path.createDirectory
+import kotlin.io.path.createFile
 
 internal class KitsuConverterTest {
 
