@@ -536,7 +536,7 @@ internal class KitsuConverterTest {
                     testResource("file_converter_tests/no_tags_default_file.json")
                         .copyTo(tagsDir.resolve("1517.${testKitsuConfig.fileSuffix()}"))
 
-                    val testFileContent = loadTestResource("file_converter_tests/sources/id_1517.json")
+                    val testFileContent = loadTestResource("file_converter_tests/sources/1517.json")
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
