@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2014-11-29T22:16:31.356Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "hatsune-miku-x-tetsuya-nomura",
-      "synopsis": "A collaboration video of HATSUNE MIKU x TETSUYA NOMURA (SQUARE ENIX) was screened at Hatsune Miku Art Exhibition \"Universal Positivity\"@Wallplay (Oct.9th-Oct.19th), as a part of HATSUNE MIKU EXPO 2014 in New York.\r\n(Source: YouTube)",
+      "synopsis": "A collaboration video of HATSUNE MIKU x TETSUYA NOMURA (SQUARE ENIX) was screened at Hatsune Miku Art Exhibition \"Universal Positivity\"@Wallplay (Oct.9th-Oct.19th), as a part of HATSUNE MIKU EXPO 2014 in New York.\n(Source: YouTube)",
+      "description": "A collaboration video of HATSUNE MIKU x TETSUYA NOMURA (SQUARE ENIX) was screened at Hatsune Miku Art Exhibition \"Universal Positivity\"@Wallplay (Oct.9th-Oct.19th), as a part of HATSUNE MIKU EXPO 2014 in New York.\n(Source: YouTube)",
       "coverImageTopOffset": 250,
       "titles": {
         "en_jp": "Hatsune Miku x Tetsuya Nomura",
@@ -17,81 +18,81 @@
       },
       "canonicalTitle": "Hatsune Miku x Tetsuya Nomura",
       "abbreviatedTitles": [],
-      "averageRating": "60.9",
+      "averageRating": "59.3",
       "ratingFrequencies": {
-        "2": "7",
+        "2": "13",
         "3": "0",
-        "4": "12",
+        "4": "17",
         "5": "0",
         "6": "21",
         "7": "0",
-        "8": "23",
+        "8": "28",
         "9": "1",
-        "10": "47",
+        "10": "64",
         "11": "0",
-        "12": "37",
-        "13": "2",
-        "14": "13",
+        "12": "58",
+        "13": "1",
+        "14": "19",
         "15": "0",
-        "16": "18",
+        "16": "21",
         "17": "0",
         "18": "9",
         "19": "0",
-        "20": "20"
+        "20": "22"
       },
-      "userCount": 269,
+      "userCount": 334,
       "favoritesCount": 2,
       "startDate": "2014-10-09",
       "endDate": "2014-10-09",
       "nextRelease": null,
-      "popularityRank": 7021,
-      "ratingRank": 7630,
+      "popularityRank": 7442,
+      "ratingRank": 9590,
       "ageRating": "G",
       "ageRatingGuide": "All Ages",
       "subtype": "special",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/10041/tiny.jpg?1417299390",
-        "small": "https://media.kitsu.io/anime/poster_images/10041/small.jpg?1417299390",
-        "medium": "https://media.kitsu.io/anime/poster_images/10041/medium.jpg?1417299390",
-        "large": "https://media.kitsu.io/anime/poster_images/10041/large.jpg?1417299390",
-        "original": "https://media.kitsu.io/anime/poster_images/10041/original.jpg?1417299390",
+        "tiny": "https://media.kitsu.io/anime/poster_images/10041/tiny.jpg?1597699126",
+        "small": "https://media.kitsu.io/anime/poster_images/10041/small.jpg?1597699126",
+        "medium": "https://media.kitsu.io/anime/poster_images/10041/medium.jpg?1597699126",
+        "large": "https://media.kitsu.io/anime/poster_images/10041/large.jpg?1597699126",
+        "original": "https://media.kitsu.io/anime/poster_images/10041/original.jpg?1597699126",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/10041/small.jpg",
-        "small": "https://media.kitsu.io/anime/cover_images/10041/small.jpg",
-        "large": "https://media.kitsu.io/anime/cover_images/10041/small.jpg",
-        "original": "https://media.kitsu.io/anime/cover_images/10041/original.jpg",
+        "tiny": "https://media.kitsu.io/anime/cover_images/10041/tiny.jpg?1597701703",
+        "small": "https://media.kitsu.io/anime/cover_images/10041/small.jpg?1597701703",
+        "large": "https://media.kitsu.io/anime/cover_images/10041/large.jpg?1597701703",
+        "original": "https://media.kitsu.io/anime/cover_images/10041/original.jpg?1597701703",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 840,
+              "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,

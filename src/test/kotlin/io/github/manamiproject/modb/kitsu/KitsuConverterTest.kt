@@ -75,15 +75,17 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 44019
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                            .copyTo(relationsDir.resolve("10104.${testKitsuConfig.fileSuffix()}"))
+                            .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("10104.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/episodes/null.json")
 
@@ -324,40 +326,6 @@ internal class KitsuConverterTest {
                     assertThat(result.type).isEqualTo(SPECIAL)
                 }
             }
-
-            @Test
-            fun `throw an exception in case there is a new unknown type`() {
-                tempDirectory {
-                    // given
-                    val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-                        override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
-                        override fun buildDataDownloadLink(id: String): URI = KitsuConfig.buildDataDownloadLink(id)
-                        override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
-                    }
-
-                    val relationsDir = tempDir.resolve("relations").createDirectory()
-
-                    testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("6266.${testKitsuConfig.fileSuffix()}"))
-
-                    val tagsDir = tempDir.resolve("tags").createDirectory()
-
-                    testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("6266.${testKitsuConfig.fileSuffix()}"))
-
-                    val testFileContent = loadTestResource("file_converter_tests/type/unknown.json")
-
-                    val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
-
-                    // when
-                    val result = assertThrows<IllegalStateException> {
-                        converter.convert(testFileContent)
-                    }
-
-                    // then
-                    assertThat(result).hasMessage("Unknown type [unknown]")
-                }
-            }
         }
 
         @Nested
@@ -424,8 +392,8 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/small.jpg?1564302504"))
-                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/tiny.jpg?1564302504"))
+                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/small.jpg?1597691689"))
+                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/tiny.jpg?1597691689"))
                 }
             }
         }
@@ -805,17 +773,19 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 12
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("10104.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/status/current.json")
 
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("10104.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -837,17 +807,19 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 13240
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("41450.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/status/unreleased.json")
 
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("41450.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -869,17 +841,19 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 12509
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("42006.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/status/upcoming.json")
 
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("42006.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -901,15 +875,17 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 4278
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("10023.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("10023.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/status/tba.json")
 
@@ -952,40 +928,6 @@ internal class KitsuConverterTest {
 
                     // then
                     assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
-                }
-            }
-
-            @Test
-            fun `throws an exception if the status is not mapped`() {
-                tempDirectory {
-                    // given
-                    val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-                        override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
-                        override fun buildDataDownloadLink(id: String): URI = KitsuConfig.buildDataDownloadLink(id)
-                        override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
-                    }
-
-                    val relationsDir = tempDir.resolve("relations").createDirectory()
-
-                    testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("10.${testKitsuConfig.fileSuffix()}"))
-
-                    val testFileContent = loadTestResource("file_converter_tests/status/not_mapped.json")
-
-                    val tagsDir = tempDir.resolve("tags").createDirectory()
-
-                    testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("10.${testKitsuConfig.fileSuffix()}"))
-
-                    val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
-
-                    // when
-                    val result = assertThrows<IllegalStateException> {
-                        converter.convert(testFileContent)
-                    }
-
-                    // then
-                    assertThat(result).hasMessage("Unknown status [something else]")
                 }
             }
         }
@@ -1248,16 +1190,19 @@ internal class KitsuConverterTest {
                             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                         }
 
+                        val id = 10613
+
                         val relationsDir = tempDir.resolve("relations").createDirectory()
 
-                        testResource("file_converter_tests/no_adaption_no_relations_default_file.json").copyTo(relationsDir.resolve("10023.${testKitsuConfig.fileSuffix()}"))
+                        testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
+                            .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                         val testFileContent = loadTestResource("file_converter_tests/anime_season/null.json")
 
                         val tagsDir = tempDir.resolve("tags").createDirectory()
 
                         testResource("file_converter_tests/no_tags_default_file.json")
-                            .copyTo(tagsDir.resolve("10023.${testKitsuConfig.fileSuffix()}"))
+                            .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                         val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 

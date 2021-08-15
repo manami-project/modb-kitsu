@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2014-10-03T08:21:44.676Z",
-      "updatedAt": "2020-07-10T06:00:20.610Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "shin-chan-no-sanrinsha",
       "synopsis": "The story about a real life 3 year old boy named Shin-chan burned by the atomic bomb when riding his tricycle. He died later that night and his burnt tricycle is displayed at war museum. ",
+      "description": "The story about a real life 3 year old boy named Shin-chan burned by the atomic bomb when riding his tricycle. He died later that night and his burnt tricycle is displayed at war museum. ",
       "coverImageTopOffset": 0,
       "titles": {
         "en": null,
@@ -17,7 +18,7 @@
         "ja_jp": null
       },
       "canonicalTitle": "Shin-chan no Sanrinsha",
-      "abbreviatedTitles": null,
+      "abbreviatedTitles": [],
       "averageRating": null,
       "ratingFrequencies": {
         "2": "0",
@@ -30,7 +31,7 @@
         "9": "0",
         "10": "0",
         "11": "0",
-        "12": "1",
+        "12": "2",
         "13": "0",
         "14": "2",
         "15": "0",
@@ -40,12 +41,12 @@
         "19": "0",
         "20": "1"
       },
-      "userCount": 29,
+      "userCount": 30,
       "favoritesCount": 0,
       "startDate": null,
       "endDate": null,
       "nextRelease": null,
-      "popularityRank": 14304,
+      "popularityRank": 14707,
       "ratingRank": null,
       "ageRating": "G",
       "ageRatingGuide": "All Ages",
@@ -53,28 +54,28 @@
       "status": "tba",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/9587/tiny.jpg?1412324503",
-        "small": "https://media.kitsu.io/anime/poster_images/9587/small.jpg?1412324503",
-        "medium": "https://media.kitsu.io/anime/poster_images/9587/medium.jpg?1412324503",
-        "large": "https://media.kitsu.io/anime/poster_images/9587/large.jpg?1412324503",
-        "original": "https://media.kitsu.io/anime/poster_images/9587/original.jpg?1412324503",
+        "tiny": "https://media.kitsu.io/anime/poster_images/9587/tiny.jpg?1597691211",
+        "small": "https://media.kitsu.io/anime/poster_images/9587/small.jpg?1597691211",
+        "medium": "https://media.kitsu.io/anime/poster_images/9587/medium.jpg?1597691211",
+        "large": "https://media.kitsu.io/anime/poster_images/9587/large.jpg?1597691211",
+        "original": "https://media.kitsu.io/anime/poster_images/9587/original.jpg?1597691211",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }

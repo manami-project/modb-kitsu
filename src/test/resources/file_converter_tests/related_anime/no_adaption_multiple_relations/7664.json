@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-04-27T14:42:02.259Z",
-      "updatedAt": "2019-10-27T18:00:06.186Z",
+      "updatedAt": "2021-08-15T14:11:32.055Z",
       "slug": "free",
-      "synopsis": "Haruka Nanase has a love for water and a passion for swimming. In elementary school, he competed in and won a relay race with his three friends Rin Matsuoka, Nagisa Hazuki, and Makoto Tachibana. After claiming victory at the tournament, the four friends went their separate ways. Years later, they reunite as high school students; however, Rin couldn't care less about returning to the way things used to be. Not only does he attend a different school, but the sole thing important to him is proving that he is a better swimmer than Haruka.\r\nAfter the bitter reunion, Haruka, Nagisa, and Makoto decide to form the Iwatobi High School Swim Club, but they will need a fourth member if they hope to take part in the upcoming tournament. Enter Rei Ryuugazaki, a former member of the track team whom Nagisa recruits. As the time to compete draws near, the four develop a close bond while training intensely to come out on top and settle things between Haruka and Rin once and for all.\r\n[Written by MAL Rewrite]",
+      "synopsis": "Haruka Nanase has a love for water and a passion for swimming. In elementary school, he competed in and won a relay race with his three friends Rin Matsuoka, Nagisa Hazuki, and Makoto Tachibana. After claiming victory at the tournament, the four friends went their separate ways. Years later, they reunite as high school students; however, Rin couldn't care less about returning to the way things used to be. Not only does he attend a different school, but the sole thing important to him is proving that he is a better swimmer than Haruka.\nAfter the bitter reunion, Haruka, Nagisa, and Makoto decide to form the Iwatobi High School Swim Club, but they will need a fourth member if they hope to take part in the upcoming tournament. Enter Rei Ryuugazaki, a former member of the track team whom Nagisa recruits. As the time to compete draws near, the four develop a close bond while training intensely to come out on top and settle things between Haruka and Rin once and for all.\n[Written by MAL Rewrite]",
+      "description": "Haruka Nanase has a love for water and a passion for swimming. In elementary school, he competed in and won a relay race with his three friends Rin Matsuoka, Nagisa Hazuki, and Makoto Tachibana. After claiming victory at the tournament, the four friends went their separate ways. Years later, they reunite as high school students; however, Rin couldn't care less about returning to the way things used to be. Not only does he attend a different school, but the sole thing important to him is proving that he is a better swimmer than Haruka.\nAfter the bitter reunion, Haruka, Nagisa, and Makoto decide to form the Iwatobi High School Swim Club, but they will need a fourth member if they hope to take part in the upcoming tournament. Enter Rei Ryuugazaki, a former member of the track team whom Nagisa recruits. As the time to compete draws near, the four develop a close bond while training intensely to come out on top and settle things between Haruka and Rin once and for all.\n[Written by MAL Rewrite]",
       "coverImageTopOffset": 160,
       "titles": {
         "en": "Free! - Iwatobi Swim Club",
@@ -21,72 +22,72 @@
       "abbreviatedTitles": [
         "フリー！"
       ],
-      "averageRating": "75.34",
+      "averageRating": "74.88",
       "ratingFrequencies": {
-        "2": "167",
-        "3": "4",
-        "4": "144",
-        "5": "2",
-        "6": "176",
-        "7": "3",
-        "8": "692",
-        "9": "20",
-        "10": "993",
-        "11": "25",
-        "12": "2307",
-        "13": "74",
-        "14": "4431",
-        "15": "91",
-        "16": "3289",
-        "17": "83",
-        "18": "1654",
-        "19": "27",
-        "20": "3755"
+        "2": "223",
+        "3": "7",
+        "4": "176",
+        "5": "7",
+        "6": "256",
+        "7": "7",
+        "8": "1052",
+        "9": "37",
+        "10": "1420",
+        "11": "57",
+        "12": "3018",
+        "13": "117",
+        "14": "6513",
+        "15": "207",
+        "16": "4255",
+        "17": "171",
+        "18": "2121",
+        "19": "65",
+        "20": "4979"
       },
-      "userCount": 33950,
-      "favoritesCount": 892,
+      "userCount": 42658,
+      "favoritesCount": 954,
       "startDate": "2013-07-04",
       "endDate": "2013-09-26",
       "nextRelease": null,
-      "popularityRank": 184,
-      "ratingRank": 1505,
+      "popularityRank": 196,
+      "ratingRank": 1888,
       "ageRating": "PG",
       "ageRatingGuide": "Teens 13 or older",
       "subtype": "TV",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/7664/tiny.jpg?1410644123",
-        "small": "https://media.kitsu.io/anime/poster_images/7664/small.jpg?1410644123",
-        "medium": "https://media.kitsu.io/anime/poster_images/7664/medium.jpg?1410644123",
-        "large": "https://media.kitsu.io/anime/poster_images/7664/large.jpg?1410644123",
-        "original": "https://media.kitsu.io/anime/poster_images/7664/original.png?1410644123",
+        "tiny": "https://media.kitsu.io/anime/poster_images/7664/tiny.jpg?1597696571",
+        "small": "https://media.kitsu.io/anime/poster_images/7664/small.jpg?1597696571",
+        "medium": "https://media.kitsu.io/anime/poster_images/7664/medium.jpg?1597696571",
+        "large": "https://media.kitsu.io/anime/poster_images/7664/large.jpg?1597696571",
+        "original": "https://media.kitsu.io/anime/poster_images/7664/original.png?1597696571",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/7664/tiny.jpg?1519183404",
-        "small": "https://media.kitsu.io/anime/cover_images/7664/small.jpg?1519183404",
-        "large": "https://media.kitsu.io/anime/cover_images/7664/large.jpg?1519183404",
-        "original": "https://media.kitsu.io/anime/cover_images/7664/original.jpg?1519183404",
+        "tiny": "https://media.kitsu.io/anime/cover_images/7664/tiny.jpg?1597702081",
+        "small": "https://media.kitsu.io/anime/cover_images/7664/small.jpg?1597702081",
+        "large": "https://media.kitsu.io/anime/cover_images/7664/large.jpg?1597702081",
+        "original": "https://media.kitsu.io/anime/cover_images/7664/original.jpg?1597702081",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -94,8 +95,8 @@
               "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,

@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2018-12-04T01:08:23.606Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "re-zero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna",
-      "synopsis": "During the Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow OVA pre-screening event, it was announced that Re:Zero franchise will get another OVA. It will adapt the prequel novel \"Hyouketsu no Kizuna\" which was included in first Blu-ray and DVD volume of the TV series. The episode will revolve around Emilia and her meeting with Pack during the journey to Roswaal Mansion to be a candidate for the royal election.\r\n\r\n(Source: MAL News)",
+      "synopsis": "During the Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow OVA pre-screening event, it was announced that Re:Zero franchise will get another OVA. It will adapt the prequel novel \"Hyouketsu no Kizuna\" which was included in first Blu-ray and DVD volume of the TV series. The episode will revolve around Emilia and her meeting with Pack during the journey to Roswaal Mansion to be a candidate for the royal election.\n\n(Source: MAL News)",
+      "description": "During the Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow OVA pre-screening event, it was announced that Re:Zero franchise will get another OVA. It will adapt the prequel novel \"Hyouketsu no Kizuna\" which was included in first Blu-ray and DVD volume of the TV series. The episode will revolve around Emilia and her meeting with Pack during the journey to Roswaal Mansion to be a candidate for the royal election.\n\n(Source: MAL News)",
       "coverImageTopOffset": 0,
       "titles": {
         "en": "Re:ZERO: -Starting Life in Another World- Frozen Bonds",
@@ -20,36 +21,44 @@
       "abbreviatedTitles": [
         "Re:Zero kara Hajimeru Isekai Seikatsu OVA 2"
       ],
-      "averageRating": null,
+      "averageRating": "77.54",
       "ratingFrequencies": {
-        "8": "1",
-        "11": "0",
-        "13": "1",
-        "14": "5",
-        "15": "-3",
-        "16": "1",
-        "17": "1",
-        "18": "1",
-        "20": "14"
+        "2": "20",
+        "4": "5",
+        "6": "7",
+        "7": "1",
+        "8": "50",
+        "9": "3",
+        "10": "82",
+        "11": "6",
+        "12": "176",
+        "13": "22",
+        "14": "637",
+        "15": "76",
+        "16": "569",
+        "17": "77",
+        "18": "244",
+        "19": "29",
+        "20": "398"
       },
-      "userCount": 1707,
-      "favoritesCount": 6,
+      "userCount": 5306,
+      "favoritesCount": 18,
       "startDate": "2019-11-08",
       "endDate": "2019-11-08",
       "nextRelease": null,
-      "popularityRank": 3271,
-      "ratingRank": null,
+      "popularityRank": 1959,
+      "ratingRank": 1078,
       "ageRating": "PG",
       "ageRatingGuide": "Teens 13 or older",
       "subtype": "OVA",
-      "status": "upcoming",
-      "tba": "",
+      "status": "finished",
+      "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/42006/tiny.jpg?1564302504",
-        "small": "https://media.kitsu.io/anime/poster_images/42006/small.jpg?1564302504",
-        "medium": "https://media.kitsu.io/anime/poster_images/42006/medium.jpg?1564302504",
-        "large": "https://media.kitsu.io/anime/poster_images/42006/large.jpg?1564302504",
-        "original": "https://media.kitsu.io/anime/poster_images/42006/original.jpg?1564302504",
+        "tiny": "https://media.kitsu.io/anime/poster_images/42006/tiny.jpg?1597691689",
+        "small": "https://media.kitsu.io/anime/poster_images/42006/small.jpg?1597691689",
+        "medium": "https://media.kitsu.io/anime/poster_images/42006/medium.jpg?1597691689",
+        "large": "https://media.kitsu.io/anime/poster_images/42006/large.jpg?1597691689",
+        "original": "https://media.kitsu.io/anime/poster_images/42006/original.jpg?1597691689",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -71,11 +80,32 @@
           }
         }
       },
-      "coverImage": null,
+      "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/42006/tiny.jpg?1612926982",
+        "small": "https://media.kitsu.io/anime/cover_images/42006/small.jpg?1612926982",
+        "large": "https://media.kitsu.io/anime/cover_images/42006/large.jpg?1612926982",
+        "original": "https://media.kitsu.io/anime/cover_images/42006/original.jpg?1612926982",
+        "meta": {
+          "dimensions": {
+            "tiny": {
+              "width": 840,
+              "height": 200
+            },
+            "small": {
+              "width": 1680,
+              "height": 400
+            },
+            "large": {
+              "width": 3360,
+              "height": 800
+            }
+          }
+        }
+      },
       "episodeCount": 1,
-      "episodeLength": null,
-      "totalLength": null,
-      "youtubeVideoId": "W9GlqC9BA6w",
+      "episodeLength": 80,
+      "totalLength": 80,
+      "youtubeVideoId": "CLFUEr2NV7I",
       "showType": "OVA",
       "nsfw": false
     },

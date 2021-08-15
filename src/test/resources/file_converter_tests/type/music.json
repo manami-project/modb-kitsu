@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2016-01-29T01:38:46.967Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "nirvana",
-      "synopsis": "Music video bundled with the limited edition of the Noragami Aragoto ED single. \r\n(Source: AniDB)",
+      "synopsis": "Music video bundled with the limited edition of the Noragami Aragoto ED single. \n(Source: AniDB)",
+      "description": "Music video bundled with the limited edition of the Noragami Aragoto ED single. \n(Source: AniDB)",
       "coverImageTopOffset": 300,
       "titles": {
         "en_jp": "Nirvana",
@@ -20,81 +21,81 @@
         "Nirubana",
         "Noragami Aragoto ED"
       ],
-      "averageRating": "69.12",
+      "averageRating": "68.12",
       "ratingFrequencies": {
         "2": "2",
         "3": "1",
-        "4": "1",
+        "4": "4",
         "5": "0",
-        "6": "4",
+        "6": "5",
         "7": "0",
-        "8": "9",
+        "8": "13",
         "9": "1",
-        "10": "38",
+        "10": "69",
         "11": "1",
-        "12": "47",
-        "13": "2",
-        "14": "77",
-        "15": "0",
-        "16": "25",
+        "12": "71",
+        "13": "4",
+        "14": "117",
+        "15": "1",
+        "16": "33",
         "17": "0",
-        "18": "16",
-        "19": "0",
-        "20": "21"
+        "18": "23",
+        "19": "1",
+        "20": "30"
       },
-      "userCount": 455,
+      "userCount": 613,
       "favoritesCount": 0,
       "startDate": "2015-11-25",
       "endDate": "2015-11-25",
       "nextRelease": null,
-      "popularityRank": 5742,
-      "ratingRank": 4163,
+      "popularityRank": 5835,
+      "ratingRank": 5326,
       "ageRating": "G",
       "ageRatingGuide": "All Ages",
       "subtype": "music",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/11791/tiny.jpg?1454031522",
-        "small": "https://media.kitsu.io/anime/poster_images/11791/small.jpg?1454031522",
-        "medium": "https://media.kitsu.io/anime/poster_images/11791/medium.jpg?1454031522",
-        "large": "https://media.kitsu.io/anime/poster_images/11791/large.jpg?1454031522",
-        "original": "https://media.kitsu.io/anime/poster_images/11791/original.jpg?1454031522",
+        "tiny": "https://media.kitsu.io/anime/poster_images/11791/tiny.jpg?1597698445",
+        "small": "https://media.kitsu.io/anime/poster_images/11791/small.jpg?1597698445",
+        "medium": "https://media.kitsu.io/anime/poster_images/11791/medium.jpg?1597698445",
+        "large": "https://media.kitsu.io/anime/poster_images/11791/large.jpg?1597698445",
+        "original": "https://media.kitsu.io/anime/poster_images/11791/original.jpg?1597698445",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/11791/small.jpg",
-        "small": "https://media.kitsu.io/anime/cover_images/11791/small.jpg",
-        "large": "https://media.kitsu.io/anime/cover_images/11791/small.jpg",
-        "original": "https://media.kitsu.io/anime/cover_images/11791/original.jpg",
+        "tiny": "https://media.kitsu.io/anime/cover_images/11791/tiny.jpg?1597701210",
+        "small": "https://media.kitsu.io/anime/cover_images/11791/small.jpg?1597701210",
+        "large": "https://media.kitsu.io/anime/cover_images/11791/large.jpg?1597701210",
+        "original": "https://media.kitsu.io/anime/cover_images/11791/original.jpg?1597701210",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 840,
+              "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,

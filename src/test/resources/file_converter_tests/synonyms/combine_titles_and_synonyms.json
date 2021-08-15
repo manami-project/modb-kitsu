@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2017-03-20T04:44:42.198Z",
-      "updatedAt": "2019-10-11T15:51:43.188Z",
+      "updatedAt": "2021-08-15T14:16:08.376Z",
       "slug": "mahoutsukai-no-yome",
-      "synopsis": "Hatori Chise has lived a life full of neglect and abuse, devoid of anything resembling love. Far from the warmth of family, she has had her share of troubles and pitfalls. Just when all hope seems lost, a fateful encounter awaits her. When a man with the head of a beast, wielding strange powers, obtains her through a slave auction, Chise's life will never be the same again. The man is a \"magus,\"a sorcerer of great power, who decides to free Chise from the bonds of captivity. The magus then makes a bold statement: Chise will become his apprentice--and his bride! \r\n\r\n(Source: Crunchyroll)",
+      "synopsis": "Hatori Chise has lived a life full of neglect and abuse, devoid of anything resembling love. Far from the warmth of family, she has had her share of troubles and pitfalls. Just when all hope seems lost, a fateful encounter awaits her. When a man with the head of a beast, wielding strange powers, obtains her through a slave auction, Chise's life will never be the same again. The man is a \"magus,\"a sorcerer of great power, who decides to free Chise from the bonds of captivity. The magus then makes a bold statement: Chise will become his apprentice--and his bride! \n\n(Source: Crunchyroll)",
+      "description": "Hatori Chise has lived a life full of neglect and abuse, devoid of anything resembling love. Far from the warmth of family, she has had her share of troubles and pitfalls. Just when all hope seems lost, a fateful encounter awaits her. When a man with the head of a beast, wielding strange powers, obtains her through a slave auction, Chise's life will never be the same again. The man is a \"magus,\"a sorcerer of great power, who decides to free Chise from the bonds of captivity. The magus then makes a bold statement: Chise will become his apprentice--and his bride! \n\n(Source: Crunchyroll)",
       "coverImageTopOffset": 0,
       "titles": {
         "en": "The Ancient Magus' Bride",
@@ -24,72 +25,72 @@
         "MahoYome",
         "まほよめ"
       ],
-      "averageRating": "82.92",
+      "averageRating": "81.94",
       "ratingFrequencies": {
-        "2": "263",
-        "3": "5",
-        "4": "29",
-        "5": "9",
-        "6": "55",
-        "7": "6",
-        "8": "543",
-        "9": "29",
-        "10": "279",
-        "11": "51",
-        "12": "565",
-        "13": "118",
-        "14": "2676",
-        "15": "243",
-        "16": "2446",
-        "17": "400",
-        "18": "1960",
-        "19": "210",
-        "20": "6109"
+        "2": "498",
+        "3": "9",
+        "4": "58",
+        "5": "17",
+        "6": "95",
+        "7": "15",
+        "8": "959",
+        "9": "43",
+        "10": "510",
+        "11": "75",
+        "12": "1045",
+        "13": "184",
+        "14": "4416",
+        "15": "357",
+        "16": "3809",
+        "17": "574",
+        "18": "2941",
+        "19": "296",
+        "20": "9347"
       },
-      "userCount": 41774,
-      "favoritesCount": 551,
+      "userCount": 56184,
+      "favoritesCount": 655,
       "startDate": "2017-10-08",
       "endDate": "2018-03-24",
       "nextRelease": null,
-      "popularityRank": 130,
-      "ratingRank": 117,
+      "popularityRank": 133,
+      "ratingRank": 250,
       "ageRating": "PG",
       "ageRatingGuide": "Teens 13 or older",
       "subtype": "TV",
       "status": "finished",
       "tba": "",
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/13228/tiny.jpg?1506420117",
-        "small": "https://media.kitsu.io/anime/poster_images/13228/small.jpg?1506420117",
-        "medium": "https://media.kitsu.io/anime/poster_images/13228/medium.jpg?1506420117",
-        "large": "https://media.kitsu.io/anime/poster_images/13228/large.jpg?1506420117",
-        "original": "https://media.kitsu.io/anime/poster_images/13228/original.jpg?1506420117",
+        "tiny": "https://media.kitsu.io/anime/poster_images/13228/tiny.jpg?1597696802",
+        "small": "https://media.kitsu.io/anime/poster_images/13228/small.jpg?1597696802",
+        "medium": "https://media.kitsu.io/anime/poster_images/13228/medium.jpg?1597696802",
+        "large": "https://media.kitsu.io/anime/poster_images/13228/large.jpg?1597696802",
+        "original": "https://media.kitsu.io/anime/poster_images/13228/original.jpg?1597696802",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/13228/tiny.jpg?1519181096",
-        "small": "https://media.kitsu.io/anime/cover_images/13228/small.jpg?1519181096",
-        "large": "https://media.kitsu.io/anime/cover_images/13228/large.jpg?1519181096",
-        "original": "https://media.kitsu.io/anime/cover_images/13228/original.png?1519181096",
+        "tiny": "https://media.kitsu.io/anime/cover_images/13228/tiny.jpg?1597702280",
+        "small": "https://media.kitsu.io/anime/cover_images/13228/small.jpg?1597702280",
+        "large": "https://media.kitsu.io/anime/cover_images/13228/large.jpg?1597702280",
+        "original": "https://media.kitsu.io/anime/cover_images/13228/original.png?1597702280",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -97,8 +98,8 @@
               "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1391,
+              "height": 400
             },
             "large": {
               "width": 2781,

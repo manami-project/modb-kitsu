@@ -190,9 +190,10 @@
       },
       "attributes": {
         "createdAt": "2014-01-27T00:05:51.534Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T14:10:40.566Z",
         "slug": "free-eternal-summer",
         "synopsis": "The Iwatobi Swim Club returns!  As their third year begins, Haruka, Makoto and Rin are still swimming strong, but choosing plans for their futures loom, and as friends both new and old make their way into the picture, rivalries will take root once again. Will the team make it out stronger than before or sink under pressure?",
+        "description": "The Iwatobi Swim Club returns!  As their third year begins, Haruka, Makoto and Rin are still swimming strong, but choosing plans for their futures loom, and as friends both new and old make their way into the picture, rivalries will take root once again. Will the team make it out stronger than before or sink under pressure?",
         "coverImageTopOffset": 180,
         "titles": {
           "en": "Free! - Eternal Summer",
@@ -205,72 +206,72 @@
           "Free! - Iwatobi Swim Club 2",
           "Free! 2nd Season"
         ],
-        "averageRating": "78.96",
+        "averageRating": "78.44",
         "ratingFrequencies": {
-          "2": "66",
+          "2": "92",
           "3": "2",
-          "4": "38",
-          "5": "5",
-          "6": "79",
-          "7": "2",
-          "8": "276",
-          "9": "7",
-          "10": "383",
-          "11": "7",
-          "12": "1002",
-          "13": "46",
-          "14": "2184",
-          "15": "65",
-          "16": "1949",
-          "17": "65",
-          "18": "1141",
-          "19": "23",
-          "20": "2711"
+          "4": "56",
+          "5": "7",
+          "6": "107",
+          "7": "8",
+          "8": "393",
+          "9": "12",
+          "10": "551",
+          "11": "16",
+          "12": "1325",
+          "13": "74",
+          "14": "3316",
+          "15": "136",
+          "16": "2623",
+          "17": "115",
+          "18": "1470",
+          "19": "42",
+          "20": "3594"
         },
-        "userCount": 19722,
-        "favoritesCount": 411,
+        "userCount": 24406,
+        "favoritesCount": 422,
         "startDate": "2014-07-03",
         "endDate": "2014-09-25",
         "nextRelease": null,
-        "popularityRank": 431,
-        "ratingRank": 722,
+        "popularityRank": 436,
+        "ratingRank": 898,
         "ageRating": "PG",
         "ageRatingGuide": "Teens 13 or older",
         "subtype": "TV",
         "status": "finished",
         "tba": null,
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/8273/tiny.jpg?1408464023",
-          "small": "https://media.kitsu.io/anime/poster_images/8273/small.jpg?1408464023",
-          "medium": "https://media.kitsu.io/anime/poster_images/8273/medium.jpg?1408464023",
-          "large": "https://media.kitsu.io/anime/poster_images/8273/large.jpg?1408464023",
-          "original": "https://media.kitsu.io/anime/poster_images/8273/original.png?1408464023",
+          "tiny": "https://media.kitsu.io/anime/poster_images/8273/tiny.jpg?1597696571",
+          "small": "https://media.kitsu.io/anime/poster_images/8273/small.jpg?1597696571",
+          "medium": "https://media.kitsu.io/anime/poster_images/8273/medium.jpg?1597696571",
+          "large": "https://media.kitsu.io/anime/poster_images/8273/large.jpg?1597696571",
+          "original": "https://media.kitsu.io/anime/poster_images/8273/original.png?1597696571",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/8273/tiny.jpg?1519183576",
-          "small": "https://media.kitsu.io/anime/cover_images/8273/small.jpg?1519183576",
-          "large": "https://media.kitsu.io/anime/cover_images/8273/large.jpg?1519183576",
-          "original": "https://media.kitsu.io/anime/cover_images/8273/original.jpg?1519183576",
+          "tiny": "https://media.kitsu.io/anime/cover_images/8273/tiny.jpg?1597702959",
+          "small": "https://media.kitsu.io/anime/cover_images/8273/small.jpg?1597702959",
+          "large": "https://media.kitsu.io/anime/cover_images/8273/large.jpg?1597702959",
+          "original": "https://media.kitsu.io/anime/cover_images/8273/original.jpg?1597702959",
           "meta": {
             "dimensions": {
               "tiny": {
@@ -278,8 +279,8 @@
                 "height": 200
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 1680,
+                "height": 400
               },
               "large": {
                 "width": 3360,
@@ -289,7 +290,7 @@
           }
         },
         "episodeCount": 13,
-        "episodeLength": null,
+        "episodeLength": 24,
         "totalLength": 308,
         "youtubeVideoId": "tTRUFbOiwME",
         "showType": "TV",
@@ -402,9 +403,10 @@
       },
       "attributes": {
         "createdAt": "2015-03-23T06:26:06.164Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T14:14:27.098Z",
         "slug": "free-starting-days",
         "synopsis": "A prequel to the 2013 Kyoto Animation series Free! which is an adaptation of light novel High☆Speed!",
+        "description": "A prequel to the 2013 Kyoto Animation series Free! which is an adaptation of light novel High☆Speed!",
         "coverImageTopOffset": 139,
         "titles": {
           "en": "Free! Starting Days",
@@ -416,72 +418,72 @@
         "abbreviatedTitles": [
           "Free! Movie"
         ],
-        "averageRating": "81.72",
+        "averageRating": "81.84",
         "ratingFrequencies": {
-          "2": "110",
-          "3": "4",
-          "4": "7",
-          "5": "5",
-          "6": "11",
-          "7": "1",
-          "8": "115",
-          "9": "1",
-          "10": "72",
-          "11": "11",
-          "12": "153",
-          "13": "20",
-          "14": "591",
-          "15": "40",
-          "16": "421",
-          "17": "39",
-          "18": "277",
-          "19": "19",
-          "20": "1444"
+          "2": "198",
+          "3": "7",
+          "4": "12",
+          "5": "6",
+          "6": "26",
+          "7": "5",
+          "8": "197",
+          "9": "3",
+          "10": "123",
+          "11": "16",
+          "12": "244",
+          "13": "43",
+          "14": "1086",
+          "15": "72",
+          "16": "671",
+          "17": "63",
+          "18": "417",
+          "19": "37",
+          "20": "2613"
         },
-        "userCount": 8105,
-        "favoritesCount": 39,
+        "userCount": 11418,
+        "favoritesCount": 41,
         "startDate": "2015-12-05",
         "endDate": "2015-12-05",
         "nextRelease": null,
-        "popularityRank": 1131,
-        "ratingRank": 344,
+        "popularityRank": 1038,
+        "ratingRank": 273,
         "ageRating": "PG",
         "ageRatingGuide": "Teens 13 or older",
         "subtype": "movie",
         "status": "finished",
         "tba": "",
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/10761/tiny.jpg?1457833849",
-          "small": "https://media.kitsu.io/anime/poster_images/10761/small.jpg?1457833849",
-          "medium": "https://media.kitsu.io/anime/poster_images/10761/medium.jpg?1457833849",
-          "large": "https://media.kitsu.io/anime/poster_images/10761/large.jpg?1457833849",
-          "original": "https://media.kitsu.io/anime/poster_images/10761/original.jpg?1457833849",
+          "tiny": "https://media.kitsu.io/anime/poster_images/10761/tiny.jpg?1597696877",
+          "small": "https://media.kitsu.io/anime/poster_images/10761/small.jpg?1597696877",
+          "medium": "https://media.kitsu.io/anime/poster_images/10761/medium.jpg?1597696877",
+          "large": "https://media.kitsu.io/anime/poster_images/10761/large.jpg?1597696877",
+          "original": "https://media.kitsu.io/anime/poster_images/10761/original.jpg?1597696877",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/10761/tiny.jpg?1519183327",
-          "small": "https://media.kitsu.io/anime/cover_images/10761/small.jpg?1519183327",
-          "large": "https://media.kitsu.io/anime/cover_images/10761/large.jpg?1519183327",
-          "original": "https://media.kitsu.io/anime/cover_images/10761/original.png?1519183327",
+          "tiny": "https://media.kitsu.io/anime/cover_images/10761/tiny.jpg?1597702406",
+          "small": "https://media.kitsu.io/anime/cover_images/10761/small.jpg?1597702406",
+          "large": "https://media.kitsu.io/anime/cover_images/10761/large.jpg?1597702406",
+          "original": "https://media.kitsu.io/anime/cover_images/10761/original.png?1597702406",
           "meta": {
             "dimensions": {
               "tiny": {
@@ -489,8 +491,8 @@
                 "height": 200
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 1680,
+                "height": 400
               },
               "large": {
                 "width": 3360,
@@ -613,9 +615,10 @@
       },
       "attributes": {
         "createdAt": "2013-08-12T13:26:15.679Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T12:00:14.563Z",
         "slug": "free-specials",
         "synopsis": "Specials bundled with the DVD/BDs.",
+        "description": "Specials bundled with the DVD/BDs.",
         "coverImageTopOffset": 0,
         "titles": {
           "en_jp": "Free!: FrFr - Short Movie",
@@ -625,81 +628,81 @@
         "abbreviatedTitles": [
           "Free! Specials"
         ],
-        "averageRating": "75.64",
+        "averageRating": "76.01",
         "ratingFrequencies": {
-          "2": "19",
+          "2": "21",
           "3": "0",
           "4": "18",
-          "5": "0",
-          "6": "22",
+          "5": "1",
+          "6": "32",
           "7": "0",
-          "8": "56",
+          "8": "74",
           "9": "0",
-          "10": "127",
-          "11": "6",
-          "12": "234",
-          "13": "3",
-          "14": "528",
-          "15": "12",
-          "16": "351",
-          "17": "4",
-          "18": "154",
-          "19": "3",
-          "20": "451"
+          "10": "165",
+          "11": "9",
+          "12": "306",
+          "13": "7",
+          "14": "744",
+          "15": "19",
+          "16": "464",
+          "17": "13",
+          "18": "204",
+          "19": "7",
+          "20": "624"
         },
-        "userCount": 4358,
-        "favoritesCount": 34,
+        "userCount": 5318,
+        "favoritesCount": 37,
         "startDate": "2013-09-11",
         "endDate": "2014-01-08",
         "nextRelease": null,
-        "popularityRank": 1860,
-        "ratingRank": 1424,
+        "popularityRank": 1954,
+        "ratingRank": 1503,
         "ageRating": "PG",
         "ageRatingGuide": "Teens 13 or older",
         "subtype": "special",
         "status": "finished",
         "tba": null,
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/7913/tiny.jpg?1486237057",
-          "small": "https://media.kitsu.io/anime/poster_images/7913/small.jpg?1486237057",
-          "medium": "https://media.kitsu.io/anime/poster_images/7913/medium.jpg?1486237057",
-          "large": "https://media.kitsu.io/anime/poster_images/7913/large.jpg?1486237057",
-          "original": "https://media.kitsu.io/anime/poster_images/7913/original.jpg?1486237057",
+          "tiny": "https://media.kitsu.io/anime/poster_images/7913/tiny.jpg?1597697537",
+          "small": "https://media.kitsu.io/anime/poster_images/7913/small.jpg?1597697537",
+          "medium": "https://media.kitsu.io/anime/poster_images/7913/medium.jpg?1597697537",
+          "large": "https://media.kitsu.io/anime/poster_images/7913/large.jpg?1597697537",
+          "original": "https://media.kitsu.io/anime/poster_images/7913/original.jpg?1597697537",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/7913/small.jpg",
-          "small": "https://media.kitsu.io/anime/cover_images/7913/small.jpg",
-          "large": "https://media.kitsu.io/anime/cover_images/7913/small.jpg",
-          "original": "https://media.kitsu.io/anime/cover_images/7913/original.jpg",
+          "tiny": "https://media.kitsu.io/anime/cover_images/7913/tiny.jpg?1597703047",
+          "small": "https://media.kitsu.io/anime/cover_images/7913/small.jpg?1597703047",
+          "large": "https://media.kitsu.io/anime/cover_images/7913/large.jpg?1597703047",
+          "original": "https://media.kitsu.io/anime/cover_images/7913/original.jpg?1597703047",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 840,
+                "height": 200
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 1680,
+                "height": 400
               },
               "large": {
                 "width": 3360,
@@ -822,9 +825,10 @@
       },
       "attributes": {
         "createdAt": "2013-05-26T15:21:42.737Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T12:00:14.563Z",
         "slug": "kyoto-animation-suiei-hen",
         "synopsis": "Kyoto Animation commercial that aired during episode 10 of Tamako Market.",
+        "description": "Kyoto Animation commercial that aired during episode 10 of Tamako Market.",
         "coverImageTopOffset": 100,
         "titles": {
           "en": "Swimming",
@@ -836,72 +840,72 @@
         "abbreviatedTitles": [
           "Kyoto Animation CM: Suiei-hen"
         ],
-        "averageRating": "66.6",
+        "averageRating": "65.99",
         "ratingFrequencies": {
-          "2": "41",
+          "2": "46",
           "3": "0",
-          "4": "31",
-          "5": "0",
-          "6": "32",
+          "4": "33",
+          "5": "1",
+          "6": "40",
           "7": "0",
-          "8": "71",
+          "8": "96",
           "9": "0",
-          "10": "178",
+          "10": "210",
           "11": "0",
-          "12": "210",
+          "12": "283",
           "13": "3",
-          "14": "193",
+          "14": "238",
           "15": "1",
-          "16": "130",
+          "16": "157",
           "17": "0",
-          "18": "66",
+          "18": "80",
           "19": "1",
-          "20": "176"
+          "20": "189"
         },
-        "userCount": 1813,
+        "userCount": 2053,
         "favoritesCount": 6,
         "startDate": "2013-03-07",
         "endDate": "2013-03-07",
         "nextRelease": null,
-        "popularityRank": 3190,
-        "ratingRank": 5483,
+        "popularityRank": 3475,
+        "ratingRank": 6630,
         "ageRating": "G",
         "ageRatingGuide": "All Ages",
         "subtype": "special",
         "status": "finished",
         "tba": "",
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/7742/tiny.jpg?1410538302",
-          "small": "https://media.kitsu.io/anime/poster_images/7742/small.jpg?1410538302",
-          "medium": "https://media.kitsu.io/anime/poster_images/7742/medium.jpg?1410538302",
-          "large": "https://media.kitsu.io/anime/poster_images/7742/large.jpg?1410538302",
-          "original": "https://media.kitsu.io/anime/poster_images/7742/original.png?1410538302",
+          "tiny": "https://media.kitsu.io/anime/poster_images/7742/tiny.jpg?1597698744",
+          "small": "https://media.kitsu.io/anime/poster_images/7742/small.jpg?1597698744",
+          "medium": "https://media.kitsu.io/anime/poster_images/7742/medium.jpg?1597698744",
+          "large": "https://media.kitsu.io/anime/poster_images/7742/large.jpg?1597698744",
+          "original": "https://media.kitsu.io/anime/poster_images/7742/original.png?1597698744",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/7742/tiny.jpg?1519184213",
-          "small": "https://media.kitsu.io/anime/cover_images/7742/small.jpg?1519184213",
-          "large": "https://media.kitsu.io/anime/cover_images/7742/large.jpg?1519184213",
-          "original": "https://media.kitsu.io/anime/cover_images/7742/original.jpg?1519184213",
+          "tiny": "https://media.kitsu.io/anime/cover_images/7742/tiny.jpg?1597701423",
+          "small": "https://media.kitsu.io/anime/cover_images/7742/small.jpg?1597701423",
+          "large": "https://media.kitsu.io/anime/cover_images/7742/large.jpg?1597701423",
+          "original": "https://media.kitsu.io/anime/cover_images/7742/original.jpg?1597701423",
           "meta": {
             "dimensions": {
               "tiny": {
@@ -909,8 +913,8 @@
                 "height": 200
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 1680,
+                "height": 400
               },
               "large": {
                 "width": 3360,
@@ -1033,9 +1037,10 @@
       },
       "attributes": {
         "createdAt": "2016-09-19T14:30:40.158Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T14:14:29.340Z",
         "slug": "free-take-your-marks",
-        "synopsis": "A special sequel anime for Free! to screen on October 28, 2017.\r\n\r\nTitles:\r\n#1: Unmei no Choice! (Destined Choice!)\r\n#2: Hiyu no Cooling Down! (Secret Hot Spring Cooling Down!)\r\n#3: Kessoku no Butterfly! (United Butterfly!)\r\n#4: Tabitachi no Eternal Blue! (Departing Eternal Blue!)",
+        "synopsis": "A special sequel anime for Free! to screen on October 28, 2017.\n\nTitles:\n#1: Unmei no Choice! (Destined Choice!)\n#2: Hiyu no Cooling Down! (Secret Hot Spring Cooling Down!)\n#3: Kessoku no Butterfly! (United Butterfly!)\n#4: Tabitachi no Eternal Blue! (Departing Eternal Blue!)",
+        "description": "A special sequel anime for Free! to screen on October 28, 2017.\n\nTitles:\n#1: Unmei no Choice! (Destined Choice!)\n#2: Hiyu no Cooling Down! (Secret Hot Spring Cooling Down!)\n#3: Kessoku no Butterfly! (United Butterfly!)\n#4: Tabitachi no Eternal Blue! (Departing Eternal Blue!)",
         "coverImageTopOffset": 0,
         "titles": {
           "en_jp": "Free!: Take Your Marks",
@@ -1044,72 +1049,72 @@
         },
         "canonicalTitle": "Free!: Take Your Marks",
         "abbreviatedTitles": [],
-        "averageRating": "82.24",
+        "averageRating": "81.88",
         "ratingFrequencies": {
-          "2": "72",
-          "3": "3",
-          "4": "3",
-          "5": "6",
-          "6": "5",
-          "7": "2",
-          "8": "68",
-          "9": "5",
-          "10": "26",
-          "11": "5",
-          "12": "49",
-          "13": "10",
-          "14": "351",
-          "15": "24",
-          "16": "136",
-          "17": "24",
-          "18": "72",
-          "19": "12",
-          "20": "907"
+          "2": "184",
+          "3": "4",
+          "4": "10",
+          "5": "8",
+          "6": "17",
+          "7": "5",
+          "8": "181",
+          "9": "8",
+          "10": "84",
+          "11": "13",
+          "12": "132",
+          "13": "21",
+          "14": "839",
+          "15": "58",
+          "16": "361",
+          "17": "53",
+          "18": "189",
+          "19": "24",
+          "20": "2182"
         },
-        "userCount": 4881,
-        "favoritesCount": 11,
+        "userCount": 8518,
+        "favoritesCount": 13,
         "startDate": "2017-10-28",
         "endDate": "2017-10-28",
         "nextRelease": null,
-        "popularityRank": 1729,
-        "ratingRank": 272,
+        "popularityRank": 1357,
+        "ratingRank": 264,
         "ageRating": "PG",
         "ageRatingGuide": "Teens 13 or older",
         "subtype": "special",
         "status": "finished",
         "tba": "",
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/12549/tiny.jpg?1501946330",
-          "small": "https://media.kitsu.io/anime/poster_images/12549/small.jpg?1501946330",
-          "medium": "https://media.kitsu.io/anime/poster_images/12549/medium.jpg?1501946330",
-          "large": "https://media.kitsu.io/anime/poster_images/12549/large.jpg?1501946330",
-          "original": "https://media.kitsu.io/anime/poster_images/12549/original.jpeg?1501946330",
+          "tiny": "https://media.kitsu.io/anime/poster_images/12549/tiny.jpg?1597696840",
+          "small": "https://media.kitsu.io/anime/poster_images/12549/small.jpg?1597696840",
+          "medium": "https://media.kitsu.io/anime/poster_images/12549/medium.jpg?1597696840",
+          "large": "https://media.kitsu.io/anime/poster_images/12549/large.jpg?1597696840",
+          "original": "https://media.kitsu.io/anime/poster_images/12549/original.jpeg?1597696840",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/12549/tiny.jpg?1519184950",
-          "small": "https://media.kitsu.io/anime/cover_images/12549/small.jpg?1519184950",
-          "large": "https://media.kitsu.io/anime/cover_images/12549/large.jpg?1519184950",
-          "original": "https://media.kitsu.io/anime/cover_images/12549/original.jpg?1519184950",
+          "tiny": "https://media.kitsu.io/anime/cover_images/12549/tiny.jpg?1597702369",
+          "small": "https://media.kitsu.io/anime/cover_images/12549/small.jpg?1597702369",
+          "large": "https://media.kitsu.io/anime/cover_images/12549/large.jpg?1597702369",
+          "original": "https://media.kitsu.io/anime/cover_images/12549/original.jpg?1597702369",
           "meta": {
             "dimensions": {
               "tiny": {
@@ -1117,8 +1122,8 @@
                 "height": 200
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 1680,
+                "height": 400
               },
               "large": {
                 "width": 3360,
@@ -1129,7 +1134,7 @@
         },
         "episodeCount": 4,
         "episodeLength": 26,
-        "totalLength": 161,
+        "totalLength": 104,
         "youtubeVideoId": "BZRWnpblbqk",
         "showType": "special",
         "nsfw": false
@@ -1241,9 +1246,10 @@
       },
       "attributes": {
         "createdAt": "2017-06-13T14:14:39.852Z",
-        "updatedAt": "2019-10-27T18:00:06.186Z",
+        "updatedAt": "2021-08-15T12:00:14.563Z",
         "slug": "free-timeless-melody-kizuna",
         "synopsis": "First part of Free!: Timeless Medley",
+        "description": "First part of Free!: Timeless Medley",
         "coverImageTopOffset": 0,
         "titles": {
           "en_jp": "Free! Movie 1: Timeless Medley - Kizuna",
@@ -1251,71 +1257,72 @@
         },
         "canonicalTitle": "Free! Movie 1: Timeless Medley - Kizuna",
         "abbreviatedTitles": [],
-        "averageRating": "81.99",
+        "averageRating": "81.7",
         "ratingFrequencies": {
-          "2": "57",
-          "3": "0",
-          "4": "6",
-          "5": "2",
-          "6": "4",
-          "8": "45",
-          "9": "3",
-          "10": "12",
-          "11": "3",
-          "12": "27",
-          "13": "4",
-          "14": "203",
-          "15": "9",
-          "16": "55",
-          "17": "8",
-          "18": "37",
-          "19": "5",
-          "20": "586"
+          "2": "198",
+          "3": "1",
+          "4": "12",
+          "5": "3",
+          "6": "18",
+          "7": "2",
+          "8": "191",
+          "9": "6",
+          "10": "45",
+          "11": "9",
+          "12": "106",
+          "13": "13",
+          "14": "641",
+          "15": "33",
+          "16": "161",
+          "17": "26",
+          "18": "108",
+          "19": "18",
+          "20": "1962"
         },
-        "userCount": 3001,
-        "favoritesCount": 5,
+        "userCount": 6541,
+        "favoritesCount": 7,
         "startDate": "2017-04-22",
         "endDate": "2017-04-22",
         "nextRelease": null,
-        "popularityRank": 2386,
-        "ratingRank": 295,
+        "popularityRank": 1690,
+        "ratingRank": 316,
         "ageRating": "PG",
-        "ageRatingGuide": "",
+        "ageRatingGuide": "Teens 13 or older",
         "subtype": "movie",
         "status": "finished",
-        "tba": "",
+        "tba": null,
         "posterImage": {
-          "tiny": "https://media.kitsu.io/anime/poster_images/13562/tiny.jpg?1497363278",
-          "small": "https://media.kitsu.io/anime/poster_images/13562/small.jpg?1497363278",
-          "medium": "https://media.kitsu.io/anime/poster_images/13562/medium.jpg?1497363278",
-          "large": "https://media.kitsu.io/anime/poster_images/13562/large.jpg?1497363278",
-          "original": "https://media.kitsu.io/anime/poster_images/13562/original.jpg?1497363278",
+          "tiny": "https://media.kitsu.io/anime/poster_images/13562/tiny.jpg?1597696841",
+          "small": "https://media.kitsu.io/anime/poster_images/13562/small.jpg?1597696841",
+          "medium": "https://media.kitsu.io/anime/poster_images/13562/medium.jpg?1597696841",
+          "large": "https://media.kitsu.io/anime/poster_images/13562/large.jpg?1597696841",
+          "original": "https://media.kitsu.io/anime/poster_images/13562/original.jpg?1597696841",
           "meta": {
             "dimensions": {
               "tiny": {
-                "width": null,
-                "height": null
+                "width": 110,
+                "height": 156
               },
               "small": {
-                "width": null,
-                "height": null
+                "width": 284,
+                "height": 402
               },
               "medium": {
-                "width": null,
-                "height": null
+                "width": 390,
+                "height": 554
               },
               "large": {
-                "width": null,
-                "height": null
+                "width": 550,
+                "height": 780
               }
             }
           }
         },
         "coverImage": {
-          "tiny": "https://media.kitsu.io/anime/cover_images/13562/tiny.jpg?1569985578",
-          "small": "https://media.kitsu.io/anime/cover_images/13562/small.jpg?1569985578",
-          "large": "https://media.kitsu.io/anime/cover_images/13562/large.jpg?1569985578",
-          "original": "https://media.kitsu.io/anime/cover_images/13562/original.jpg?1569985578",
+          "tiny": "https://media.kitsu.io/anime/cover_images/13562/tiny.jpg?1597702382",
+          "small": "https://media.kitsu.io/anime/cover_images/13562/small.jpg?1597702382",
+          "large": "https://media.kitsu.io/anime/cover_images/13562/large.jpg?1597702382",
+          "original": "https://media.kitsu.io/anime/cover_images/13562/original.jpg?1597702382",
           "meta": {
             "dimensions": {
               "tiny": {
@@ -1334,9 +1341,9 @@
           }
         },
         "episodeCount": 1,
-        "episodeLength": 1,
-        "totalLength": 1,
-        "youtubeVideoId": "",
+        "episodeLength": 95,
+        "totalLength": 95,
+        "youtubeVideoId": null,
         "showType": "movie",
         "nsfw": false
       },

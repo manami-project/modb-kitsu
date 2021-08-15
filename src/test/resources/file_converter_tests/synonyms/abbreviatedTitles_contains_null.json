@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-02-20T16:19:32.392Z",
-      "updatedAt": "2019-11-05T18:00:07.004Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "detective-conan-movie-04-captured-in-her-eyes",
-      "synopsis": "A series of murders have occurred with police officers as victims. One of the officers is shot right in front of Ran's eyes, and the shock of the incident causes Ran to lose her memory of everyone and everything around her. Now Conan must help Ran regain her lost memories, while also protecting her from the murderer, who is targeting Ran for witnessing the crime.\r\n(Source: ANN)",
+      "synopsis": "A series of murders have occurred with police officers as victims. One of the officers is shot right in front of Ran's eyes, and the shock of the incident causes Ran to lose her memory of everyone and everything around her. Now Conan must help Ran regain her lost memories, while also protecting her from the murderer, who is targeting Ran for witnessing the crime.\n(Source: ANN)",
+      "description": "A series of murders have occurred with police officers as victims. One of the officers is shot right in front of Ran's eyes, and the shock of the incident causes Ran to lose her memory of everyone and everything around her. Now Conan must help Ran regain her lost memories, while also protecting her from the murderer, who is targeting Ran for witnessing the crime.\n(Source: ANN)",
       "coverImageTopOffset": 400,
       "titles": {
         "en": "Case Closed Movie 4: Captured In Her Eyes",
@@ -23,72 +24,72 @@
         "Detective Conan Movie 4",
         "Meitantei Conan: Hitomi no Naka no Ansatsusha"
       ],
-      "averageRating": "79.76",
+      "averageRating": "79.28",
       "ratingFrequencies": {
-        "2": "32",
+        "2": "60",
         "3": "1",
-        "4": "3",
+        "4": "5",
         "5": "3",
-        "6": "5",
+        "6": "10",
         "7": "0",
-        "8": "31",
-        "9": "2",
-        "10": "52",
-        "11": "1",
-        "12": "146",
-        "13": "6",
-        "14": "455",
-        "15": "13",
-        "16": "537",
-        "17": "10",
-        "18": "274",
-        "19": "2",
-        "20": "513"
+        "8": "50",
+        "9": "6",
+        "10": "69",
+        "11": "2",
+        "12": "197",
+        "13": "9",
+        "14": "665",
+        "15": "22",
+        "16": "733",
+        "17": "23",
+        "18": "358",
+        "19": "6",
+        "20": "726"
       },
-      "userCount": 3535,
-      "favoritesCount": 13,
+      "userCount": 4384,
+      "favoritesCount": 14,
       "startDate": "2000-04-22",
       "endDate": "2000-04-22",
       "nextRelease": null,
-      "popularityRank": 2143,
-      "ratingRank": 614,
+      "popularityRank": 2224,
+      "ratingRank": 721,
       "ageRating": "PG",
       "ageRatingGuide": "Teens 13 or older",
       "subtype": "movie",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/1217/tiny.jpg?1486236837",
-        "small": "https://media.kitsu.io/anime/poster_images/1217/small.jpg?1486236837",
-        "medium": "https://media.kitsu.io/anime/poster_images/1217/medium.jpg?1486236837",
-        "large": "https://media.kitsu.io/anime/poster_images/1217/large.jpg?1486236837",
-        "original": "https://media.kitsu.io/anime/poster_images/1217/original.jpg?1486236837",
+        "tiny": "https://media.kitsu.io/anime/poster_images/1217/tiny.jpg?1597697084",
+        "small": "https://media.kitsu.io/anime/poster_images/1217/small.jpg?1597697084",
+        "medium": "https://media.kitsu.io/anime/poster_images/1217/medium.jpg?1597697084",
+        "large": "https://media.kitsu.io/anime/poster_images/1217/large.jpg?1597697084",
+        "original": "https://media.kitsu.io/anime/poster_images/1217/original.jpg?1597697084",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/1217/small.jpg",
-        "small": "https://media.kitsu.io/anime/cover_images/1217/small.jpg",
-        "large": "https://media.kitsu.io/anime/cover_images/1217/small.jpg",
-        "original": "https://media.kitsu.io/anime/cover_images/1217/original.jpg",
+        "tiny": "https://media.kitsu.io/anime/cover_images/1217/tiny.jpg?1597702747",
+        "small": "https://media.kitsu.io/anime/cover_images/1217/small.jpg?1597702747",
+        "large": "https://media.kitsu.io/anime/cover_images/1217/large.jpg?1597702747",
+        "original": "https://media.kitsu.io/anime/cover_images/1217/original.jpg?1597702747",
         "meta": {
           "dimensions": {
             "tiny": {

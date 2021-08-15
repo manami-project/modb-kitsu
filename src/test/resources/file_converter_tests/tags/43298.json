@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2020-07-08T01:56:30.437Z",
-      "updatedAt": "2020-07-11T12:00:28.918Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "cute-cat-mitchirineko-introduction-of-character",
       "synopsis": "Introduction of the MitchiNeko characters from the web comic",
+      "description": "Introduction of the MitchiNeko characters from the web comic",
       "coverImageTopOffset": 0,
       "titles": {
         "en": "Cute Cat MitchiriNeko - Introduction of Character",
@@ -24,12 +25,12 @@
       "ratingFrequencies": {
         "15": "1"
       },
-      "userCount": 1,
+      "userCount": 5,
       "favoritesCount": 0,
       "startDate": "2013-12-11",
       "endDate": "2014-12-09",
       "nextRelease": null,
-      "popularityRank": 16562,
+      "popularityRank": 16989,
       "ratingRank": null,
       "ageRating": "G",
       "ageRatingGuide": null,
@@ -37,11 +38,11 @@
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/43298/tiny.jpg?1594173389",
-        "small": "https://media.kitsu.io/anime/poster_images/43298/small.jpg?1594173389",
-        "medium": "https://media.kitsu.io/anime/poster_images/43298/medium.jpg?1594173389",
-        "large": "https://media.kitsu.io/anime/poster_images/43298/large.jpg?1594173389",
-        "original": "https://media.kitsu.io/anime/poster_images/43298/original.jpg?1594173389",
+        "tiny": "https://media.kitsu.io/anime/poster_images/43298/tiny.jpg?1597697612",
+        "small": "https://media.kitsu.io/anime/poster_images/43298/small.jpg?1597697612",
+        "medium": "https://media.kitsu.io/anime/poster_images/43298/medium.jpg?1597697612",
+        "large": "https://media.kitsu.io/anime/poster_images/43298/large.jpg?1597697612",
+        "original": "https://media.kitsu.io/anime/poster_images/43298/original.jpg?1597697612",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -64,10 +65,10 @@
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/43298/tiny.jpg?1594173392",
-        "small": "https://media.kitsu.io/anime/cover_images/43298/small.jpg?1594173392",
-        "large": "https://media.kitsu.io/anime/cover_images/43298/large.jpg?1594173392",
-        "original": "https://media.kitsu.io/anime/cover_images/43298/original.png?1594173392",
+        "tiny": "https://media.kitsu.io/anime/cover_images/43298/tiny.jpg?1597703152",
+        "small": "https://media.kitsu.io/anime/cover_images/43298/small.jpg?1597703152",
+        "large": "https://media.kitsu.io/anime/cover_images/43298/large.jpg?1597703152",
+        "original": "https://media.kitsu.io/anime/cover_images/43298/original.png?1597703152",
         "meta": {
           "dimensions": {
             "tiny": {

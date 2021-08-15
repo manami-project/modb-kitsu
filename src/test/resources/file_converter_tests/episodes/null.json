@@ -1,208 +1,171 @@
 {
   "data": {
-    "id": "10104",
+    "id": "44019",
     "type": "anime",
     "links": {
-      "self": "https://kitsu.io/api/edge/anime/10104"
+      "self": "https://kitsu.io/api/edge/anime/44019"
     },
     "attributes": {
-      "createdAt": "2014-12-24T11:08:28.144Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
-      "slug": "disney-tsum-tsum",
-      "synopsis": "Disney Tsum Tsum is a series of shorts on YouTube following the adventures of Tsum Tsums in Disneyland.\r\n(Source: Disney Wikia)",
-      "coverImageTopOffset": 200,
+      "createdAt": "2021-02-01T16:59:37.348Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
+      "slug": "tomodachi-no-imouto-ga-ore-ni-dake-uzai",
+      "synopsis": "I don't need any deep relationships. I have no desire for a girlfriend, and I only require one friend who holds any value to me. Ever since I threw out my youth for the sake of efficiency, there is one person who keeps entering the bedroom of Akiteru Ooboshi. She's neither my little sister nor my friend. She's nothing more than a bothersome, annoying kouhai, as well as my friend's little sister: Iroha Kohinata.\n\n\"Senpai, let's go on a date! Did you think I'd say that?\"\n\nRather than blood, it seems like energy drinks run through her veins. She keeps occupying my bed, and she tries her best to seduce me with whatever method she can play to her favor. She's a girl who's constantly annoying and obnoxious around me. Even though I'm busy all day long, she doesn't care.\n\nAnd in case you're wondering why all these envious gazes are directed at me, it's because Iroha is actually really popular. She's an honor student at our school with top grades to boot, and she's known for being kind and proper to anyone she meets. Hey... then why is she only so annoying when she's around me?\n\n(Source: SB Creative, translated)",
+      "description": "I don't need any deep relationships. I have no desire for a girlfriend, and I only require one friend who holds any value to me. Ever since I threw out my youth for the sake of efficiency, there is one person who keeps entering the bedroom of Akiteru Ooboshi. She's neither my little sister nor my friend. She's nothing more than a bothersome, annoying kouhai, as well as my friend's little sister: Iroha Kohinata.\n\n\"Senpai, let's go on a date! Did you think I'd say that?\"\n\nRather than blood, it seems like energy drinks run through her veins. She keeps occupying my bed, and she tries her best to seduce me with whatever method she can play to her favor. She's a girl who's constantly annoying and obnoxious around me. Even though I'm busy all day long, she doesn't care.\n\nAnd in case you're wondering why all these envious gazes are directed at me, it's because Iroha is actually really popular. She's an honor student at our school with top grades to boot, and she's known for being kind and proper to anyone she meets. Hey... then why is she only so annoying when she's around me?\n\n(Source: SB Creative, translated)",
+      "coverImageTopOffset": 0,
       "titles": {
-        "en": "Disney Tsum Tsum",
-        "en_jp": "Disney Tsum Tsum",
-        "ja_jp": "ディズニー ツムツム"
+        "en": "My Friend's Little Sister Has It In for Me!",
+        "en_jp": "Tomodachi no Imouto ga Ore ni dake Uzai",
+        "ja_jp": "友達の妹が俺にだけウザい"
       },
-      "canonicalTitle": "Disney Tsum Tsum",
-      "abbreviatedTitles": [],
+      "canonicalTitle": "Tomodachi no Imouto ga Ore ni dake Uzai",
+      "abbreviatedTitles": [
+        "My friend's sister annoying only me.",
+        "Imouza"
+      ],
       "averageRating": null,
-      "ratingFrequencies": {
-        "2": "0",
-        "3": "0",
-        "4": "0",
-        "5": "0",
-        "6": "2",
-        "7": "0",
-        "8": "1",
-        "9": "0",
-        "10": "0",
-        "11": "0",
-        "12": "4",
-        "13": "0",
-        "14": "6",
-        "15": "1",
-        "16": "2",
-        "17": "0",
-        "18": "1",
-        "19": "0",
-        "20": "2"
-      },
-      "userCount": 96,
-      "favoritesCount": 3,
-      "startDate": "2015-03-22",
+      "ratingFrequencies": {},
+      "userCount": 0,
+      "favoritesCount": 0,
+      "startDate": null,
       "endDate": null,
       "nextRelease": null,
-      "popularityRank": 9811,
+      "popularityRank": 18001,
       "ratingRank": null,
       "ageRating": "PG",
-      "ageRatingGuide": "Children",
+      "ageRatingGuide": null,
       "subtype": "TV",
-      "status": "current",
+      "status": "tba",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/10104/tiny.jpg?1498882596",
-        "small": "https://media.kitsu.io/anime/poster_images/10104/small.jpg?1498882596",
-        "medium": "https://media.kitsu.io/anime/poster_images/10104/medium.jpg?1498882596",
-        "large": "https://media.kitsu.io/anime/poster_images/10104/large.jpg?1498882596",
-        "original": "https://media.kitsu.io/anime/poster_images/10104/original.jpg?1498882596",
+        "tiny": "https://media.kitsu.io/anime/poster_images/44019/tiny.jpg?1612198771",
+        "small": "https://media.kitsu.io/anime/poster_images/44019/small.jpg?1612198771",
+        "medium": "https://media.kitsu.io/anime/poster_images/44019/medium.jpg?1612198771",
+        "large": "https://media.kitsu.io/anime/poster_images/44019/large.jpg?1612198771",
+        "original": "https://media.kitsu.io/anime/poster_images/44019/original.jpeg?1612198771",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
-      "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/10104/tiny.jpg?1519184714",
-        "small": "https://media.kitsu.io/anime/cover_images/10104/small.jpg?1519184714",
-        "large": "https://media.kitsu.io/anime/cover_images/10104/large.jpg?1519184714",
-        "original": "https://media.kitsu.io/anime/cover_images/10104/original.jpg?1519184714",
-        "meta": {
-          "dimensions": {
-            "tiny": {
-              "width": 840,
-              "height": 200
-            },
-            "small": {
-              "width": null,
-              "height": null
-            },
-            "large": {
-              "width": 3360,
-              "height": 800
-            }
-          }
-        }
-      },
+      "coverImage": null,
       "episodeCount": null,
-      "episodeLength": 2,
-      "totalLength": 4,
-      "youtubeVideoId": "",
+      "episodeLength": null,
+      "totalLength": 0,
+      "youtubeVideoId": null,
       "showType": "TV",
       "nsfw": false
     },
     "relationships": {
       "genres": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/genres",
-          "related": "https://kitsu.io/api/edge/anime/10104/genres"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/44019/genres"
         }
       },
       "categories": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/categories",
-          "related": "https://kitsu.io/api/edge/anime/10104/categories"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/44019/categories"
         }
       },
       "castings": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/castings",
-          "related": "https://kitsu.io/api/edge/anime/10104/castings"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/44019/castings"
         }
       },
       "installments": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/installments",
-          "related": "https://kitsu.io/api/edge/anime/10104/installments"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/44019/installments"
         }
       },
       "mappings": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/mappings",
-          "related": "https://kitsu.io/api/edge/anime/10104/mappings"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/44019/mappings"
         }
       },
       "reviews": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/reviews",
-          "related": "https://kitsu.io/api/edge/anime/10104/reviews"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/44019/reviews"
         }
       },
       "mediaRelationships": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/media-relationships",
-          "related": "https://kitsu.io/api/edge/anime/10104/media-relationships"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/44019/media-relationships"
         }
       },
       "characters": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/characters",
-          "related": "https://kitsu.io/api/edge/anime/10104/characters"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/44019/characters"
         }
       },
       "staff": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/staff",
-          "related": "https://kitsu.io/api/edge/anime/10104/staff"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/44019/staff"
         }
       },
       "productions": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/productions",
-          "related": "https://kitsu.io/api/edge/anime/10104/productions"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/44019/productions"
         }
       },
       "quotes": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/quotes",
-          "related": "https://kitsu.io/api/edge/anime/10104/quotes"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/44019/quotes"
         }
       },
       "episodes": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/episodes",
-          "related": "https://kitsu.io/api/edge/anime/10104/episodes"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/44019/episodes"
         }
       },
       "streamingLinks": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/streaming-links",
-          "related": "https://kitsu.io/api/edge/anime/10104/streaming-links"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/44019/streaming-links"
         }
       },
       "animeProductions": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-productions",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-productions"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/44019/anime-productions"
         }
       },
       "animeCharacters": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-characters",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-characters"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/44019/anime-characters"
         }
       },
       "animeStaff": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-staff",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-staff"
+          "self": "https://kitsu.io/api/edge/anime/44019/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/44019/anime-staff"
         }
       }
     }

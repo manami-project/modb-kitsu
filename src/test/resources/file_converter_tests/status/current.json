@@ -1,89 +1,90 @@
 {
   "data": {
-    "id": "10104",
+    "id": "12",
     "type": "anime",
     "links": {
-      "self": "https://kitsu.io/api/edge/anime/10104"
+      "self": "https://kitsu.io/api/edge/anime/12"
     },
     "attributes": {
-      "createdAt": "2014-12-24T11:08:28.144Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
-      "slug": "disney-tsum-tsum",
-      "synopsis": "Disney Tsum Tsum is a series of shorts on YouTube following the adventures of Tsum Tsums in Disneyland.\r\n(Source: Disney Wikia)",
-      "coverImageTopOffset": 200,
+      "createdAt": "2013-02-20T16:00:25.722Z",
+      "updatedAt": "2021-08-15T14:28:35.270Z",
+      "slug": "one-piece",
+      "synopsis": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.\nEnter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy’s reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.\n[Written by MAL Rewrite]",
+      "description": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.\nEnter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy’s reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.\n[Written by MAL Rewrite]",
+      "coverImageTopOffset": 50,
       "titles": {
-        "en": "Disney Tsum Tsum",
-        "en_jp": "Disney Tsum Tsum",
-        "ja_jp": "ディズニー ツムツム"
+        "en": "One Piece",
+        "en_jp": "One Piece",
+        "ja_jp": "ONE PIECE"
       },
-      "canonicalTitle": "Disney Tsum Tsum",
+      "canonicalTitle": "One Piece",
       "abbreviatedTitles": [],
-      "averageRating": null,
+      "averageRating": "82.99",
       "ratingFrequencies": {
-        "2": "0",
-        "3": "0",
-        "4": "0",
-        "5": "0",
-        "6": "2",
-        "7": "0",
-        "8": "1",
-        "9": "0",
-        "10": "0",
-        "11": "0",
-        "12": "4",
-        "13": "0",
-        "14": "6",
-        "15": "1",
-        "16": "2",
-        "17": "0",
-        "18": "1",
-        "19": "0",
-        "20": "2"
+        "2": "7091",
+        "3": "151",
+        "4": "529",
+        "5": "108",
+        "6": "469",
+        "7": "104",
+        "8": "8017",
+        "9": "137",
+        "10": "1525",
+        "11": "199",
+        "12": "2607",
+        "13": "260",
+        "14": "18067",
+        "15": "597",
+        "16": "6956",
+        "17": "1005",
+        "18": "7296",
+        "19": "953",
+        "20": "75493"
       },
-      "userCount": 96,
-      "favoritesCount": 3,
-      "startDate": "2015-03-22",
+      "userCount": 186101,
+      "favoritesCount": 6578,
+      "startDate": "1999-10-20",
       "endDate": null,
-      "nextRelease": null,
-      "popularityRank": 9811,
-      "ratingRank": null,
+      "nextRelease": "2021-08-22T09:30:00.000+09:00",
+      "popularityRank": 14,
+      "ratingRank": 31,
       "ageRating": "PG",
-      "ageRatingGuide": "Children",
+      "ageRatingGuide": "Teens 13 or older",
       "subtype": "TV",
       "status": "current",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/10104/tiny.jpg?1498882596",
-        "small": "https://media.kitsu.io/anime/poster_images/10104/small.jpg?1498882596",
-        "medium": "https://media.kitsu.io/anime/poster_images/10104/medium.jpg?1498882596",
-        "large": "https://media.kitsu.io/anime/poster_images/10104/large.jpg?1498882596",
-        "original": "https://media.kitsu.io/anime/poster_images/10104/original.jpg?1498882596",
+        "tiny": "https://media.kitsu.io/anime/poster_images/12/tiny.jpg?1597699104",
+        "small": "https://media.kitsu.io/anime/poster_images/12/small.jpg?1597699104",
+        "medium": "https://media.kitsu.io/anime/poster_images/12/medium.jpg?1597699104",
+        "large": "https://media.kitsu.io/anime/poster_images/12/large.jpg?1597699104",
+        "original": "https://media.kitsu.io/anime/poster_images/12/original.png?1597699104",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/10104/tiny.jpg?1519184714",
-        "small": "https://media.kitsu.io/anime/cover_images/10104/small.jpg?1519184714",
-        "large": "https://media.kitsu.io/anime/cover_images/10104/large.jpg?1519184714",
-        "original": "https://media.kitsu.io/anime/cover_images/10104/original.jpg?1519184714",
+        "tiny": "https://media.kitsu.io/anime/cover_images/12/tiny.jpg?1597701689",
+        "small": "https://media.kitsu.io/anime/cover_images/12/small.jpg?1597701689",
+        "large": "https://media.kitsu.io/anime/cover_images/12/large.jpg?1597701689",
+        "original": "https://media.kitsu.io/anime/cover_images/12/original.jpg?1597701689",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -91,8 +92,8 @@
               "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,
@@ -102,107 +103,107 @@
         }
       },
       "episodeCount": null,
-      "episodeLength": 2,
-      "totalLength": 4,
-      "youtubeVideoId": "",
+      "episodeLength": 24,
+      "totalLength": 27432,
+      "youtubeVideoId": "um-tFlVamOI",
       "showType": "TV",
       "nsfw": false
     },
     "relationships": {
       "genres": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/genres",
-          "related": "https://kitsu.io/api/edge/anime/10104/genres"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/genres",
+          "related": "https://kitsu.io/api/edge/anime/12/genres"
         }
       },
       "categories": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/categories",
-          "related": "https://kitsu.io/api/edge/anime/10104/categories"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/categories",
+          "related": "https://kitsu.io/api/edge/anime/12/categories"
         }
       },
       "castings": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/castings",
-          "related": "https://kitsu.io/api/edge/anime/10104/castings"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/castings",
+          "related": "https://kitsu.io/api/edge/anime/12/castings"
         }
       },
       "installments": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/installments",
-          "related": "https://kitsu.io/api/edge/anime/10104/installments"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/installments",
+          "related": "https://kitsu.io/api/edge/anime/12/installments"
         }
       },
       "mappings": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/mappings",
-          "related": "https://kitsu.io/api/edge/anime/10104/mappings"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/mappings",
+          "related": "https://kitsu.io/api/edge/anime/12/mappings"
         }
       },
       "reviews": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/reviews",
-          "related": "https://kitsu.io/api/edge/anime/10104/reviews"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/reviews",
+          "related": "https://kitsu.io/api/edge/anime/12/reviews"
         }
       },
       "mediaRelationships": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/media-relationships",
-          "related": "https://kitsu.io/api/edge/anime/10104/media-relationships"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/media-relationships",
+          "related": "https://kitsu.io/api/edge/anime/12/media-relationships"
         }
       },
       "characters": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/characters",
-          "related": "https://kitsu.io/api/edge/anime/10104/characters"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/characters",
+          "related": "https://kitsu.io/api/edge/anime/12/characters"
         }
       },
       "staff": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/staff",
-          "related": "https://kitsu.io/api/edge/anime/10104/staff"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/staff",
+          "related": "https://kitsu.io/api/edge/anime/12/staff"
         }
       },
       "productions": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/productions",
-          "related": "https://kitsu.io/api/edge/anime/10104/productions"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/productions",
+          "related": "https://kitsu.io/api/edge/anime/12/productions"
         }
       },
       "quotes": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/quotes",
-          "related": "https://kitsu.io/api/edge/anime/10104/quotes"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/quotes",
+          "related": "https://kitsu.io/api/edge/anime/12/quotes"
         }
       },
       "episodes": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/episodes",
-          "related": "https://kitsu.io/api/edge/anime/10104/episodes"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/episodes",
+          "related": "https://kitsu.io/api/edge/anime/12/episodes"
         }
       },
       "streamingLinks": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/streaming-links",
-          "related": "https://kitsu.io/api/edge/anime/10104/streaming-links"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/streaming-links",
+          "related": "https://kitsu.io/api/edge/anime/12/streaming-links"
         }
       },
       "animeProductions": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-productions",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-productions"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/anime-productions",
+          "related": "https://kitsu.io/api/edge/anime/12/anime-productions"
         }
       },
       "animeCharacters": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-characters",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-characters"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/anime-characters",
+          "related": "https://kitsu.io/api/edge/anime/12/anime-characters"
         }
       },
       "animeStaff": {
         "links": {
-          "self": "https://kitsu.io/api/edge/anime/10104/relationships/anime-staff",
-          "related": "https://kitsu.io/api/edge/anime/10104/anime-staff"
+          "self": "https://kitsu.io/api/edge/anime/12/relationships/anime-staff",
+          "related": "https://kitsu.io/api/edge/anime/12/anime-staff"
         }
       }
     }

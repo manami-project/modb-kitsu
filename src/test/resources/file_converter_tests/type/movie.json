@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-02-20T16:32:06.095Z",
-      "updatedAt": "2019-10-11T15:52:33.744Z",
+      "updatedAt": "2021-08-15T13:32:32.660Z",
       "slug": "the-girl-who-leapt-through-time",
-      "synopsis": "Makoto Konno is in her last year of high school, but is having a hard time deciding what to do with her future. In between enduring the pressure of her teachers and killing time with her best friends, Makoto's life suddenly changes when she accidentally discovers that she is capable of literally leaping through time.Toki wo Kakeru Shoujo follows Makoto as she plays around with her newfound power. However, she soon learns the hard way that every choice has a consequence, and time is a lot more complicated than it may seem.\r\n[Written by MAL Rewrite]",
+      "synopsis": "Makoto Konno is in her last year of high school, but is having a hard time deciding what to do with her future. In between enduring the pressure of her teachers and killing time with her best friends, Makoto's life suddenly changes when she accidentally discovers that she is capable of literally leaping through time.Toki wo Kakeru Shoujo follows Makoto as she plays around with her newfound power. However, she soon learns the hard way that every choice has a consequence, and time is a lot more complicated than it may seem.\n[Written by MAL Rewrite]",
+      "description": "Makoto Konno is in her last year of high school, but is having a hard time deciding what to do with her future. In between enduring the pressure of her teachers and killing time with her best friends, Makoto's life suddenly changes when she accidentally discovers that she is capable of literally leaping through time.Toki wo Kakeru Shoujo follows Makoto as she plays around with her newfound power. However, she soon learns the hard way that every choice has a consequence, and time is a lot more complicated than it may seem.\n[Written by MAL Rewrite]",
       "coverImageTopOffset": 100,
       "titles": {
         "en": "The Girl Who Leapt Through Time",
@@ -25,72 +26,72 @@
         "The Girl Who Cut Time",
         "The Little Girl Who Conquered Time"
       ],
-      "averageRating": "82.9",
+      "averageRating": "82.03",
       "ratingFrequencies": {
-        "2": "372",
-        "3": "7",
-        "4": "72",
-        "5": "6",
-        "6": "71",
-        "7": "10",
-        "8": "704",
-        "9": "21",
-        "10": "416",
-        "11": "31",
-        "12": "1454",
-        "13": "95",
-        "14": "4839",
-        "15": "213",
-        "16": "6771",
-        "17": "362",
-        "18": "5581",
-        "19": "158",
-        "20": "9582"
+        "2": "721",
+        "3": "11",
+        "4": "99",
+        "5": "7",
+        "6": "110",
+        "7": "18",
+        "8": "1120",
+        "9": "38",
+        "10": "585",
+        "11": "59",
+        "12": "1926",
+        "13": "166",
+        "14": "7016",
+        "15": "377",
+        "16": "8861",
+        "17": "565",
+        "18": "7092",
+        "19": "234",
+        "20": "12722"
       },
-      "userCount": 55504,
-      "favoritesCount": 915,
+      "userCount": 69160,
+      "favoritesCount": 954,
       "startDate": "2006-07-15",
       "endDate": "2006-07-15",
       "nextRelease": null,
-      "popularityRank": 83,
-      "ratingRank": 133,
+      "popularityRank": 91,
+      "ratingRank": 205,
       "ageRating": "PG",
       "ageRatingGuide": "Children",
       "subtype": "movie",
       "status": "finished",
       "tba": "",
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/2027/tiny.jpg?1433991823",
-        "small": "https://media.kitsu.io/anime/poster_images/2027/small.jpg?1433991823",
-        "medium": "https://media.kitsu.io/anime/poster_images/2027/medium.jpg?1433991823",
-        "large": "https://media.kitsu.io/anime/poster_images/2027/large.jpg?1433991823",
-        "original": "https://media.kitsu.io/anime/poster_images/2027/original.png?1433991823",
+        "tiny": "https://media.kitsu.io/anime/poster_images/2027/tiny.jpg?1597698085",
+        "small": "https://media.kitsu.io/anime/poster_images/2027/small.jpg?1597698085",
+        "medium": "https://media.kitsu.io/anime/poster_images/2027/medium.jpg?1597698085",
+        "large": "https://media.kitsu.io/anime/poster_images/2027/large.jpg?1597698085",
+        "original": "https://media.kitsu.io/anime/poster_images/2027/original.png?1597698085",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/2027/tiny.jpg?1519183123",
-        "small": "https://media.kitsu.io/anime/cover_images/2027/small.jpg?1519183123",
-        "large": "https://media.kitsu.io/anime/cover_images/2027/large.jpg?1519183123",
-        "original": "https://media.kitsu.io/anime/cover_images/2027/original.jpg?1519183123",
+        "tiny": "https://media.kitsu.io/anime/cover_images/2027/tiny.jpg?1597702676",
+        "small": "https://media.kitsu.io/anime/cover_images/2027/small.jpg?1597702676",
+        "large": "https://media.kitsu.io/anime/cover_images/2027/large.jpg?1597702676",
+        "original": "https://media.kitsu.io/anime/cover_images/2027/original.jpg?1597702676",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -98,8 +99,8 @@
               "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,

@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2015-12-10T22:28:12.072Z",
-      "updatedAt": "2019-10-11T12:52:00.445Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "koyomimonogatari",
       "synopsis": "In each episode, Koyomi is presented with a mystery posed by one of the female characters from the story, which he then investigates on his own or helps them solve.",
+      "description": "In each episode, Koyomi is presented with a mystery posed by one of the female characters from the story, which he then investigates on his own or helps them solve.",
       "coverImageTopOffset": 300,
       "titles": {
         "en_jp": "Koyomimonogatari",
@@ -17,72 +18,72 @@
       },
       "canonicalTitle": "Koyomimonogatari",
       "abbreviatedTitles": [],
-      "averageRating": "76.66",
+      "averageRating": "75.78",
       "ratingFrequencies": {
-        "2": "15",
+        "2": "27",
         "3": "0",
-        "4": "6",
-        "5": "1",
-        "6": "27",
+        "4": "12",
+        "5": "2",
+        "6": "52",
         "7": "2",
-        "8": "83",
-        "9": "1",
-        "10": "163",
-        "11": "10",
-        "12": "476",
-        "13": "22",
-        "14": "1245",
-        "15": "88",
-        "16": "1176",
-        "17": "42",
-        "18": "518",
-        "19": "13",
-        "20": "634"
+        "8": "124",
+        "9": "6",
+        "10": "373",
+        "11": "14",
+        "12": "753",
+        "13": "37",
+        "14": "2003",
+        "15": "157",
+        "16": "1807",
+        "17": "92",
+        "18": "776",
+        "19": "22",
+        "20": "905"
       },
-      "userCount": 9590,
-      "favoritesCount": 39,
+      "userCount": 12285,
+      "favoritesCount": 48,
       "startDate": "2016-01-10",
       "endDate": "2016-03-27",
       "nextRelease": null,
-      "popularityRank": 973,
-      "ratingRank": 1146,
+      "popularityRank": 967,
+      "ratingRank": 1588,
       "ageRating": "R",
       "ageRatingGuide": "17+ (violence & profanity)",
       "subtype": "ONA",
       "status": "finished",
       "tba": "",
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/11613/tiny.jpg?1474119889",
-        "small": "https://media.kitsu.io/anime/poster_images/11613/small.jpg?1474119889",
-        "medium": "https://media.kitsu.io/anime/poster_images/11613/medium.jpg?1474119889",
-        "large": "https://media.kitsu.io/anime/poster_images/11613/large.jpg?1474119889",
-        "original": "https://media.kitsu.io/anime/poster_images/11613/original.png?1474119889",
+        "tiny": "https://media.kitsu.io/anime/poster_images/11613/tiny.jpg?1597697474",
+        "small": "https://media.kitsu.io/anime/poster_images/11613/small.jpg?1597697474",
+        "medium": "https://media.kitsu.io/anime/poster_images/11613/medium.jpg?1597697474",
+        "large": "https://media.kitsu.io/anime/poster_images/11613/large.jpg?1597697474",
+        "original": "https://media.kitsu.io/anime/poster_images/11613/original.png?1597697474",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/11613/tiny.jpg?1519182210",
-        "small": "https://media.kitsu.io/anime/cover_images/11613/small.jpg?1519182210",
-        "large": "https://media.kitsu.io/anime/cover_images/11613/large.jpg?1519182210",
-        "original": "https://media.kitsu.io/anime/cover_images/11613/original.jpg?1519182210",
+        "tiny": "https://media.kitsu.io/anime/cover_images/11613/tiny.jpg?1597702982",
+        "small": "https://media.kitsu.io/anime/cover_images/11613/small.jpg?1597702982",
+        "large": "https://media.kitsu.io/anime/cover_images/11613/large.jpg?1597702982",
+        "original": "https://media.kitsu.io/anime/cover_images/11613/original.jpg?1597702982",
         "meta": {
           "dimensions": {
             "tiny": {
@@ -90,8 +91,8 @@
               "height": 200
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 1680,
+              "height": 400
             },
             "large": {
               "width": 3360,

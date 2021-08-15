@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-02-20T16:00:13.609Z",
-      "updatedAt": "2020-06-20T08:12:20.508Z",
+      "updatedAt": "2021-08-15T13:24:44.650Z",
       "slug": "cowboy-bebop",
-      "synopsis": "In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \"Cowboys\". The ragtag team aboard the spaceship Bebop are two such individuals.\r\nMellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. \r\nWell-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after.  \r\n[Written by MAL Rewrite]",
+      "synopsis": "In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \"Cowboys\". The ragtag team aboard the spaceship Bebop are two such individuals.\nMellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. \nWell-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after.\n\n(Source: MAL Rewrite)",
+      "description": "In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \"Cowboys\". The ragtag team aboard the spaceship Bebop are two such individuals.\nMellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. \nWell-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after.\n\n(Source: MAL Rewrite)",
       "coverImageTopOffset": 400,
       "titles": {
         "en": "Cowboy Bebop",
@@ -20,72 +21,72 @@
       "abbreviatedTitles": [
         "COWBOY BEBOP"
       ],
-      "averageRating": "82.54",
+      "averageRating": "82.13",
       "ratingFrequencies": {
-        "2": "3304",
-        "3": "52",
-        "4": "399",
-        "5": "29",
-        "6": "165",
-        "7": "32",
-        "8": "3134",
-        "9": "36",
-        "10": "632",
-        "11": "53",
-        "12": "2129",
-        "13": "118",
-        "14": "6623",
-        "15": "284",
-        "16": "7046",
-        "17": "565",
-        "18": "8548",
-        "19": "533",
-        "20": "30198"
+        "2": "4103",
+        "3": "61",
+        "4": "422",
+        "5": "35",
+        "6": "188",
+        "7": "38",
+        "8": "3877",
+        "9": "49",
+        "10": "799",
+        "11": "71",
+        "12": "2395",
+        "13": "139",
+        "14": "8095",
+        "15": "376",
+        "16": "8451",
+        "17": "788",
+        "18": "10238",
+        "19": "743",
+        "20": "34889"
       },
-      "userCount": 110262,
-      "favoritesCount": 4433,
+      "userCount": 121662,
+      "favoritesCount": 4580,
       "startDate": "1998-04-03",
       "endDate": "1999-04-24",
       "nextRelease": null,
-      "popularityRank": 26,
-      "ratingRank": 85,
+      "popularityRank": 31,
+      "ratingRank": 129,
       "ageRating": "R",
       "ageRatingGuide": "17+ (violence & profanity)",
       "subtype": "TV",
       "status": "finished",
-      "tba": "",
+      "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/1/tiny.jpg?1431697256",
-        "small": "https://media.kitsu.io/anime/poster_images/1/small.jpg?1431697256",
-        "medium": "https://media.kitsu.io/anime/poster_images/1/medium.jpg?1431697256",
-        "large": "https://media.kitsu.io/anime/poster_images/1/large.jpg?1431697256",
-        "original": "https://media.kitsu.io/anime/poster_images/1/original.jpg?1431697256",
+        "tiny": "https://media.kitsu.io/anime/poster_images/1/tiny.jpg?1597604210",
+        "small": "https://media.kitsu.io/anime/poster_images/1/small.jpg?1597604210",
+        "medium": "https://media.kitsu.io/anime/poster_images/1/medium.jpg?1597604210",
+        "large": "https://media.kitsu.io/anime/poster_images/1/large.jpg?1597604210",
+        "original": "https://media.kitsu.io/anime/poster_images/1/original.jpg?1597604210",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/1/tiny.jpg?1519178801",
-        "small": "https://media.kitsu.io/anime/cover_images/1/small.jpg?1519178801",
-        "large": "https://media.kitsu.io/anime/cover_images/1/large.jpg?1519178801",
-        "original": "https://media.kitsu.io/anime/cover_images/1/original.jpg?1519178801",
+        "tiny": "https://media.kitsu.io/anime/cover_images/1/tiny.jpg?1597604215",
+        "small": "https://media.kitsu.io/anime/cover_images/1/small.jpg?1597604215",
+        "large": "https://media.kitsu.io/anime/cover_images/1/large.jpg?1597604215",
+        "original": "https://media.kitsu.io/anime/cover_images/1/original.jpg?1597604215",
         "meta": {
           "dimensions": {
             "tiny": {

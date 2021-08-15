@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-02-20T16:01:51.293Z",
-      "updatedAt": "2019-10-11T12:00:06.443Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "full-moon-wo-sagashite",
-      "synopsis": "12-year-old Mitsuki Kouyama's dream to become a professional singer is shattered when she's diagnosed with throat cancer. If a tumor isn't horrific enough, how about being met by two angels of death shortly after?\r\nMeroko Yui and Takuto Kira, of the shinigami duo \"Negi Ramen,\" inform Mitsuki that she has just one year left to live. Instead of getting discouraged, however, Mitsuki decides to make the most of her last year, and pursues her singing dream with a passion.\r\nAided by Meroko and Takuto, Mitsuki finds success and failure, love and loss, and deals with her fate and other difficult subjects the best she can. Full Moon wo Sagashite is the story of a little girl who refuses to let something as insignificant as fate slow her down.",
+      "synopsis": "12-year-old Mitsuki Kouyama's dream to become a professional singer is shattered when she's diagnosed with throat cancer. If a tumor isn't horrific enough, how about being met by two angels of death shortly after?\nMeroko Yui and Takuto Kira, of the shinigami duo \"Negi Ramen,\" inform Mitsuki that she has just one year left to live. Instead of getting discouraged, however, Mitsuki decides to make the most of her last year, and pursues her singing dream with a passion.\nAided by Meroko and Takuto, Mitsuki finds success and failure, love and loss, and deals with her fate and other difficult subjects the best she can. Full Moon wo Sagashite is the story of a little girl who refuses to let something as insignificant as fate slow her down.",
+      "description": "12-year-old Mitsuki Kouyama's dream to become a professional singer is shattered when she's diagnosed with throat cancer. If a tumor isn't horrific enough, how about being met by two angels of death shortly after?\nMeroko Yui and Takuto Kira, of the shinigami duo \"Negi Ramen,\" inform Mitsuki that she has just one year left to live. Instead of getting discouraged, however, Mitsuki decides to make the most of her last year, and pursues her singing dream with a passion.\nAided by Meroko and Takuto, Mitsuki finds success and failure, love and loss, and deals with her fate and other difficult subjects the best she can. Full Moon wo Sagashite is the story of a little girl who refuses to let something as insignificant as fate slow her down.",
       "coverImageTopOffset": 120,
       "titles": {
         "en": "Searching for the Full Moon",
@@ -20,72 +21,72 @@
       "abbreviatedTitles": [
         "Full Moon o Sagashite"
       ],
-      "averageRating": "78.34",
+      "averageRating": "77.29",
       "ratingFrequencies": {
-        "2": "13",
+        "2": "21",
         "3": "0",
-        "4": "20",
+        "4": "29",
         "5": "0",
-        "6": "13",
-        "7": "1",
-        "8": "64",
-        "9": "0",
-        "10": "81",
-        "11": "0",
-        "12": "268",
-        "13": "5",
-        "14": "413",
-        "15": "9",
-        "16": "465",
-        "17": "8",
-        "18": "298",
-        "19": "5",
-        "20": "529"
+        "6": "25",
+        "7": "0",
+        "8": "88",
+        "9": "1",
+        "10": "143",
+        "11": "1",
+        "12": "455",
+        "13": "7",
+        "14": "614",
+        "15": "18",
+        "16": "633",
+        "17": "17",
+        "18": "393",
+        "19": "6",
+        "20": "730"
       },
-      "userCount": 5477,
-      "favoritesCount": 106,
+      "userCount": 6681,
+      "favoritesCount": 117,
       "startDate": "2002-04-06",
       "endDate": "2003-03-29",
       "nextRelease": null,
-      "popularityRank": 1586,
-      "ratingRank": 818,
+      "popularityRank": 1669,
+      "ratingRank": 1147,
       "ageRating": "PG",
       "ageRatingGuide": "Teens 13 or older",
       "subtype": "TV",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/101/tiny.jpg?1425574009",
-        "small": "https://media.kitsu.io/anime/poster_images/101/small.jpg?1425574009",
-        "medium": "https://media.kitsu.io/anime/poster_images/101/medium.jpg?1425574009",
-        "large": "https://media.kitsu.io/anime/poster_images/101/large.jpg?1425574009",
-        "original": "https://media.kitsu.io/anime/poster_images/101/original.jpg?1425574009",
+        "tiny": "https://media.kitsu.io/anime/poster_images/101/tiny.jpg?1597697227",
+        "small": "https://media.kitsu.io/anime/poster_images/101/small.jpg?1597697227",
+        "medium": "https://media.kitsu.io/anime/poster_images/101/medium.jpg?1597697227",
+        "large": "https://media.kitsu.io/anime/poster_images/101/large.jpg?1597697227",
+        "original": "https://media.kitsu.io/anime/poster_images/101/original.jpg?1597697227",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
       },
       "coverImage": {
-        "tiny": "https://media.kitsu.io/anime/cover_images/101/tiny.jpg?1519179246",
-        "small": "https://media.kitsu.io/anime/cover_images/101/small.jpg?1519179246",
-        "large": "https://media.kitsu.io/anime/cover_images/101/large.jpg?1519179246",
-        "original": "https://media.kitsu.io/anime/cover_images/101/original.jpg?1519179246",
+        "tiny": "https://media.kitsu.io/anime/cover_images/101/tiny.jpg?1597702779",
+        "small": "https://media.kitsu.io/anime/cover_images/101/small.jpg?1597702779",
+        "large": "https://media.kitsu.io/anime/cover_images/101/large.jpg?1597702779",
+        "original": "https://media.kitsu.io/anime/cover_images/101/original.jpg?1597702779",
         "meta": {
           "dimensions": {
             "tiny": {

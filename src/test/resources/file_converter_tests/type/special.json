@@ -7,9 +7,10 @@
     },
     "attributes": {
       "createdAt": "2013-02-20T16:05:38.166Z",
-      "updatedAt": "2019-10-11T13:17:51.262Z",
+      "updatedAt": "2021-08-15T12:00:14.563Z",
       "slug": "elfen-lied-special",
-      "synopsis": "Having been accepted into the Kaede Inn, Nana struggles to find some way to contribute, though she inadvertently brings more trouble than assistance. However, Nana's worries are directed more towards fellow resident Nyu, whom she had only known as Lucy, the violent Diclonius. Fearful that Nyu will unleash the same horrific savagery—violence that scars Nana to this day—upon those close to her, Nana faces a dilemma: attempt to live peacefully alongside Lucy with all the uncertainty that that entails or dispose of the source of her worries, shattering the relationships she has formed at the inn. As Nana struggles to come to a decision, Nyu recalls a painful memory of one of her dearest friends and one of her greatest rivals.\r\n[Written by MAL Rewrite]",
+      "synopsis": "Having been accepted into the Kaede Inn, Nana struggles to find some way to contribute, though she inadvertently brings more trouble than assistance. However, Nana's worries are directed more towards fellow resident Nyu, whom she had only known as Lucy, the violent Diclonius. Fearful that Nyu will unleash the same horrific savagery—violence that scars Nana to this day—upon those close to her, Nana faces a dilemma: attempt to live peacefully alongside Lucy with all the uncertainty that that entails or dispose of the source of her worries, shattering the relationships she has formed at the inn. As Nana struggles to come to a decision, Nyu recalls a painful memory of one of her dearest friends and one of her greatest rivals.\n[Written by MAL Rewrite]",
+      "description": "Having been accepted into the Kaede Inn, Nana struggles to find some way to contribute, though she inadvertently brings more trouble than assistance. However, Nana's worries are directed more towards fellow resident Nyu, whom she had only known as Lucy, the violent Diclonius. Fearful that Nyu will unleash the same horrific savagery—violence that scars Nana to this day—upon those close to her, Nana faces a dilemma: attempt to live peacefully alongside Lucy with all the uncertainty that that entails or dispose of the source of her worries, shattering the relationships she has formed at the inn. As Nana struggles to come to a decision, Nyu recalls a painful memory of one of her dearest friends and one of her greatest rivals.\n[Written by MAL Rewrite]",
       "coverImageTopOffset": 0,
       "titles": {
         "en": "Elfen Lied: In the Passing Rain",
@@ -20,63 +21,63 @@
       "abbreviatedTitles": [
         "Elfen Lied OVA"
       ],
-      "averageRating": "68.53",
+      "averageRating": "68.67",
       "ratingFrequencies": {
-        "2": "106",
+        "2": "136",
         "3": "2",
-        "4": "156",
-        "5": "1",
-        "6": "196",
+        "4": "187",
+        "5": "6",
+        "6": "235",
         "7": "4",
-        "8": "421",
-        "9": "6",
-        "10": "600",
-        "11": "11",
-        "12": "1198",
-        "13": "7",
-        "14": "1562",
-        "15": "12",
-        "16": "1197",
-        "17": "8",
-        "18": "504",
-        "19": "4",
-        "20": "750"
+        "8": "526",
+        "9": "8",
+        "10": "752",
+        "11": "12",
+        "12": "1511",
+        "13": "20",
+        "14": "2105",
+        "15": "21",
+        "16": "1465",
+        "17": "14",
+        "18": "733",
+        "19": "7",
+        "20": "898"
       },
-      "userCount": 10713,
+      "userCount": 12617,
       "favoritesCount": 17,
       "startDate": "2005-04-21",
       "endDate": "2005-04-21",
       "nextRelease": null,
-      "popularityRank": 871,
-      "ratingRank": 4454,
+      "popularityRank": 942,
+      "ratingRank": 5012,
       "ageRating": "R",
       "ageRatingGuide": "Mild Nudity",
       "subtype": "special",
       "status": "finished",
       "tba": null,
       "posterImage": {
-        "tiny": "https://media.kitsu.io/anime/poster_images/343/tiny.jpg?1417748142",
-        "small": "https://media.kitsu.io/anime/poster_images/343/small.jpg?1417748142",
-        "medium": "https://media.kitsu.io/anime/poster_images/343/medium.jpg?1417748142",
-        "large": "https://media.kitsu.io/anime/poster_images/343/large.jpg?1417748142",
-        "original": "https://media.kitsu.io/anime/poster_images/343/original.jpg?1417748142",
+        "tiny": "https://media.kitsu.io/anime/poster_images/343/tiny.jpg?1597690591",
+        "small": "https://media.kitsu.io/anime/poster_images/343/small.jpg?1597690591",
+        "medium": "https://media.kitsu.io/anime/poster_images/343/medium.jpg?1597690591",
+        "large": "https://media.kitsu.io/anime/poster_images/343/large.jpg?1597690591",
+        "original": "https://media.kitsu.io/anime/poster_images/343/original.jpg?1597690591",
         "meta": {
           "dimensions": {
             "tiny": {
-              "width": null,
-              "height": null
+              "width": 110,
+              "height": 156
             },
             "small": {
-              "width": null,
-              "height": null
+              "width": 284,
+              "height": 402
             },
             "medium": {
-              "width": null,
-              "height": null
+              "width": 390,
+              "height": 554
             },
             "large": {
-              "width": null,
-              "height": null
+              "width": 550,
+              "height": 780
             }
           }
         }
