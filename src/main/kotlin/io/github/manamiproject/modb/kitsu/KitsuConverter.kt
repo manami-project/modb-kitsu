@@ -57,9 +57,9 @@ public class KitsuConverter(
 
     private fun extractEpisodes(document: KitsuDocument): Episodes = document.data.attributes.episodeCount ?: 0
 
-    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.get("small") ?: NOT_FOUND_PIC)
+    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.small ?: NOT_FOUND_PIC)
 
-    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.get("tiny") ?: NOT_FOUND_PIC)
+    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.tiny ?: NOT_FOUND_PIC)
 
     private fun extractSourcesEntry(document: KitsuDocument): List<URI> = listOf(config.buildAnimeLink(document.data.id))
 
@@ -76,9 +76,10 @@ public class KitsuConverter(
     }
 
     private fun extractSynonyms(document: KitsuDocument): List<Title> {
-        return document.data.attributes.titles.values.union(
-            document.data.attributes.abbreviatedTitles?.filterNotNull() ?: emptyList()
-        ).toList()
+        val abbreviatedTitles = document.data.attributes.abbreviatedTitles?.filterNotNull() ?: emptyList()
+        return document.data.attributes.titles.values.union(abbreviatedTitles)
+            .filterNotNull()
+            .toList()
     }
 
     private fun extractRelatedAnime(document: KitsuDocument): List<URI> {
@@ -151,12 +152,12 @@ private data class KitsuData(
 )
 
 private data class KitsuDataAttributes(
-    val titles: Map<String, String>,
+    val titles: Map<String, String?>,
     val canonicalTitle: String,
     val abbreviatedTitles: List<String?>?,
     val startDate: String?,
     val subtype: String,
-    val posterImage: Map<String, String>?,
+    val posterImage: KitsuPosterImage?,
     val episodeCount: Int?,
     val episodeLength: Int?,
     val status: String?
@@ -181,4 +182,12 @@ private data class KitsuTag(
 
 private data class KitsuTagAttributes(
     val title: String
+)
+
+private data class KitsuPosterImage(
+    val tiny: String?,
+    val small: String?,
+    val medium: String?,
+    val large: String?,
+    val original: String?,
 )
