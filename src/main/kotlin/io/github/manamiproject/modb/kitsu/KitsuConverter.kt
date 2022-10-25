@@ -1,8 +1,11 @@
 package io.github.manamiproject.modb.kitsu
 
+import io.github.manamiproject.modb.core.Json
 import io.github.manamiproject.modb.core.Json.parseJson
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
+import io.github.manamiproject.modb.core.coroutines.ModbDispatchers
+import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.extensions.*
 import io.github.manamiproject.modb.core.models.*
 import io.github.manamiproject.modb.core.models.Anime.Status
@@ -11,8 +14,11 @@ import io.github.manamiproject.modb.core.models.Anime.Type
 import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 import java.net.URI
 import kotlin.io.path.inputStream
+import kotlin.io.path.readText
 
 /**
  * Converts raw data to an [Anime].
@@ -25,7 +31,7 @@ import kotlin.io.path.inputStream
 public class KitsuConverter(
     private val config: MetaDataProviderConfig = KitsuConfig,
     private val relationsDir: Directory,
-    private val tagsDir: Directory
+    private val tagsDir: Directory,
 ) : AnimeConverter {
 
     init {
@@ -33,10 +39,17 @@ public class KitsuConverter(
         require(tagsDir.directoryExists()) { "Directory for tags [$tagsDir] does not exist or is not a directory." }
     }
 
-    override fun convert(rawContent: String): Anime {
-        val document = parseJson<KitsuDocument>(rawContent)!!
+    @Deprecated("Use coroutines",
+        ReplaceWith("runBlocking { convertSuspendable(rawContent) }", "kotlinx.coroutines.runBlocking")
+    )
+    override fun convert(rawContent: String): Anime = runBlocking {
+        convertSuspendable(rawContent)
+    }
 
-        return Anime(
+    override suspend fun convertSuspendable(rawContent: String): Anime = withContext(LIMITED_CPU) {
+        val document = Json.parseJsonSuspendable<KitsuDocument>(rawContent)!!
+
+        return@withContext Anime(
             _title = extractTitle(document),
             episodes = extractEpisodes(document),
             type = extractType(document),
@@ -82,12 +95,12 @@ public class KitsuConverter(
             .toList()
     }
 
-    private fun extractRelatedAnime(document: KitsuDocument): List<URI> {
+    private suspend fun extractRelatedAnime(document: KitsuDocument): List<URI> = withContext(LIMITED_CPU) {
         val relationsFile = relationsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
         check(relationsFile.regularFileExists()) { "Relations file is missing" }
 
-        return parseJson<KitsuRelation>(relationsFile.inputStream())!!.included.filter { it.type == "anime" }
+        return@withContext Json.parseJsonSuspendable<KitsuRelation>(relationsFile.readFileSuspendable())!!.included.filter { it.type == "anime" }
                 .map { it.id }
                 .map { config.buildAnimeLink(it) }
     }
@@ -110,12 +123,12 @@ public class KitsuConverter(
         return Duration(durationInMinutes, MINUTES)
     }
 
-    private fun extractTags(document: KitsuDocument): List<Tag> {
+    private suspend fun extractTags(document: KitsuDocument): List<Tag> = withContext(LIMITED_CPU) {
         val tagsFile = tagsDir.resolve("${document.data.id}.${config.fileSuffix()}")
 
         check(tagsFile.regularFileExists()) { "Tags file is missing" }
 
-        return parseJson<KitsuTagsDocument>(tagsFile.inputStream())!!.data.map { it.attributes.title }.distinct()
+        return@withContext Json.parseJsonSuspendable<KitsuTagsDocument>(tagsFile.readFileSuspendable())!!.data.map { it.attributes.title }.distinct()
     }
 
     private fun extractAnimeSeason(document: KitsuDocument): AnimeSeason {

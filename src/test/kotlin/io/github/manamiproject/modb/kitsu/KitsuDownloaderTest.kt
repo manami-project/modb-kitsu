@@ -12,11 +12,12 @@ import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.test.MockServerTestCase
 import io.github.manamiproject.modb.test.WireMockServerCreator
+import io.github.manamiproject.modb.test.exceptionExpected
 import io.github.manamiproject.modb.test.shouldNotBeInvoked
+import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import java.net.URI
@@ -55,8 +56,10 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         val downloader = KitsuDownloader(testKitsuConfig)
 
         // when
-        downloader.download(id.toString()) {
-            deadEntry = it
+        runBlocking {
+            downloader.downloadSuspendable(id.toString()) {
+                deadEntry = it
+            }
         }
 
         // then
@@ -88,8 +91,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         val downloader = KitsuDownloader(testKitsuConfig)
 
         // when
-        val result = assertThrows<IllegalStateException> {
-            downloader.download(id.toString()) {
+        val result = exceptionExpected<IllegalStateException> {
+            downloader.downloadSuspendable(id.toString()) {
                 shouldNotBeInvoked()
             }
         }
@@ -124,8 +127,10 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         val downloader = KitsuDownloader(testKitsuConfig)
 
         // when
-        val result = downloader.download(id.toString()) {
-            shouldNotBeInvoked()
+        val result = runBlocking {
+            downloader.downloadSuspendable(id.toString()) {
+                shouldNotBeInvoked()
+            }
         }
 
         // then
@@ -156,8 +161,8 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         val downloader = KitsuDownloader(testKitsuConfig)
 
         // when
-        val result = assertThrows<IllegalStateException> {
-            downloader.download(id.toString()) {
+        val result = exceptionExpected<IllegalStateException> {
+            downloader.downloadSuspendable(id.toString()) {
                 shouldNotBeInvoked()
             }
         }
@@ -209,8 +214,10 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         val downloader = KitsuDownloader(testKitsuConfig)
 
         // when
-        val result = downloader.download(id.toString()) {
-            shouldNotBeInvoked()
+        val result = runBlocking {
+            downloader.downloadSuspendable(id.toString()) {
+                shouldNotBeInvoked()
+            }
         }
 
         // then
