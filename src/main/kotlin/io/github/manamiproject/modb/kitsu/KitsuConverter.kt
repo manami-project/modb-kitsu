@@ -1,10 +1,8 @@
 package io.github.manamiproject.modb.kitsu
 
 import io.github.manamiproject.modb.core.Json
-import io.github.manamiproject.modb.core.Json.parseJson
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
-import io.github.manamiproject.modb.core.coroutines.ModbDispatchers
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.extensions.*
 import io.github.manamiproject.modb.core.models.*
@@ -17,8 +15,6 @@ import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.net.URI
-import kotlin.io.path.inputStream
-import kotlin.io.path.readText
 
 /**
  * Converts raw data to an [Anime].
@@ -39,9 +35,7 @@ public class KitsuConverter(
         require(tagsDir.directoryExists()) { "Directory for tags [$tagsDir] does not exist or is not a directory." }
     }
 
-    @Deprecated("Use coroutines",
-        ReplaceWith("runBlocking { convertSuspendable(rawContent) }", "kotlinx.coroutines.runBlocking")
-    )
+    @Deprecated("Use coroutines", ReplaceWith(EMPTY))
     override fun convert(rawContent: String): Anime = runBlocking {
         convertSuspendable(rawContent)
     }
