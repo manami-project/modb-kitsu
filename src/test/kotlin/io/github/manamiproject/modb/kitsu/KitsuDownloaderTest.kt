@@ -57,7 +57,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         // when
         runBlocking {
-            downloader.downloadSuspendable(id.toString()) {
+            downloader.download(id.toString()) {
                 deadEntry = it
             }
         }
@@ -92,7 +92,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            downloader.downloadSuspendable(id.toString()) {
+            downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
         }
@@ -128,7 +128,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         // when
         val result = runBlocking {
-            downloader.downloadSuspendable(id.toString()) {
+            downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
         }
@@ -162,7 +162,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            downloader.downloadSuspendable(id.toString()) {
+            downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
         }
@@ -215,7 +215,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
         // when
         val result = runBlocking {
-            downloader.downloadSuspendable(id.toString()) {
+            downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
         }

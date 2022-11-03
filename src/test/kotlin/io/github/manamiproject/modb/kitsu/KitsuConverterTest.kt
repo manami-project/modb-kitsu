@@ -58,7 +58,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -99,7 +99,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -134,7 +134,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -173,7 +173,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -208,7 +208,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -243,7 +243,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -278,7 +278,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -313,7 +313,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -348,7 +348,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -387,7 +387,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -423,7 +423,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -465,7 +465,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -508,7 +508,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -552,7 +552,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -588,7 +588,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = exceptionExpected<IllegalStateException> {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -622,7 +622,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -657,7 +657,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -699,7 +699,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -734,7 +734,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -778,7 +778,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -817,7 +817,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -854,7 +854,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -891,7 +891,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -928,7 +928,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -965,7 +965,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1000,7 +1000,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1039,7 +1039,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1074,7 +1074,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1109,7 +1109,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1144,7 +1144,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1180,7 +1180,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = exceptionExpected<IllegalStateException> {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1215,7 +1215,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1250,7 +1250,7 @@ internal class KitsuConverterTest {
 
                     // when
                     val result = runBlocking {
-                        converter.convertSuspendable(testFileContent)
+                        converter.convert(testFileContent)
                     }
 
                     // then
@@ -1305,7 +1305,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1340,7 +1340,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1375,7 +1375,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1415,7 +1415,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1450,7 +1450,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1485,7 +1485,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1520,7 +1520,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
@@ -1555,7 +1555,7 @@ internal class KitsuConverterTest {
 
                         // when
                         val result = runBlocking {
-                            converter.convertSuspendable(testFileContent)
+                            converter.convert(testFileContent)
                         }
 
                         // then
