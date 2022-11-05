@@ -1,9 +1,8 @@
 package io.github.manamiproject.modb.kitsu
 
 import org.assertj.core.api.Assertions.assertThat
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import java.net.URI
-import java.net.URL
 
 internal class KitsuRelationsConfigTest {
 
