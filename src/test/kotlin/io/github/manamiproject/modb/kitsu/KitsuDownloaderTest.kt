@@ -17,7 +17,7 @@ import io.github.manamiproject.modb.test.shouldNotBeInvoked
 import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import java.net.URI
@@ -32,38 +32,38 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
     @Test
     fun `responding 404 indicating dead entry - add to dead entry list`() {
-        // given
-        val id = 1535
-
-        val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
-            override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
-        }
-
-        serverInstance.stubFor(
-            get(urlPathEqualTo("/graphql"))
-                .willReturn(
-                    aResponse()
-                        .withHeader("Content-Type", "text/html")
-                        .withStatus(404)
-                        .withBody("<html><head/><body></body></html>")
-                )
-        )
-
-        var deadEntry = EMPTY
-        val downloader = KitsuDownloader(testKitsuConfig)
-
-        // when
         runBlocking {
+            // given
+            val id = 1535
+
+            val testKitsuConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
+                override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
+            }
+
+            serverInstance.stubFor(
+                get(urlPathEqualTo("/graphql"))
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", "text/html")
+                            .withStatus(404)
+                            .withBody("<html><head/><body></body></html>")
+                    )
+            )
+
+            var deadEntry = EMPTY
+            val downloader = KitsuDownloader(testKitsuConfig)
+
+            // when
             downloader.download(id.toString()) {
                 deadEntry = it
             }
-        }
 
-        // then
-        assertThat(deadEntry).isEqualTo(id.toString())
+            // then
+            assertThat(deadEntry).isEqualTo(id.toString())
+        }
     }
 
     @Test
@@ -103,38 +103,38 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
 
     @Test
     fun `successfully load an entry`() {
-        // given
-        val id = 1535
+        runBlocking {
+            // given
+            val id = 1535
 
-        val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
-            override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
-        }
+            val testKitsuConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
+                override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
+            }
 
-        val responseBody = "{ \"kitsuId\": $id }"
+            val responseBody = "{ \"kitsuId\": $id }"
 
-        serverInstance.stubFor(
-            get(urlPathEqualTo("/graphql")).willReturn(
-                aResponse()
-                    .withHeader("Content-Type", APPLICATION_JSON)
-                    .withStatus(200)
-                    .withBody(responseBody)
+            serverInstance.stubFor(
+                get(urlPathEqualTo("/graphql")).willReturn(
+                    aResponse()
+                        .withHeader("Content-Type", APPLICATION_JSON)
+                        .withStatus(200)
+                        .withBody(responseBody)
+                )
             )
-        )
 
-        val downloader = KitsuDownloader(testKitsuConfig)
+            val downloader = KitsuDownloader(testKitsuConfig)
 
-        // when
-        val result = runBlocking {
-            downloader.download(id.toString()) {
+            // when
+            val result = downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
-        }
 
-        // then
-        assertThat(result).isEqualTo(responseBody)
+            // then
+            assertThat(result).isEqualTo(responseBody)
+        }
     }
 
     @Test
@@ -174,53 +174,53 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
     @ParameterizedTest
     @ValueSource(ints = [400, 500, 502, 520, 522, 525])
     fun `pause and retry on response code`(responseCode: Int) {
-        // given
-        val id = 1535
+        runBlocking {
+            // given
+            val id = 1535
 
-        val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
-            override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
-        }
+            val testKitsuConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = KitsuConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://localhost:$port/graphql")
+                override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
+            }
 
-        serverInstance.stubFor(
+            serverInstance.stubFor(
                 get(urlPathEqualTo("/graphql"))
-                        .inScenario("pause and retry")
-                        .whenScenarioStateIs(STARTED)
-                        .willSetStateTo("successful retrieval")
-                        .willReturn(
-                                aResponse()
-                                        .withHeader("Content-Type", "text/html")
-                                        .withStatus(responseCode)
-                                        .withBody("<html></html>")
-                        )
-        )
+                    .inScenario("pause and retry")
+                    .whenScenarioStateIs(STARTED)
+                    .willSetStateTo("successful retrieval")
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", "text/html")
+                            .withStatus(responseCode)
+                            .withBody("<html></html>")
+                    )
+            )
 
-        val responseBody = "{ \"kitsuId\": $id }"
+            val responseBody = "{ \"kitsuId\": $id }"
 
-        serverInstance.stubFor(
+            serverInstance.stubFor(
                 get(urlPathEqualTo("/graphql"))
-                        .inScenario("pause and retry")
-                        .whenScenarioStateIs("successful retrieval")
-                        .willReturn(
-                                aResponse()
-                                        .withHeader("Content-Type", APPLICATION_JSON)
-                                        .withStatus(200)
-                                        .withBody(responseBody)
-                        )
-        )
+                    .inScenario("pause and retry")
+                    .whenScenarioStateIs("successful retrieval")
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", APPLICATION_JSON)
+                            .withStatus(200)
+                            .withBody(responseBody)
+                    )
+            )
 
-        val downloader = KitsuDownloader(testKitsuConfig)
+            val downloader = KitsuDownloader(testKitsuConfig)
 
-        // when
-        val result = runBlocking {
-            downloader.download(id.toString()) {
+            // when
+            val result = downloader.download(id.toString()) {
                 shouldNotBeInvoked()
             }
-        }
 
-        // then
-        assertThat(result).isEqualTo(responseBody)
+            // then
+            assertThat(result).isEqualTo(responseBody)
+        }
     }
 }

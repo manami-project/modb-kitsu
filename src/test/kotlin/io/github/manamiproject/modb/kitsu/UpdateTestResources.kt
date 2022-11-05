@@ -6,7 +6,7 @@ import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
 
-fun main() {
+internal fun main() {
     val downloader = KitsuDownloader(KitsuConfig)
     val relationsDownloader = KitsuDownloader(KitsuRelationsConfig)
     val tagsDownloader = KitsuDownloader(KitsuTagsConfig)
