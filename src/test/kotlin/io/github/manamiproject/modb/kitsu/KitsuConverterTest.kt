@@ -338,10 +338,10 @@ internal class KitsuConverterTest {
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("12032.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("6334.${testKitsuConfig.fileSuffix()}"))
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("12032.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("6334.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/picture_and_thumbnail/null.json")
 
@@ -383,8 +383,8 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/small.jpg?1597691689"))
-                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/tiny.jpg?1597691689"))
+                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/small.jpg"))
+                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/tiny.jpg"))
                 }
             }
         }
@@ -518,13 +518,15 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 46232
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("177.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
-                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/177.json")
+                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/$id.json")
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -616,16 +618,18 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 46232
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
-                    testResource("file_converter_tests/related_anime/one_adaption_one_relation/177_relations.json")
-                        .copyTo(relationsDir.resolve("177.json"))
+                    testResource("file_converter_tests/related_anime/one_adaption_one_relation/${id}_relations.json")
+                        .copyTo(relationsDir.resolve("$id.json"))
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("177.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
-                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/177.json")
+                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/$id.json")
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -633,7 +637,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.relatedAnime).containsExactly(URI("https://kitsu.io/anime/7119"))
+                    assertThat(result.relatedAnime).containsExactly(URI("https://kitsu.io/anime/47280"))
                 }
             }
 
@@ -665,6 +669,7 @@ internal class KitsuConverterTest {
 
                     // then
                     assertThat(result.relatedAnime).containsExactly(
+                        URI("https://kitsu.io/anime/13850"),
                         URI("https://kitsu.io/anime/1759"),
                         URI("https://kitsu.io/anime/1921"),
                         URI("https://kitsu.io/anime/2634"),
@@ -786,12 +791,12 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
-                    val id = 13240
+                    val id = 46873
 
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
-                                        testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
+                    testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
                         .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                     testResource("file_converter_tests/no_tags_default_file.json")
@@ -819,7 +824,7 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
-                    val id = 12509
+                    val id = 46358
 
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
@@ -852,7 +857,7 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
-                    val id = 4278
+                    val id = 45557
 
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
@@ -924,10 +929,10 @@ internal class KitsuConverterTest {
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("101.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("46530.${testKitsuConfig.fileSuffix()}"))
 
                     testResource("file_converter_tests/no_tags_default_file.json")
-                        .copyTo(tagsDir.resolve("101.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(tagsDir.resolve("46530.${testKitsuConfig.fileSuffix()}"))
 
                     val testFileContent = loadTestResource("file_converter_tests/duration/null.json")
 
@@ -1048,13 +1053,15 @@ internal class KitsuConverterTest {
                         override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                     }
 
+                    val id = 46232
+
                     val relationsDir = tempDir.resolve("relations").createDirectory()
                     val tagsDir = tempDir.resolve("tags").createDirectory()
 
                     testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                        .copyTo(relationsDir.resolve("177.${testKitsuConfig.fileSuffix()}"))
+                        .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
-                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/177.json")
+                    val testFileContent = loadTestResource("file_converter_tests/related_anime/one_adaption_one_relation/$id.json")
 
                     val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
@@ -1128,15 +1135,15 @@ internal class KitsuConverterTest {
                     // then
                     assertThat(result.tags).containsExactly(
                         "action",
-                        "detective",
-                        "drama",
+                        "adventure",
+                        "bounty hunter",
                         "future",
+                        "gunfights",
                         "other planet",
-                        "post apocalypse",
                         "science fiction",
                         "shipboard",
                         "space",
-                        "space travel"
+                        "space travel",
                     )
                 }
             }
@@ -1258,16 +1265,18 @@ internal class KitsuConverterTest {
                             override fun fileSuffix(): FileSuffix = KitsuConfig.fileSuffix()
                         }
 
+                        val id = 10613
+
                         val relationsDir = tempDir.resolve("relations").createDirectory()
                         val tagsDir = tempDir.resolve("tags").createDirectory()
 
                         testResource("file_converter_tests/no_adaption_no_relations_default_file.json")
-                            .copyTo(relationsDir.resolve("9587.${testKitsuConfig.fileSuffix()}"))
+                            .copyTo(relationsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
                         testResource("file_converter_tests/no_tags_default_file.json")
-                            .copyTo(tagsDir.resolve("9587.${testKitsuConfig.fileSuffix()}"))
+                            .copyTo(tagsDir.resolve("$id.${testKitsuConfig.fileSuffix()}"))
 
-                        val testFileContent = loadTestResource("file_converter_tests/anime_season/undefined.json")
+                        val testFileContent = loadTestResource("file_converter_tests/anime_season/null.json")
 
                         val converter = KitsuConverter(testKitsuConfig, relationsDir, tagsDir)
 
