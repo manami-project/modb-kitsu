@@ -9,7 +9,6 @@ import io.github.manamiproject.modb.core.config.Hostname
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
-import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.test.MockServerTestCase
 import io.github.manamiproject.modb.test.WireMockServerCreator
 import io.github.manamiproject.modb.test.exceptionExpected
@@ -23,12 +22,6 @@ import org.junit.jupiter.params.provider.ValueSource
 import java.net.URI
 
 internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
-
-    @AfterEach
-    override fun afterEach() {
-        serverInstance.stop()
-        RetryableRegistry.clear()
-    }
 
     @Test
     fun `responding 404 indicating dead entry - add to dead entry list`() {
@@ -83,7 +76,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
                 .willReturn(
                     aResponse()
                         .withHeader("Content-Type", APPLICATION_JSON)
-                        .withStatus(599)
+                        .withStatus(402)
                         .withBody("{ }")
                 )
         )
@@ -98,7 +91,7 @@ internal class KitsuDownloaderTest : MockServerTestCase<WireMockServer> by WireM
         }
 
         // then
-        assertThat(result).hasMessage("Unable to determine the correct case for [kitsutId=$id], [responseCode=599]")
+        assertThat(result).hasMessage("Unable to determine the correct case for [kitsutId=$id], [responseCode=402]")
     }
 
     @Test
