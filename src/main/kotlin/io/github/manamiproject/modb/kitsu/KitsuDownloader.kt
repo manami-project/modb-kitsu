@@ -7,12 +7,8 @@ import io.github.manamiproject.modb.core.downloader.Downloader
 import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
-import io.github.manamiproject.modb.core.httpclient.retry.RetryBehavior
-import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
-import io.github.manamiproject.modb.core.random
+import io.github.manamiproject.modb.core.httpclient.RetryCase
 import kotlinx.coroutines.withContext
-import kotlin.time.DurationUnit.MILLISECONDS
-import kotlin.time.toDuration
 
 /**
  * Downloads anime data from kitsu.io
@@ -22,17 +18,14 @@ import kotlin.time.toDuration
  */
 public class KitsuDownloader(
     private val config: MetaDataProviderConfig,
-    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = config.isTestContext()),
+    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = config.isTestContext()).apply {
+        retryBehavior.addCases(RetryCase { it.code == 400 })
+    },
 ) : Downloader {
-
-    init {
-        registerRetryBehavior()
-    }
 
     override suspend fun download(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String = withContext(LIMITED_NETWORK) {
         val response = httpClient.get(
             url = config.buildDataDownloadLink(id).toURL(),
-            retryWith = config.hostname(),
         )
 
         check(response.body.isNotBlank()) { "Response body was blank for [kitsuId=$id] with response code [${response.code}]" }
@@ -45,18 +38,5 @@ public class KitsuDownloader(
             }
             else -> throw IllegalStateException("Unable to determine the correct case for [kitsutId=$id], [responseCode=${response.code}]")
         }
-    }
-
-    private fun registerRetryBehavior() {
-        val retryBehaviorConfig = RetryBehavior(
-            waitDuration = { random(4000, 8000).toDuration(MILLISECONDS) },
-            isTestContext = config.isTestContext()
-        ).apply {
-            addCase {
-                it.code in setOf(400, 500, 502, 520, 522, 525)
-            }
-        }
-
-        RetryableRegistry.register(config.hostname(), retryBehaviorConfig)
     }
 }

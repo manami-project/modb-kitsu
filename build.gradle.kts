@@ -34,7 +34,7 @@ version = project.findProperty("release.version") as String? ?: ""
 
 dependencies {
     api(kotlin("stdlib"))
-    api("io.github.manamiproject:modb-core:8.0.7")
+    api("io.github.manamiproject:modb-core:9.0.0-m3")
 
     implementation(platform(kotlin("bom")))
 
@@ -115,14 +115,14 @@ publishing {
 }
 
 coverallsJacoco {
-    reportPath = "$buildDir/reports/jacoco/test/jacocoFullReport.xml"
+    reportPath = "${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"
 }
 
 tasks.jacocoTestReport {
     reports {
         html.required.set(false)
         xml.required.set(true)
-        xml.outputLocation.set(file("$buildDir/reports/jacoco/test/jacocoFullReport.xml"))
+        xml.outputLocation.set(file("${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"))
     }
     dependsOn(allprojects.map { it.tasks.named<Test>("test") })
 }
