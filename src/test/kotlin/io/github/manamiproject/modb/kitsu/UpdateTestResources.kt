@@ -1,8 +1,8 @@
 package io.github.manamiproject.modb.kitsu
 
+import io.github.manamiproject.modb.core.coroutines.CoroutineManager.runCoroutine
 import io.github.manamiproject.modb.core.extensions.writeToFile
 import io.github.manamiproject.modb.test.testResource
-import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
 
@@ -11,7 +11,7 @@ internal fun main() {
     val relationsDownloader = KitsuDownloader(KitsuRelationsConfig)
     val tagsDownloader = KitsuDownloader(KitsuTagsConfig)
     
-    runBlocking {
+    runCoroutine {
         downloader.download("186").writeToFile(resourceFile("file_converter_tests/anime_season/1989.json"))
         downloader.download("42328").writeToFile(resourceFile("file_converter_tests/anime_season/fall.json"))
         downloader.download("10613").writeToFile(resourceFile("file_converter_tests/anime_season/null.json"))
@@ -66,6 +66,8 @@ internal fun main() {
         downloader.download("11913").writeToFile(resourceFile("file_converter_tests/type/ova.json"))
         downloader.download("343").writeToFile(resourceFile("file_converter_tests/type/special.json"))
         downloader.download("6266").writeToFile(resourceFile("file_converter_tests/type/tv.json"))
+
+        println("Done")
     }
 }
 

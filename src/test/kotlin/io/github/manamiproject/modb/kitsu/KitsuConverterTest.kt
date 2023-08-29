@@ -749,7 +749,7 @@ internal class KitsuConverterTest {
             }
 
             @Test
-            fun `'current' is mapped to 'CURRENTLY_AIRING'`() {
+            fun `'current' is mapped to 'ONGOING'`() {
                 tempDirectory {
                     // given
                     val testKitsuConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
