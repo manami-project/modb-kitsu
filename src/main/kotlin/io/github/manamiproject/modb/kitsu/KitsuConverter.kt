@@ -58,9 +58,9 @@ public class KitsuConverter(
 
     private fun extractEpisodes(document: KitsuDocument): Episodes = document.data.attributes.episodeCount ?: 0
 
-    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.small ?: NOT_FOUND_PIC)
+    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.small ?: "https://raw.githubusercontent.com/manami-project/anime-offline-database/master/pics/no_pic.png")
 
-    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.tiny ?: NOT_FOUND_PIC)
+    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.tiny ?: "https://raw.githubusercontent.com/manami-project/anime-offline-database/master/pics/no_pic_thumbnail.png")
 
     private fun extractSourcesEntry(document: KitsuDocument): List<URI> = listOf(config.buildAnimeLink(document.data.id))
 
@@ -136,10 +136,6 @@ public class KitsuConverter(
             season = season,
             year = year
         )
-    }
-
-    private companion object {
-        private const val NOT_FOUND_PIC = "https://cdn.myanimelist.net/images/qm_50.gif"
     }
 }
 
