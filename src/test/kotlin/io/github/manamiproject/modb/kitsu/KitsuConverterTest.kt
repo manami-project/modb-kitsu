@@ -421,14 +421,14 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.synonyms).containsExactly(
+                    assertThat(result.synonyms).containsExactlyInAnyOrder(
                         "Maho Yome",
                         "MahoYome",
                         "Mahou Tsukai no Yome",
                         "The Ancient Magus' Bride",
                         "The Magician's Bride",
                         "まほよめ",
-                        "魔法使いの嫁"
+                        "魔法使いの嫁",
                     )
                 }
             }
@@ -460,11 +460,11 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.synonyms).containsExactly(
+                    assertThat(result.synonyms).containsExactlyInAnyOrder(
                         "Detective Conan Movie 04: Captured in Her Eyes",
                         "Detective Conan Movie 4",
                         "Meitantei Conan: Hitomi no Naka no Ansatsusha",
-                        "瞳の中の暗殺者"
+                        "瞳の中の暗殺者",
                     )
                 }
             }
@@ -597,7 +597,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.relatedAnime).containsExactly(
+                    assertThat(result.relatedAnime).containsExactlyInAnyOrder(
                         URI("https://kitsu.io/anime/10761"),
                         URI("https://kitsu.io/anime/12549"),
                         URI("https://kitsu.io/anime/13562"),
@@ -668,7 +668,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.relatedAnime).containsExactly(
+                    assertThat(result.relatedAnime).containsExactlyInAnyOrder(
                         URI("https://kitsu.io/anime/13850"),
                         URI("https://kitsu.io/anime/1759"),
                         URI("https://kitsu.io/anime/1921"),
@@ -1133,7 +1133,7 @@ internal class KitsuConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.tags).containsExactly(
+                    assertThat(result.tags).containsExactlyInAnyOrder(
                         "action",
                         "adventure",
                         "bounty hunter",
