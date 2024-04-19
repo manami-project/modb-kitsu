@@ -1,11 +1,15 @@
 package io.github.manamiproject.modb.kitsu
 
-import io.github.manamiproject.modb.core.json.Json
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.extensions.*
+import io.github.manamiproject.modb.core.extractor.DataExtractor
+import io.github.manamiproject.modb.core.extractor.ExtractionResult
+import io.github.manamiproject.modb.core.extractor.JsonDataExtractor
 import io.github.manamiproject.modb.core.models.*
+import io.github.manamiproject.modb.core.models.Anime.Companion.NO_PICTURE
+import io.github.manamiproject.modb.core.models.Anime.Companion.NO_PICTURE_THUMBNAIL
 import io.github.manamiproject.modb.core.models.Anime.Status
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
@@ -25,6 +29,7 @@ import java.net.URI
  */
 public class KitsuConverter(
     private val config: MetaDataProviderConfig = KitsuConfig,
+    private val extractor: DataExtractor = JsonDataExtractor,
     private val relationsDir: Directory,
     private val tagsDir: Directory,
 ) : AnimeConverter {
@@ -35,92 +40,129 @@ public class KitsuConverter(
     }
 
     override suspend fun convert(rawContent: String): Anime = withContext(LIMITED_CPU) {
-        val document = Json.parseJson<KitsuDocument>(rawContent)!!
+        val data = extractor.extract(rawContent, mapOf(
+            "title" to "$.data.attributes.canonicalTitle",
+            "episodeCount" to "$.data.attributes.episodeCount",
+            "subtype" to "$.data.attributes.subtype",
+            "id" to "$.data.id",
+            "pictureSmall" to "$.data.attributes.posterImage.small",
+            "pictureTiny" to "$.data.attributes.posterImage.tiny",
+            "abbreviatedTitles" to "$.data.attributes.abbreviatedTitles",
+            "titles" to "$.data.attributes.titles",
+            "status" to "$.data.attributes.status",
+            "episodeLength" to "$.data.attributes.episodeLength",
+            "startDate" to "$.data.attributes.startDate",
+        ))
 
         return@withContext Anime(
-            _title = extractTitle(document),
-            episodes = extractEpisodes(document),
-            type = extractType(document),
-            picture = extractPicture(document),
-            thumbnail = extractThumbnail(document),
-            status = extractStatus(document),
-            duration = extractDuration(document),
-            animeSeason = extractAnimeSeason(document),
-        ).apply {
-            addSources(extractSourcesEntry(document))
-            addSynonyms(extractSynonyms(document))
-            addRelatedAnime(extractRelatedAnime(document))
-            addTags(extractTags(document))
+            _title = extractTitle(data),
+            episodes = extractEpisodes(data),
+            type = extractType(data),
+            picture = extractPicture(data),
+            thumbnail = extractThumbnail(data),
+            status = extractStatus(data),
+            duration = extractDuration(data),
+            animeSeason = extractAnimeSeason(data),
+            sources = extractSourcesEntry(data),
+            synonyms = extractSynonyms(data),
+            relatedAnime = extractRelatedAnime(data),
+            tags = extractTags(data),
+        )
+    }
+
+    private fun extractTitle(data: ExtractionResult): Title = data.string("title")
+
+    private fun extractEpisodes(data: ExtractionResult): Episodes = data.intOrDefault("episodeCount")
+
+    private fun extractPicture(data: ExtractionResult): URI {
+        return if (data.notFound("pictureSmall")) {
+            NO_PICTURE
+        } else {
+            URI(data.string("pictureSmall").trim())
         }
     }
 
-    private fun extractTitle(document: KitsuDocument): Title = document.data.attributes.canonicalTitle
+    private fun extractThumbnail(data: ExtractionResult): URI {
+        return if (data.notFound("pictureTiny")) {
+            NO_PICTURE_THUMBNAIL
+        } else {
+            URI(data.string("pictureTiny").trim())
+        }
+    }
 
-    private fun extractEpisodes(document: KitsuDocument): Episodes = document.data.attributes.episodeCount ?: 0
+    private fun extractSourcesEntry(data: ExtractionResult): HashSet<URI> = hashSetOf(config.buildAnimeLink(data.string("id").trim()))
 
-    private fun extractPicture(document: KitsuDocument): URI = URI(document.data.attributes.posterImage?.small ?: "https://raw.githubusercontent.com/manami-project/anime-offline-database/master/pics/no_pic.png")
-
-    private fun extractThumbnail(document: KitsuDocument): URI =  URI(document.data.attributes.posterImage?.tiny ?: "https://raw.githubusercontent.com/manami-project/anime-offline-database/master/pics/no_pic_thumbnail.png")
-
-    private fun extractSourcesEntry(document: KitsuDocument): List<URI> = listOf(config.buildAnimeLink(document.data.id))
-
-    private fun extractType(document: KitsuDocument): Type {
-        return when(document.data.attributes.subtype) {
-            "TV" -> TV
-            "ONA" -> ONA
+    private fun extractType(data: ExtractionResult): Type {
+        return when(data.string("subtype").trim().lowercase()) {
+            "tv" -> TV
+            "ona" -> ONA
             "movie" -> MOVIE
-            "OVA" -> OVA
+            "ova" -> OVA
             "special" -> SPECIAL
             "music" -> SPECIAL
-            else -> throw IllegalStateException("Unknown type [${document.data.attributes.subtype}]")
+            else -> throw IllegalStateException("Unknown type [${data.string("subtype")}]")
         }
     }
 
-    private fun extractSynonyms(document: KitsuDocument): List<Title> {
-        val abbreviatedTitles = document.data.attributes.abbreviatedTitles?.filterNotNull() ?: emptyList()
-        return document.data.attributes.titles.values.union(abbreviatedTitles)
-            .filterNotNull()
-            .toList()
+    private fun extractSynonyms(data: ExtractionResult): HashSet<Title> {
+        return data.listNotNull<Title>("abbreviatedTitles").union(
+               data.listNotNull<LinkedHashMap<String, Title>>("titles").first().values.filterNotNull()).toHashSet()
     }
 
-    private suspend fun extractRelatedAnime(document: KitsuDocument): List<URI> = withContext(LIMITED_CPU) {
-        val relationsFile = relationsDir.resolve("${document.data.id}.${config.fileSuffix()}")
+    private suspend fun extractRelatedAnime(data: ExtractionResult): HashSet<URI> = withContext(LIMITED_CPU) {
+        val relationsFile = relationsDir.resolve("${data.string("id")}.${config.fileSuffix()}")
 
         check(relationsFile.regularFileExists()) { "Relations file is missing" }
 
-        return@withContext Json.parseJson<KitsuRelation>(relationsFile.readFile())!!.included.filter { it.type == "anime" }
-                .map { it.id }
-                .map { config.buildAnimeLink(it) }
+        val relatedAnimeData = extractor.extract(relationsFile.readFile(), mapOf(
+            "relatedAnime" to "$.included"
+        ))
+
+        if (relatedAnimeData.notFound("relatedAnime")) {
+            return@withContext hashSetOf()
+        }
+
+        return@withContext relatedAnimeData.listNotNull<LinkedHashMap<String, Any>>("relatedAnime")
+             .filter { it["type"].toString() == "anime"}
+             .map { it["id"] }
+             .map { config.buildAnimeLink(it.toString()) }
+             .toHashSet()
     }
 
-    private fun extractStatus(document: KitsuDocument): Status {
-        return when(document.data.attributes.status) {
+    private fun extractStatus(data: ExtractionResult): Status {
+        if (data.notFound("status")) {
+            return Status.UNKNOWN
+        }
+
+        return when(data.string("status").trim().lowercase()) {
             "finished" -> FINISHED
             "current" -> ONGOING
             "unreleased" -> UPCOMING
             "upcoming" -> UPCOMING
             "tba" -> Status.UNKNOWN
-            null -> Status.UNKNOWN
-            else -> throw IllegalStateException("Unknown status [${document.data.attributes.status}]")
+            else -> throw IllegalStateException("Unknown status [${data.string("status")}]")
         }
     }
 
-    private fun extractDuration(document: KitsuDocument): Duration {
-        val durationInMinutes = document.data.attributes.episodeLength ?: 0
-
+    private fun extractDuration(data: ExtractionResult): Duration {
+        val durationInMinutes = data.intOrDefault("episodeLength")
         return Duration(durationInMinutes, MINUTES)
     }
 
-    private suspend fun extractTags(document: KitsuDocument): List<Tag> = withContext(LIMITED_CPU) {
-        val tagsFile = tagsDir.resolve("${document.data.id}.${config.fileSuffix()}")
+    private suspend fun extractTags(data: ExtractionResult): HashSet<Tag> = withContext(LIMITED_CPU) {
+        val tagsFile = tagsDir.resolve("${data.string("id")}.${config.fileSuffix()}")
 
         check(tagsFile.regularFileExists()) { "Tags file is missing" }
 
-        return@withContext Json.parseJson<KitsuTagsDocument>(tagsFile.readFile())!!.data.map { it.attributes.title }.distinct()
+        val tagsData = extractor.extract(tagsFile.readFile(), mapOf(
+            "attributes" to "$.data.*.attributes.title"
+        ))
+
+        return@withContext tagsData.listNotNull<Tag>("attributes").toHashSet()
     }
 
-    private fun extractAnimeSeason(document: KitsuDocument): AnimeSeason {
-        val startDate = document.data.attributes.startDate ?: EMPTY
+    private fun extractAnimeSeason(data: ExtractionResult): AnimeSeason {
+        val startDate = data.stringOrDefault("startDate", EMPTY)
         val month = Regex("-[0-9]{2}-").findAll(startDate).firstOrNull()?.value?.replace("-", "")?.toInt() ?: 0
         val year = Regex("[0-9]{4}").find(startDate)?.value?.let { if (it.startsWith("0")) "0" else it }?.toInt() ?: 0
 
@@ -138,53 +180,3 @@ public class KitsuConverter(
         )
     }
 }
-
-private data class KitsuDocument(
-    val data: KitsuData
-)
-
-private data class KitsuData(
-    val id: String,
-    val attributes: KitsuDataAttributes
-)
-
-private data class KitsuDataAttributes(
-    val titles: Map<String, String?>,
-    val canonicalTitle: String,
-    val abbreviatedTitles: List<String?>?,
-    val startDate: String?,
-    val subtype: String,
-    val posterImage: KitsuPosterImage?,
-    val episodeCount: Int?,
-    val episodeLength: Int?,
-    val status: String?
-)
-
-private data class KitsuRelation(
-    val included: List<KitsuRelationData> = emptyList()
-)
-
-private data class KitsuRelationData(
-    val id: String,
-    val type: String
-)
-
-private data class KitsuTagsDocument(
-    val data: List<KitsuTag>
-)
-
-private data class KitsuTag(
-    val attributes: KitsuTagAttributes
-)
-
-private data class KitsuTagAttributes(
-    val title: String
-)
-
-private data class KitsuPosterImage(
-    val tiny: String?,
-    val small: String?,
-    val medium: String?,
-    val large: String?,
-    val original: String?,
-)
