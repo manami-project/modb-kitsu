@@ -27,7 +27,7 @@ import java.net.URI
  * @param tagsDir Directory containing the raw files for the tags.
  * @throws IllegalArgumentException if either [relationsDir] or [tagsDir] doesn't exist or is not a directory.
  */
-public class KitsuConverter(
+public class KitsuAnimeConverter(
     private val config: MetaDataProviderConfig = KitsuConfig,
     private val extractor: DataExtractor = JsonDataExtractor,
     private val relationsDir: Directory,
