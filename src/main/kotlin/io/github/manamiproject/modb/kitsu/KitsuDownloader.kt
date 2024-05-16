@@ -8,6 +8,7 @@ import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RetryCase
+import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import kotlinx.coroutines.withContext
 
 /**
@@ -24,6 +25,8 @@ public class KitsuDownloader(
 ) : Downloader {
 
     override suspend fun download(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String = withContext(LIMITED_NETWORK) {
+        log.debug { "Downloading [kitsuId=$id]" }
+
         val response = httpClient.get(
             url = config.buildDataDownloadLink(id).toURL(),
         )
@@ -38,5 +41,9 @@ public class KitsuDownloader(
             }
             else -> throw IllegalStateException("Unable to determine the correct case for [kitsutId=$id], [responseCode=${response.code}]")
         }
+    }
+
+    private companion object {
+        private val log by LoggerDelegate()
     }
 }
