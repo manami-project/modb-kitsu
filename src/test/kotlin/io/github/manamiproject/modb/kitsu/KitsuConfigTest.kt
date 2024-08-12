@@ -21,7 +21,7 @@ internal class KitsuConfigTest {
         val result = KitsuConfig.hostname()
 
         // then
-        assertThat(result).isEqualTo("kitsu.io")
+        assertThat(result).isEqualTo("kitsu.app")
     }
 
     @Test
@@ -33,7 +33,7 @@ internal class KitsuConfigTest {
         val result = KitsuConfig.buildAnimeLink(id)
 
         // then
-        assertThat(result).isEqualTo(URI("https://kitsu.io/anime/$id"))
+        assertThat(result).isEqualTo(URI("https://kitsu.app/anime/$id"))
     }
 
     @Test
@@ -45,7 +45,7 @@ internal class KitsuConfigTest {
         val result = KitsuConfig.buildDataDownloadLink(id)
 
         // then
-        assertThat(result).isEqualTo(URI("https://kitsu.io/api/edge/anime/$id"))
+        assertThat(result).isEqualTo(URI("https://kitsu.app/api/edge/anime/$id"))
     }
 
     @Test

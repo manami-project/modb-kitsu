@@ -4,7 +4,7 @@ import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import java.net.URI
 
 /**
- * Configuration for downloading tags from kitsu.io
+ * Configuration for downloading tags from kitsu.app
  * @since 1.0.0
  */
 public object KitsuRelationsConfig : MetaDataProviderConfig by KitsuConfig {

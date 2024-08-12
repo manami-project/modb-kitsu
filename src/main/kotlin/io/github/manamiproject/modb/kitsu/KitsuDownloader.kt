@@ -13,7 +13,7 @@ import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import kotlinx.coroutines.withContext
 
 /**
- * Downloads anime data from kitsu.io
+ * Downloads anime data from kitsu.app
  * @since 1.0.0
  * @param config Configuration for downloading data.
  * @param httpClient To actually download the anime data.
