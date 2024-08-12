@@ -95,7 +95,7 @@ publishing {
             pom {
                 packaging = "jar"
                 name.set(projectName)
-                description.set("This lib contains downloader and converter for downloading raw data from kitsu.io and convert it to an anime object.")
+                description.set("This lib contains downloader and converter for downloading raw data from kitsu.app and convert it to an anime object.")
                 url.set("https://github.com/$githubUsername/$projectName")
 
                 licenses {

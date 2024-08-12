@@ -46,7 +46,7 @@ internal class KitsuTagsConfigTest {
 
         // then
         assertThat(result)
-            .isEqualTo(URI("https://kitsu.io/api/edge/anime/$id/categories"))
+            .isEqualTo(URI("https://kitsu.app/api/edge/anime/$id/categories"))
     }
 
     @Test

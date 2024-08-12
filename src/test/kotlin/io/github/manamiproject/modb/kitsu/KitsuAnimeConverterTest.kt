@@ -426,8 +426,8 @@ internal class KitsuAnimeConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/small.jpg"))
-                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.io/anime/poster_images/42006/tiny.jpg"))
+                    assertThat(result.picture).isEqualTo(URI("https://media.kitsu.app/anime/poster_images/42006/small.jpg"))
+                    assertThat(result.thumbnail).isEqualTo(URI("https://media.kitsu.app/anime/poster_images/42006/tiny.jpg"))
                 }
             }
         }
@@ -555,7 +555,7 @@ internal class KitsuAnimeConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.sources).containsExactly(URI("https://kitsu.io/anime/1517"))
+                    assertThat(result.sources).containsExactly(URI("https://kitsu.app/anime/1517"))
                 }
             }
         }
@@ -665,12 +665,12 @@ internal class KitsuAnimeConverterTest {
 
                     // then
                     assertThat(result.relatedAnime).containsExactlyInAnyOrder(
-                        URI("https://kitsu.io/anime/10761"),
-                        URI("https://kitsu.io/anime/12549"),
-                        URI("https://kitsu.io/anime/13562"),
-                        URI("https://kitsu.io/anime/7742"),
-                        URI("https://kitsu.io/anime/7913"),
-                        URI("https://kitsu.io/anime/8273"),
+                        URI("https://kitsu.app/anime/10761"),
+                        URI("https://kitsu.app/anime/12549"),
+                        URI("https://kitsu.app/anime/13562"),
+                        URI("https://kitsu.app/anime/7742"),
+                        URI("https://kitsu.app/anime/7913"),
+                        URI("https://kitsu.app/anime/8273"),
                     )
                 }
             }
@@ -708,7 +708,7 @@ internal class KitsuAnimeConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.relatedAnime).containsExactly(URI("https://kitsu.io/anime/47280"))
+                    assertThat(result.relatedAnime).containsExactly(URI("https://kitsu.app/anime/47280"))
                 }
             }
 
@@ -744,15 +744,15 @@ internal class KitsuAnimeConverterTest {
 
                     // then
                     assertThat(result.relatedAnime).containsExactlyInAnyOrder(
-                        URI("https://kitsu.io/anime/13850"),
-                        URI("https://kitsu.io/anime/1759"),
-                        URI("https://kitsu.io/anime/1921"),
-                        URI("https://kitsu.io/anime/2634"),
-                        URI("https://kitsu.io/anime/3700"),
-                        URI("https://kitsu.io/anime/42535"),
-                        URI("https://kitsu.io/anime/5518"),
-                        URI("https://kitsu.io/anime/6791"),
-                        URI("https://kitsu.io/anime/7627"),
+                        URI("https://kitsu.app/anime/13850"),
+                        URI("https://kitsu.app/anime/1759"),
+                        URI("https://kitsu.app/anime/1921"),
+                        URI("https://kitsu.app/anime/2634"),
+                        URI("https://kitsu.app/anime/3700"),
+                        URI("https://kitsu.app/anime/42535"),
+                        URI("https://kitsu.app/anime/5518"),
+                        URI("https://kitsu.app/anime/6791"),
+                        URI("https://kitsu.app/anime/7627"),
                     )
                 }
             }

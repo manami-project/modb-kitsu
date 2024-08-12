@@ -45,7 +45,7 @@ internal class KitsuRelationsConfigTest {
         val result = KitsuRelationsConfig.buildDataDownloadLink(id)
 
         // then
-        assertThat(result).isEqualTo(URI("https://kitsu.io/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role"))
+        assertThat(result).isEqualTo(URI("https://kitsu.app/api/edge/media-relationships?filter[source_id]=$id&filter[source_type]=Anime&include=destination&sort=role"))
     }
 
     @Test
