@@ -22,13 +22,13 @@ import java.net.URI
 /**
  * Converts raw data to an [Anime].
  * @since 1.0.0
- * @param config Configuration for converting data.
+ * @param metaDataProviderConfig Configuration for converting data.
  * @param relationsDir Directory containing the raw files for the related anime.
  * @param tagsDir Directory containing the raw files for the tags.
  * @throws IllegalArgumentException if either [relationsDir] or [tagsDir] doesn't exist or is not a directory.
  */
 public class KitsuAnimeConverter(
-    private val config: MetaDataProviderConfig = KitsuConfig,
+    private val metaDataProviderConfig: MetaDataProviderConfig = KitsuConfig,
     private val extractor: DataExtractor = JsonDataExtractor,
     private val relationsDir: Directory,
     private val tagsDir: Directory,
@@ -90,7 +90,7 @@ public class KitsuAnimeConverter(
         }
     }
 
-    private fun extractSourcesEntry(data: ExtractionResult): HashSet<URI> = hashSetOf(config.buildAnimeLink(data.string("id").trim()))
+    private fun extractSourcesEntry(data: ExtractionResult): HashSet<URI> = hashSetOf(metaDataProviderConfig.buildAnimeLink(data.string("id").trim()))
 
     private fun extractType(data: ExtractionResult): Type {
         return when(data.string("subtype").trim().lowercase()) {
@@ -110,7 +110,7 @@ public class KitsuAnimeConverter(
     }
 
     private suspend fun extractRelatedAnime(data: ExtractionResult): HashSet<URI> = withContext(LIMITED_CPU) {
-        val relationsFile = relationsDir.resolve("${data.string("id")}.${config.fileSuffix()}")
+        val relationsFile = relationsDir.resolve("${data.string("id")}.${metaDataProviderConfig.fileSuffix()}")
 
         check(relationsFile.regularFileExists()) { "Relations file is missing" }
 
@@ -125,7 +125,7 @@ public class KitsuAnimeConverter(
         return@withContext relatedAnimeData.listNotNull<LinkedHashMap<String, Any>>("relatedAnime")
              .filter { it["type"].toString() == "anime"}
              .map { it["id"] }
-             .map { config.buildAnimeLink(it.toString()) }
+             .map { metaDataProviderConfig.buildAnimeLink(it.toString()) }
              .toHashSet()
     }
 
@@ -150,7 +150,7 @@ public class KitsuAnimeConverter(
     }
 
     private suspend fun extractTags(data: ExtractionResult): HashSet<Tag> = withContext(LIMITED_CPU) {
-        val tagsFile = tagsDir.resolve("${data.string("id")}.${config.fileSuffix()}")
+        val tagsFile = tagsDir.resolve("${data.string("id")}.${metaDataProviderConfig.fileSuffix()}")
 
         check(tagsFile.regularFileExists()) { "Tags file is missing" }
 
