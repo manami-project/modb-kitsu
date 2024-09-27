@@ -15,12 +15,12 @@ import kotlinx.coroutines.withContext
 /**
  * Downloads anime data from kitsu.app
  * @since 1.0.0
- * @param config Configuration for downloading data.
+ * @param metaDataProviderConfig Configuration for downloading data.
  * @param httpClient To actually download the anime data.
  */
 public class KitsuDownloader(
-    private val config: MetaDataProviderConfig,
-    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = config.isTestContext()).apply {
+    private val metaDataProviderConfig: MetaDataProviderConfig,
+    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = metaDataProviderConfig.isTestContext()).apply {
         retryBehavior.addCases(RetryCase { it.code == 400 })
     },
 ) : Downloader {
@@ -29,7 +29,7 @@ public class KitsuDownloader(
         log.debug { "Downloading [kitsuId=$id]" }
 
         val response = httpClient.get(
-            url = config.buildDataDownloadLink(id).toURL(),
+            url = metaDataProviderConfig.buildDataDownloadLink(id).toURL(),
         )
 
         check(response.bodyAsText.neitherNullNorBlank()) { "Response body was blank for [kitsuId=$id] with response code [${response.code}]" }
