@@ -1,5 +1,9 @@
 [![Tests](https://github.com/manami-project/modb-kitsu/actions/workflows/tests.yml/badge.svg)](https://github.com/manami-project/modb-kitsu/actions/workflows/tests.yml) [![codecov](https://codecov.io/gh/manami-project/modb-kitsu/graph/badge.svg?token=J80GB1OPNB)](https://codecov.io/gh/manami-project/modb-kitsu) ![jdk21](https://img.shields.io/badge/jdk-21-informational)
 # modb-kitsu
+
+> [!WARNING]  
+> The content of this repository has been moved to [https://github.com/manami-project/modb-app](https://github.com/manami-project/modb-app)
+
 _[modb](https://github.com/manami-project?tab=repositories&q=modb&type=source)_ stands for _**M**anami **O**ffline **D**ata**B**ase_. Repositories prefixed with this acronym are used to create the [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database).
 
 ## What does this lib do?
